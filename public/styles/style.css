@@ -1,0 +1,140 @@
+@font-face {
+    font-family: UWA-Regular;
+    src: url("./fonts/UWA-Regular.woff") format("woff"), format("truetype");
+}
+
+body {
+	font-family: 'Source Sans Pro', sans-serif;
+}
+
+textarea {
+   resize: none;
+}
+
+#sidebar {
+	background-color: #ececec;
+}
+
+#header {
+	height: 125px;
+	border-bottom-style: solid;
+	border-bottom-color: #e2b600;
+	border-bottom-width: 8px;
+	overflow: hidden;
+}
+
+#formArea {
+	padding: 25px;
+}
+
+#heightContainer {
+	height: 900px;
+	padding: 25px;
+	font-family: 'Source Sans Pro', sans-serif;
+}
+
+.sectionTitle {
+
+}
+
+
+#formTitle {
+	font-family: 'Source Sans Pro', sans-serif;
+	font-size: 36px;
+	color: #27348b;
+	font-weight: bold;
+	border-bottom: solid 1px;
+}
+
+.sectionContainer {
+	border: solid 1px gray;
+	border-radius:7px;
+	font-family: 'Source Sans Pro', sans-serif;
+	font-size: 18px;
+	page-break-inside: avoid;
+}
+
+.sectionTitle {
+	border-bottom: solid 1px gray;
+	border-radius:7px;
+	padding: 5px;
+	background-color: #f2edd9;
+	font-weight: bold;
+	font-size: 24px;
+}
+
+.cHeader {
+	background: #f2edd9;
+}
+
+.dHeader {
+	background: #f2edd9;
+	text-align: left;
+	padding: 5px;
+}
+
+.dHeaderMid {
+	background: #eae0cc;
+	text-align: left;
+	padding: 5px;
+}
+
+td {
+	padding: 5px;
+	page-break-inside: avoid;
+}
+
+table.print {
+	display: table;
+}
+
+.input {
+	padding: 5px;
+}
+
+.dashboardContainer {
+	padding: 10px;
+}
+
+.scrollContainer {
+	overflow-y: scroll;
+	overflow-x: hide;
+	border-style: none;
+}
+
+.middleCol {
+	background: #e8e7e3;
+}
+
+#main {
+	box-shadow: 10px 10px 5px #888888;
+}
+
+fieldset {
+	min-width:0px;
+	border: 0;
+}
+
+
+.initExpand {
+		width: 100%;
+}
+
+table {
+	overflow-x: auto;
+	display: block;
+}
+
+table#itin {
+	font-size: 80%;
+	text-align: center;
+}
+
+table#declaration {
+	font-size: 80%;
+	text-align: center;
+}
+
+textarea.expand {
+    resize: none;
+}

@@ -1,0 +1,44 @@
+{
+  "name": "cits3200",
+  "version": "1.0.0",
+  "description": "Online Tool for Fieldwork and Risk Assessment",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node app.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/LouisWhite15/cits3200.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/LouisWhite15/cits3200/issues"
+  },
+  "homepage": "https://github.com/LouisWhite15/cits3200#readme",
+  "dependencies": {
+    "async": "^2.5.0",
+    "atob": "^2.0.3",
+    "b64-to-blob": "^1.2.19",
+    "bcrypt-nodejs": "0.0.3",
+    "body-parser": "^1.18.1",
+    "child_process": "^1.0.2",
+    "cookie-parser": "^1.4.3",
+    "ejs": "^2.5.7",
+    "ejs-lint": "^0.3.0",
+    "express": "^4.15.4",
+    "express-session": "^1.15.5",
+    "formidable": "^1.1.1",
+    "mongoose": "^4.11.12",
+    "morgan": "^1.8.2",
+    "nodemailer": "^4.2.0",
+    "opn": "^5.1.0",
+    "passport": "^0.4.0",
+    "passport-local": "^1.0.0",
+    "passport-local-mongoose": "^4.2.1",
+    "path": "^0.12.7",
+    "phantomjs-prebuilt": "^2.1.15",
+    "serve-favicon": "^2.4.4"
+  }
+}

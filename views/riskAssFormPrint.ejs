@@ -1,0 +1,304 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+	<link rel="stylesheet" href="https://unpkg.com/purecss@1.0.0/build/pure-min.css" integrity="sha384-nn4HPE8lTHyVtfCBi5yW9d20FjT8BJwUXyWZT9InLYax14RDjBj46LmSztkmNP9w" crossorigin="anonymous">
+	<meta charset="utf-8"/>
+	<!--[if lte IE 8]>
+    <link rel="stylesheet" href="https://unpkg.com/purecss@1.0.0/build/grids-responsive-old-ie-min.css">
+<![endif]-->
+<!--[if gt IE 8]><!-->
+    <link rel="stylesheet" href="https://unpkg.com/purecss@1.0.0/build/grids-responsive-min.css">
+<!--<![endif]-->
+	<link rel="stylesheet" href="/styles/style.css">
+	<link rel="stylesheet" href="/jquery/jquery-ui-1.12.1.custom/jquery-ui-1.12.1.custom/jquery-ui.css">
+	<script src="/jquery/jquery-3.2.1.js"></script>
+	<script src="/jquery/jquery-ui-1.12.1.custom/jquery-ui-1.12.1.custom/jquery-ui.js"></script>
+	<script src='/expanding.jquery.js'></script>
+	<script>
+	$(document).ready(function(){
+	$('#password').click(function(){
+		$("#sub").css("opacity", "0");
+		});
+	});
+	</script>
+</head>
+    
+    
+    
+<body>
+	<section>
+		<div class="pure-g">
+			<div class="pure-u-1" id="header">
+				<img src="/images/backgroundDefault.jpg" style="top: -80px; position:relative;  z-index: -1;">
+
+			</div>
+		</div>
+		<div id="excludingHeader">
+			<div class="pure-g">
+				<div class="pure-u-lg-1-5" id="sidebar"> </div>
+					<div class="pure-u-1 pure-u-lg-3-5">
+						<div id="formArea">
+						<div id="formTitle"> Safety Risk Assessment Form </div>
+						<br>
+							<form name="riskass" class="pure-form" action="" method="post" onsubmit="return validateForm()">
+								<div class="sectionContainer">
+									<div class="sectionTitle">Part - 1 Activity/Task Description</div>
+                                            <div class="input">
+                                                <table id="basic_part1">
+                                                    <tr>
+                                                        <td><strong>Location:</strong><br><%=riskform.Location%></td>
+                                                        <td><strong>Assessment Date: </strong><br><%=riskform.assesdate%></td>
+                                                        <td><strong>Expiry Date:</strong><br> <%=riskform.expdate%></td>
+                                                    </tr>
+                                                    <tr>
+                                                        <td colspan="2"><strong>Assessor:</strong><br><%=riskform.assessor%></td>
+                                                        <td><strong>Peer Checked By:</strong><br><%=riskform.peer%></td>
+                                                    </tr>
+                                                    <tr>
+                                                        <td colspan="2"><strong>Task/Activity/Project Title:</strong><br><%=riskform.title%></td>
+                                                        <td><strong>How many persons involved:</strong> <br><%=riskform.people%></td>
+                                                    </tr>
+                                                    <tr>
+                                                        <td colspan="3"><strong>Description:</strong><br><textarea name="activitydesc" id="activitydesc" readonly style="border: none; background-color:#FFF !important; color: black !important;" class = "expanding"><%=riskform.activitydesc%></textarea></td>
+                                                    </tr>
+                                                    <tr>
+                                                        <td colspan="3"><strong>Workplace Conditions:</strong><br><textarea readonly style="border: none; background-color:#FFF !important; color: black !important;" name="workconditions" id="workconditions" class="expanding"><%=riskform.workconditions%></textarea></td>
+                                                    </tr>
+                                                </table>
+                                            </div>
+                                    </div>
+                                    <br>
+                            <div class="sectionContainer">
+                                <div class="sectionTitle"><h2>Risk Assessment Table</h2></div>
+                                <div class="input">
+                                    <br>
+                                    <i>Please fill out the table below</i>
+                                    <div class="riskassstable">
+                                        <table id="genericrisk" class="print" width="100%">
+                                            <tr>
+                                                <td colspan="5" class="cHeader"><b>Generic Risk</b></td>
+                                            </tr>
+                                            <%var count = 0;
+                                            for(var i = 0;i < riskform.Gname.length;i++) {%>
+                                                <tr>
+                                                    <td rowspan="2"><strong>Identifiable Risk</strong><br><%=riskform.Gname[i]%></td>
+                                                    <td rowspan="2"><strong>Comment:</strong><br><%=riskform.Gcomment[i]%></td>
+                                                    <td colspan="3"><strong>Inherent Risk</strong></td>
+                                                </tr>
+                                                <tr>
+                                                    <td><strong>C:</strong><br> <%=riskform.GIRC[i]%></td>
+                                                    <td><strong>L:</strong><br> <%=riskform.GIRL[i]%> </td>
+                                                    <td><strong>E:</strong><br> <%=riskform.GIRE[i]%></td>
+                                                </tr>
+                                                    <%while (riskform.Gcontrolnum[count] != "1") {%>
+                                                    <tr>
+                                                        <td><strong>Control:</strong> <br><%=riskform.GCT[count]%></td>
+                                                        <td colspan="4"><strong>Control Measure:</strong> <br><%=riskform.Gmeasure[count]%></td>
+                                                    </tr>
+                                                    <%count++;
+                                                    }%>
+                                                        <tr>
+                                                            <td rowspan="2"><strong>Control: </strong><br><%=riskform.GCT[count]%></td>
+                                                            <td rowspan="2"><strong>Control Measure:</strong> <br><%=riskform.Gmeasure[count]%></td>
+                                                            <td colspan="3"><strong>Residual Risk</strong></td>
+                                                    </tr>
+                                                    <tr>
+                                                        <td><strong>C:</strong><br> <%=riskform.GRRC[count]%></td>
+                                                        <td><strong>L:</strong><br> <%=riskform.GRRL[count]%></td>
+                                                        <td><strong>E:</strong><br> <%=riskform.GRRE[count]%></td>
+                                                    </tr>
+                                        <% count++;
+                                            } %>
+                                        </table>
+                                    </div>
+                                <br>
+                            
+                            
+                            <div class="riskasstable">
+                                <table id = "envirorisk" class="print" width="100%">
+                                    <tr>
+                                        <td colspan="5" class="cHeader"><b>Environmental Factors</b></td>
+                                    </tr>
+                                    <%var count = 0;
+                                    for(var i = 0;i < riskform.Ename.length;i++) {%>
+                                    <tr>
+                                        <td rowspan="2"><strong>Identifiable Risk</strong><br><%=riskform.Ename[i]%></td>
+                                        <td rowspan="2"><strong>Comment:</strong><br><%=riskform.Ecomment[i]%></td>
+                                        <td colspan="3"><strong>Inherent Risk</strong></td>
+                                    </tr>
+                                    <tr>
+                                        <td><strong>C:</strong><br> <%=riskform.EIRC[i]%>
+                                        </td>
+                                        <td><strong>L:</strong><br> <%=riskform.EIRL[i]%>
+                                        </td>
+                                        <td><strong>E:</strong><br> <%=riskform.EIRE[i]%>
+                                        </td>
+                                    </tr>
+                                    <%while (riskform.Econtrolnum[count] != "1") {%>
+                                    <tr>
+                                        <td><strong>Control: </strong><br><%=riskform.ECT[count]%></td>
+                                        <td colspan="4"><strong>Control Measure:</strong> <br><%=riskform.Emeasure[count]%></td>
+                                    </tr>
+                                    <%count++;
+                                        }%>
+                                    <tr>    
+                                        <td rowspan="2"><strong>Control:</strong> <br><%=riskform.ECT[count]%></td>
+                                        <td rowspan="2"><strong>Control Measure:</strong><br><%=riskform.Emeasure[count]%></td>
+                                        <td colspan="3"><strong>Residual Risk</strong></td>
+                                    </tr>
+                                    <tr>
+                                        <td><strong>C:</strong><br> <%=riskform.ERRC[i]%>
+                                        </td>
+                                        <td><strong>L:</strong><br> <%=riskform.ERRL[i]%>
+                                        </td>
+                                        <td><strong>E:</strong><br> <%=riskform.ERRE[i]%>
+                                        </td>
+                                    </tr>
+                                    <% count++;
+                                    } %>
+                                </table>
+                            </div>
+                            
+                            
+                            <div class="riskasstable">
+                                <table id = "florarisk" class="print" width="100%">
+                                    <tr>
+                                        <td colspan="5" class="cHeader"><b>Flora and Fauna</b></td>
+                                    </tr>
+                                   <%var count = 0;
+                                    for(var i = 0;i < riskform.Fname.length;i++) {%>
+                                    <tr>
+                                        <td rowspan="2"><strong>Identifiable Risk:</strong><br><%=riskform.Fname[i]%></td>
+                                        <td rowspan="2"><strong>Comment:</strong><br><%=riskform.Fcomment[i]%></td>
+                                        <td colspan="3"><strong>Inherent Risk</strong></td>
+                                    </tr>
+                                    <tr>
+                                        <td><strong>C:</strong><br> <%=riskform.FIRC[i]%>
+                                        </td>
+                                        <td><strong>L:</strong><br> <%=riskform.FIRL[i]%>
+                                        </td>
+                                        <td><strong>E:</strong><br> <%=riskform.FIRE[i]%>
+                                        </td>
+                                    </tr>
+                                    <%while (riskform.Fcontrolnum[count] != "1") {%>
+                                    <tr>
+                                        <td><strong>Control: </strong><br><%=riskform.FCT[count]%></td>
+                                        <td colspan="4"><strong>Control Measure:</strong> <br><%=riskform.Fmeasure[count]%></td>
+                                    </tr>
+                                    <%count++;
+                                        }%>
+                                    <tr>
+                                        <td rowspan="2"><strong>Control: </strong><br><%=riskform.FCT[count]%></td>
+                                        <td rowspan="2"><strong>Control Measure: </strong><br><%=riskform.Fmeasure[count]%></td>
+                                        <td colspan="3"><strong>Residual Risk</strong></td>
+                                    </tr>
+                                    <tr>
+                                        <td><strong>C:</strong><br> <%=riskform.FRRC[i]%></td>
+                                        <td><strong>L:</strong><br> <%=riskform.FRRL[i]%>
+                                        </td>
+                                        <td><strong>E:</strong><br> <%=riskform.FRRE[i]%>
+                                        </td>
+                                    </tr>
+                                    <%count++;
+                                    } %>
+                                </table>
+                            </div>
+                            <br>
+                            
+                            <div class="riskasstable">
+                                <table id= "otherrisk"  class="print"width="100%">
+                                    <tr>
+                                        <td colspan="5" class="cHeader"><b>Other</b></td>
+                                    </tr>
+                                     <%var count=0;
+                                    for(var i = 0;i < riskform.Oname.length;i++) {%>
+                                    <tr>
+                                        <td rowspan="2"><strong>Identifiable Risk:</strong><br><%=riskform.Oname[i]%></td>
+                                        <td rowspan="2"><strong>Comment:</strong><br><%=riskform.Ocomment[i]%></td>
+                                        <td colspan="3"><strong>Inherent Risk</strong></td>
+                                    </tr>
+                                    <tr>
+                                        <td><strong>C:</strong><br> <%=riskform.OIRC[i]%>
+                                        </td>
+                                        <td><strong>L:</strong><br> <%=riskform.OIRL[i]%>
+                                        </td>
+                                        <td><strong>E:</strong><br> <%=riskform.OIRE[i]%>
+                                        </td>
+                                    </tr>
+                                    <%while (riskform.Ocontrolnum[count] != "1") {%>
+                                    <tr>
+                                        <td><strong>Control: </strong><br><%=riskform.OCT[count]%></td>
+                                        <td colspan="4"><strong>Control Measure </strong><br><%=riskform.Omeasure[count]%></td>
+                                    </tr>
+                                    <%count++;
+                                        }%>
+                                    <tr>
+                                        <td rowspan="2"><strong>Control: </strong><br><%=riskform.OCT[count]%></td>
+                                        <td rowspan="2"><strong>Control Measure: </strong><br><%=riskform.Omeasure[count]%></td>
+                                        <td colspan="3"><strong>Residual Risk</strong></td>
+                                    </tr>
+                                    <tr>
+                                        <td><strong>C:</strong><br><%=riskform.ORRC[i]%></td>
+                                        <td><strong>L:</strong><br> <%=riskform.ORRL[i]%></td>
+                                        <td><strong>E:</strong><br> <%=riskform.ORRE[i]%></td>
+                                    </tr>
+                                    <% count++;
+                                    } %>
+                                </table>
+                                </div>
+                            </div>
+                        </div>
+                            
+                            <br>
+                            <br>
+                            <br>
+                            
+                            
+                            <div class="sectionContainer">
+                            <div class="sectionTitle">Part 3 - Implementation and Escalation Plan</div>
+                            <div class="input">
+                            <p>I have reviewed rhis Risk Assessment and agree that the control measures will be implemented as described above</p>
+                            <p>If other than a one-off activity, monitoring and review of their effectiveness will be carried out and recorded every <%=riskform.montime%></p>
+                            
+                            <table width="%100">
+                                <thead>
+                                    <th></th>
+                                    <th>Name</th>
+                                    <th>Date</th>
+                                </thead>    
+                                <tbody>
+                                     <tr>
+                                         <td><strong>Fieldwork Coordinator:</strong></td>
+								        <td><%=riskform.fcname%></td>
+				                        <td><%=riskform.fcdate%></td>
+                                    </tr>
+                                    <tr>
+                                        <td><strong>Supervisor:</strong></td>
+                                        <td><%=riskform.supname%></td>
+                                        <td><%=riskform.supdate%></td>
+                                    </tr>
+                                    <tr>
+                                        <td><strong>Head of School or equivalent:</strong></td>
+                                        <td><%=riskform.headname%></td>
+                                        <td><%=riskform.headdate%></td>
+                                    </tr>
+                                
+                                </tbody>
+                            </table>
+                            </div>
+                        </div>
+                    </form>
+					<form action="printRisk" method="post">
+							<input type = "hidden" value = "<%=riskform._id%>" name = "fid">
+							<input type="submit" value = "print" style = "opacity:100" id = "sub">
+						</form>
+						<input type = "button" hidden style = "pointer-events: none" id = "password">
+                    </div>
+                </div>
+                <div class="pure-u-lg-1-5" id="sidebar"> </div>
+            </div>
+        </div>
+    
+    </section>   
+</body>

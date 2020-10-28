@@ -1,0 +1,184 @@
+Date:   Thu Oct 19 23:57:59 2017 +0800
+Date resolved:   Fri Oct 20 02:51:20 2017 +0800
+
+    Print button not disappearing from final pdf
+
+Date:   Wed Oct 11 23:43:29 2017 +0800
+Date resolved:   Thu Oct 19 23:27:08 2017 +0800
+
+    Risk Assessment table in Print form does not display correctly
+
+Date:   Thu Oct 19 12:06:07 2017 +0800
+Date resolved:   Thu Oct 19 18:52:20 2017 +0800
+
+    Length of contacts displays in admin review for Form 7
+
+Date:   Mon Oct 16 16:56:31 2017 +0800
+Date resolved:   Thu Oct 19 16:22:58 2017 +0800
+
+    Application crashed when invalid email was input into the forgot password page
+
+Date:    Wed Oct 18 20:30:50 2017 +0800
+Date resolved:   Wed Oct 18 22:09:30 2017 +0800
+
+    Files are no longer going into the database
+
+Date:   Wed Oct 18 18:20:55 2017 +0800
+Date resolved:   Wed Oct 18 18:39:38 2017 +0800
+
+    Form naming conventions do not work as intended
+
+Date:   Wed Oct 18 01:11:04 2017 +0800
+Date resolved:   Wed Oct 18 02:41:34 2017 +0800
+
+    Multiple pdf files aren't being accepted into Form 7
+
+Date:   Tue Oct 17 21:57:55 2017 +0800
+Date resolved:   Wed Oct 18 01:46:23 2017 +0800
+
+    pdf page breaks in the middle of text
+
+Date:    Tue Oct 17 20:29:14 2017 +0800
+Date resolved:   Wed Oct 18 01:11:04 2017 +0800
+
+    On the addition of pdf uploads to Form 7. The arrays for normal text fields no longer work
+
+Date:   Tue Oct 17 20:29:14 2017 +0800
+Date resolved:   Tue Oct 17 21:57:55 2017 +0800
+
+    opn package causes the application to crash
+
+Date:   Tue Oct 17 17:28:24 2017 +0800
+Date resolved:   Tue Oct 17 20:05:41 2017 +0800
+
+    Risks getting deleted when they shouldn't
+
+Date:    Mon Oct 16 16:56:31 2017 +0800
+Date resolved:   Tue Oct 17 19:31:08 2017 +0800
+
+    Styling on the password reset page does not work
+
+Date:    Tue Oct 17 18:19:47 2017 +0800
+Date resolved:   Tue Oct 17 18:21:38 2017 +0800
+
+    Risk Assessment Form Flow not working
+
+Date:   Tue Oct 17 18:19:47 2017 +0800
+Date resolved:   Tue Oct 17 18:30:52 2017 +0800
+
+    Forms do not show up on the dashboard due to the addition of a new form state
+
+Date:   Tue Oct 17 16:59:54 2017 +0800
+Date resolved:   Tue Oct 17 20:32:27 2017 +0800
+
+    Print button does not display pdf for printing
+
+Date:   Tue Oct 17 16:32:57 2017 +0800
+Date resolved:   Tue Oct 17 16:37:16 2017 +0800
+
+    Form 1 does not print
+
+Date:   Tue Oct 17 11:43:20 2017 +0800
+Date resolved:   Tue Oct 17 13:09:40 2017 +0800
+
+    Entire system crashes and stopped working
+
+Date:   Fri Oct 13 21:56:27 2017 +0800
+Date resolved:   Tue Oct 17 01:55:07 2017 +0800
+
+    Form 7 and Risk Assessment Print forms does not work as intended
+
+Date:   Mon Oct 16 16:56:31 2017 +0800
+Date resolved:   Mon Oct 16 17:01:42 2017 +0800
+
+    Nodemailer not working
+
+Date:   Mon Oct 16 01:42:29 2017 +0800
+Date resolved:   Mon Oct 16 14:24:49 2017 +0800
+
+    File uploads on form 7 not being added to database
+
+Date:   Sun Oct 15 16:42:50 2017 +0800
+Date resolved:   Mon Oct 16 00:18:16 2017 +0800
+
+    Risk assessment form prints columns in the risk section and form 7 participant declaration section doesn't work
+
+Date:   Fri Oct 13 21:56:27 2017 +0800
+Date resolved:   Sun Oct 15 16:42:50 2017 +0800
+
+    Infinte loop in Risk Assessment Forms
+
+Date:    Fri Oct 13 02:47:26 2017 +0800
+Date resolved:   Fri Oct 13 21:56:27 2017 +0800
+
+    Dates do not display correctly in print and review forms
+
+Date:   Fri Oct 13 15:28:03 2017 +0800
+Date resolved:   Fri Oct 13 15:33:50 2017 +0800
+
+    Report status not displaying on dashboard
+
+Date:   Fri Oct 13 02:26:40 2017 +0800
+Date resolved:   Fri Oct 13 15:28:03 2017 +0800
+
+    Form updating hangs and does not post to database
+
+Date:   Wed Oct 11 21:24:01 2017 +0800
+Date resolved:   Wed Oct 11 23:43:29 2017 +0800
+
+    Checkboxes in risk assessment form does not display the database information correctly
+
+Date:   Wed Oct 11 21:20:06 2017 +0800
+Date resolved:   Wed Oct 11 22:32:31 2017 +0800
+
+    Form1Print doesn't get correct form
+
+Date:   Wed Oct 11 21:01:51 2017 +0800
+Date resolved:   Wed Oct 11 21:16:30 2017 +0800
+
+    Dashboard not displaying correct accounts
+
+Date:   Tue Oct 10 23:46:30 2017 +0800
+Date resolved:   Wed Oct 11 00:32:46 2017 +0800
+
+    Print form formatting issue
+
+Date:   Tue Oct 10 22:31:53 2017 +0800
+Date resolved:   Tue Oct 10 23:46:30 2017 +0800
+
+    Form 7 Print doesn't gets data from the database
+
+Date:   Tue Oct 10 17:31:11 2017 +0800
+Date resolved: Thu Oct 12 15:41:51 2017 +0800
+
+    Logic on checkboxes in participants declaration in Form 7
+
+Date:   Tue Oct 10 16:27:33 2017 +0800
+Date resolved:   Tue Oct 10 16:32:00 2017 +0800
+
+    Fixed risk assessment form reference error
+
+Date: Sat Oct 7 19:20:57 2017 +0800
+Date resolved:  Tue Oct 10 09:52:01 2017 +0800
+
+    Node not getting the css and images
+
+Date:   Wed Sep 13 16:05:20 2017 +0800
+Date resolved:   Mon Oct 9 17:32:49 2017 +0800
+
+    Mongoose depreciation
+
+Date:   Sun Oct 8 16:02:47 2017 +0800
+Date resolved:   Mon Oct 9 14:24:36 2017 +0800
+
+    NaN is displayed in the database for form 1 fields
+
+Date:   Wed Sep 27 03:43:27 2017 +0800
+Date resolved:   Thu Sep 28 01:29:04 2017 +0800
+
+    The text area plugin currently expands infinetely width wise when inside a fieldset tag.
+
+Date:   Tue Sep 26 01:01:00 2017 +0800
+Date resolved:   Wed Sep 27 03:43:27 2017 +0800
+
+    Phone number validation is not working

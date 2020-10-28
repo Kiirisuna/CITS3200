@@ -1,0 +1,257 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+	<link rel="stylesheet" href="https://unpkg.com/purecss@1.0.0/build/pure-min.css" integrity="sha384-nn4HPE8lTHyVtfCBi5yW9d20FjT8BJwUXyWZT9InLYax14RDjBj46LmSztkmNP9w" crossorigin="anonymous">
+	<meta charset="utf-8"/>
+	<!--[if lte IE 8]>
+    <link rel="stylesheet" href="https://unpkg.com/purecss@1.0.0/build/grids-responsive-old-ie-min.css">
+<![endif]-->
+<!--[if gt IE 8]><!-->
+    <link rel="stylesheet" href="https://unpkg.com/purecss@1.0.0/build/grids-responsive-min.css">
+<!--<![endif]-->
+	<link rel="stylesheet" href="./styles/style.css">
+	<link href="https://fonts.googleapis.com/css?family=Source+Sans+Pro" rel="stylesheet">
+	<script src="jquery/jquery-ui-1.12.1.custom/jquery-ui-1.12.1.custom/jquery-ui.js"></script>
+</head>
+
+<script>
+
+
+function checkpolicies() {
+    var names = ['participation', 'policy', 'report', 'policies','drug', 'aware'];
+    for (var i = 0; i < names.length;i++) {
+        var x = document.forms.form1[names[i]].checked;
+        if (x == false) {
+            alert("Please tick all the boxes in policies");
+            return false;
+        }
+    }
+    return true;
+}
+
+function checktraining() {
+    var x = document.forms["form1"]["training"].checked;
+    if (x == false) {
+        alert("please tick all the boxes in training");
+        return false;
+    }
+    return true;
+}
+
+function checkmedical() {
+    var names = ['limitations','fit', 'medicalAdvice'];
+    for (var i = 0; i < names.length;i++) {
+        if (document.forms.form1[names[i]].checked == false) {
+            alert("Please tick all the boxes in medical");
+           return false;
+        }
+    }
+    return true;
+}
+
+function checkgeneral() {
+    var names = ['complete','responsibility', 'supervisor','completed'];
+    for (var i = 0; i < names.length;i++) {
+        if (document.forms.form1[names[i]].checked == false) {
+            alert("Please tick all relevant boxes in general");
+            return false;
+        }
+    }
+    return true;
+}
+
+function validateForm() {
+    if (!checkpolicies()) return false;
+    if (!checktraining()) return false;
+    if (!checkmedical()) return false;
+    if (!checkgeneral())return false;
+}
+
+
+</script>
+<body>
+	<section>
+		<div class="pure-g">
+			<div class="pure-u-1" id="header">
+				<img src="./images/backgroundDefault.jpg" style="top: -80px; position:relative;  z-index: -1;">
+
+			</div>
+		</div>
+			<div id="excludingHeader">
+			<div class="pure-g">
+				<div class="pure-u-lg-1-5" id="sidebar"> </div>
+					<div class="pure-u-1 pure-u-lg-3-5">
+						<div id="formArea">
+						<div id="formTitle"> Form 1 - Fieldwork Participants Declaration (Registration)<br>
+						<i style="font-size:24px">This form contains confidential information and must be kept secure</i>
+						</div>
+						<br>
+                        <form name="form1" class="pure-form" action="/form1/<%= user.username %>" method="post" onsubmit="return validateForm()">
+                        <div class="sectionContainer">
+							<div class="sectionTitle"> User Details </div>
+							<div class="input">
+									<fieldset>
+                                        <table style="width:100%">
+                                            <tr>
+                                                <td>Name: <br><input type="text" name="name" required="true"></td>
+											</tr>
+											<tr>
+                                                <td>Student/Staff Number:<br><input type="text" name="idnum" required="true"><br></td>
+                                            </tr>
+
+                                            <tr>
+
+                                                <table>
+                                                    <tr><br><strong>Next of Kin Details:</strong></tr>
+                                                    <tr>
+                                                        <td><i>Please nominate two people, state their relationship to you and contact phone numbers</i></td>
+                                                    </tr>
+                                                    <tr>
+                                                        <br>
+                                                        <td>(1) Name:  <br> <input type="text" name="emername1" required="true"></td>
+                                                        <td>(2) Name:  <br> <input type="text" name="emername2" required="true"></td>
+                                                    </tr>
+                                                    <tr>
+                                                        <td>Relationship:  <br> <input type ="text" name="emerrelation1" required="true"></td>
+                                                        <td>Relationship:  <br> <input type="text" name="emerrelation2" required="true"></td>
+                                                    </tr>
+                                                    <tr>
+                                                        <td>Phone: <br> <input type ="text" name="emerphone1" required="true"></td>
+                                                        <td>Phone: <br> <input type="text" name="emerphone2" required="true"></td>
+                                                    </tr>
+                                                </table>
+                                            </tr>
+                                        </table>
+                                    </fieldset>
+							</div>
+                            </div>
+
+							<br>
+							<div class="sectionContainer">
+								<div class="sectionTitle"> Policies </div>
+								<div class="input">
+								<fieldset>
+									<label for="participation">
+										<input type="checkbox" id = "participation" name="participation" value="renew"> I will renew this form annually
+										 to enable my participation on UWA fieldwork trips<br>
+									</label> <br>
+									<label for="policy">
+										<input type="checkbox" id = "policy"  name="policy" value="safetyPolicy"> I am aware of and agree
+										 to adhere to the University Occupational Safety and Health Policy <br> <a href="http://www.safety.uwa.edu.au/management/about/osh-policy">Link to OSH policy</a> <br>
+									</label> <br>
+									<label for="report">
+										<input type="checkbox" id ="report"name="report" value="report"> I am aware of and agree to
+										 adhere to the University’s policy on reporting hazards, incidents and injuries <br> <a href="http://www.safety.uwa.edu.au/incidents-injuries-emergency/notification">Link to reporting hazard policy</a>  <br>
+									</label> <br>
+									<label for="policies">
+										<input type="checkbox" id = "policies" name="policies" value="conduct"> I am aware of and agree to adhere
+										 to the University guidelines for conduct in the workplace <br> <a href="http://www.hr.uwa.edu.au/policies/policies/conduct/guidelines">Link to workplace conduct policy</a> <br>
+										</label> <br>
+									<label for="drug">
+										<input type="checkbox" id = "drug" name="drug" value="drug"> I am aware of and agree to adhere
+										 to the University’s policy on smoking and drug and alcohol policy <br> <a href="http://www.safety.uwa.edu.au/health-wellbeing/health/smoke-free/policy">Link to smoking policy</a>  <a href="http://www.safety.uwa.edu.au/health-wellbeing/health/drugs">and drugs and alcohol policy</a><br>
+									</label> <br>
+									<label for="aware">
+										<input id = "aware" type="checkbox" name="aware" value="all"> I am aware of and agree to adhere
+										 to all University and Faculty/School policies, procedures and codes of conduct relating to
+										 fieldwork  <br>
+									</label>
+                                    </fieldset>
+								</div>
+							</div>
+									<br>
+									<div class="sectionContainer">
+										<div class="sectionTitle"> Training </div>
+										<div class="input">
+												<label for="training">
+													<input type="checkbox" id="training" name="training" value="training"> I have completed the training
+													 advised by my supervisor for specialist equipment or extreme conditions, prior to
+													 commencement of fieldwork <br>
+												 </label>
+										</div>
+									</div>
+									<br>
+									<div class="sectionContainer">
+										<div class="sectionTitle"> International Field Trips </div>
+										<div class="input">
+												<label for="security">
+													<input type="checkbox" id="security" name="security" value="securtiy"> I have received appropriate advice
+													 and taken all necessary safety and security precautions <br>
+												 </label><br>
+												 <label for="vaccinations">
+													<input type="checkbox" id="vaccinations" name="vaccinations" value="vaccinations"> I have obtained medical advice
+													 about health risks and had the required vaccinations related to this fieldwork <br>
+												 </label>
+										</div>
+									</div>
+									<br>
+									<div class="sectionContainer">
+										<div class="sectionTitle"> Medical Conditions Affecting Fieldwork Participation </div>
+										<div class="input">
+												<label for="limitations">
+													<input type="checkbox" id="limitations" name="limitations" value="limitations"> I have received appropriate
+													 medical advice and disclosed to my supervisor, fieldwork supervisor or fieldwork
+													 leader any limitation imposed by my health that may affect my ability to participate
+													 safely in the fieldwork activity I will undertake <br>
+												</label><br>
+												<label for="fit">
+													<input type="checkbox" id="fit" name="fit" value="fit"> I consider that I am adequately fit
+													 for the tasks required to participate in the fieldwork outlined in this application <br>
+												</label><br>
+												<label for="medicalAdvice">
+													<input type="checkbox" id="medicalAdvice" name="medicalAdvice" value="medicalAdvice"> I have received and will follow
+													 relevant medical advice concerning the avoidance of health risk and treatment of any
+													 medical condition during this fieldwork <br>
+												</label>
+									</div>
+									</div>
+									<br>
+									<div class="sectionContainer">
+										<div class="sectionTitle"> General </div>
+										<div class="input">
+												<label for="complete">
+													<input type="checkbox" id="complete" name="complete" value="complete"> The information that I have provided
+													 in this application is accurate and complete <br>
+												</label><br>
+												<label for="responsibility">
+													<input type="checkbox" id="responsibility" name="responsibility" value="responsibility"> I acknowledge that I have a
+													 responsibility to work safely in the field, taking reasonable care to protect my own health
+													 and safety and that of any other fieldwork participants <br>
+												</label><br>
+												<label for="supervisor">
+													<input type="checkbox" id="supervisor" name="supervisor" value="supervisor"> I agree to comply with all procedures
+													 and directions provided by the supervisor and as outlined in the Fieldwork Procedures <br>
+												</label><br>
+												<label for="volunteer">
+													<input type="checkbox" id="volunteer" name="volunteer" value="volunteer"> (Volunteer only): I agree to my personal
+													 details being held in a secure, Voluntary Worker’s Insurance Register kept by the School/Unit
+													 Office <br>
+												</label><br>
+												<label for="completed">
+													<input type="checkbox" id="completed" name="completed" value="completed"> I have completed all parts of this form <br>
+												</label>
+										</div>
+									</div>
+									<br>
+                                <input type="submit" name ="Submit" value="Submit Form 1">
+                        </form>
+						</div>
+						</div>
+				<div class="pure-u-lg-1-5" id="sidebar"> </div>
+			</div>
+			</div>
+			<br>
+
+
+
+
+
+
+
+
+
+	</section>
+
+</body>
+</html>

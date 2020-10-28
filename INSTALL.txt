@@ -1,0 +1,16 @@
+To run the application offline:
+1. Navigate to the directory where the 'app.js' file is stored
+2. Enter the command 'node app.js'
+3. Load http://localhost:3000/ in a browser to see the output
+
+Our application is a web based application. Therefore, the application has been deployed on a heroku server for online testing and use, but will later be deployed on UWA servers.
+
+To access the database:
+The database is a Mongo database so to access the database you must have the mongo shell installed
+
+Once the shell is installed you can run the following command to get admin privelleges to query the database:
+mongo 130.95.176.159/users -u usersAdmin -p cits3200project
+
+The admin account for the "users" database is as follows:
+username : usersAdmin
+password : cits3200project

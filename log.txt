@@ -1,0 +1,4273 @@
+commit 7e8c8c89ba6f92539485d82cae632c5ebfc16ef1
+Author: Louis White <louis.white1500@gmail.com>
+Date:   Fri Oct 20 15:20:52 2017 +0800
+
+    Github cleanup
+
+commit 0cda0e2e84896b01395cd99072c7f973aa067ec9
+Author: Louis White <louis.white1500@gmail.com>
+Date:   Fri Oct 20 14:59:48 2017 +0800
+
+    Commit log added
+
+commit 948794767690d05d173c68e0cd6072c7013f3441
+Author: kiirisuna <21707741@student.uwa.edu.au>
+Date:   Fri Oct 20 14:54:48 2017 +0800
+
+    I :cloud_tornado: :robot:
+
+commit e8fed20e8c1addc46b2dd86bc069822412ee1f4c
+Author: Louis White <louis.white1500@gmail.com>
+Date:   Fri Oct 20 14:36:05 2017 +0800
+
+    Now finds jquery files
+
+commit 779bbedacb71233fe1613881eac12760f9a471a1
+Merge: 8d1901a 90319bb
+Author: Louis White <louis.white1500@gmail.com>
+Date:   Fri Oct 20 14:32:57 2017 +0800
+
+    Merge branch 'master' of https://github.com/LouisWhite15/cits3200
+
+commit 8d1901a5b0d5b1698acfa088bae669a4b8ee0bdc
+Author: Louis White <louis.white1500@gmail.com>
+Date:   Fri Oct 20 14:32:41 2017 +0800
+
+    Added more acceptance tests doc
+
+commit 90319bb216553a280e57834ae5fed40a3c799af7
+Author: kiirisuna <21707741@student.uwa.edu.au>
+Date:   Fri Oct 20 14:26:53 2017 +0800
+
+    changed
+
+commit 8581fa9307a31851f9ec262bbc3b2d0f1a88a294
+Author: kiirisuna <21707741@student.uwa.edu.au>
+Date:   Fri Oct 20 14:25:38 2017 +0800
+
+    changed
+
+commit a539f1e7ce9c75807d1570917ce87fdcc827a499
+Author: kiirisuna <21707741@student.uwa.edu.au>
+Date:   Fri Oct 20 14:23:48 2017 +0800
+
+    changed
+
+commit e49050685755bc7c2d17960131594fede06ecc89
+Author: kiirisuna <21707741@student.uwa.edu.au>
+Date:   Fri Oct 20 14:22:46 2017 +0800
+
+    changed
+
+commit c552b01801e6053783f125d5dcfa8fb9711e90a6
+Merge: 8aa3435 29c2c8d
+Author: kiirisuna <21707741@student.uwa.edu.au>
+Date:   Fri Oct 20 14:20:35 2017 +0800
+
+    Merge branch 'master' of http://github.com/LouisWhite15/cits3200
+
+commit 8aa34353b64e67adfb456adbf8df1aa6f6d8e24c
+Author: kiirisuna <21707741@student.uwa.edu.au>
+Date:   Fri Oct 20 14:20:20 2017 +0800
+
+     :fire: :fire: :thinking:
+
+commit 29c2c8d6669815e3e59ce2f4aab5c9564f9d4c1e
+Author: Victorolo <21976342@student.uwa.edu.au>
+Date:   Fri Oct 20 13:57:37 2017 +0800
+
+    fixed accounts with no licence not loading
+
+commit 9274ce282f1553350c6d27b0207152cb031b15eb
+Author: kiirisuna <21707741@student.uwa.edu.au>
+Date:   Fri Oct 20 13:42:56 2017 +0800
+
+    its :fire:
+
+commit d37a7f925e4e0175f806c5c23efce02c526d6275
+Merge: 7e3bc3f 23fd562
+Author: Louis White <louis.white1500@gmail.com>
+Date:   Fri Oct 20 13:40:07 2017 +0800
+
+    Merge branch 'master' of https://github.com/LouisWhite15/cits3200
+
+commit 7e3bc3f02330ef592e262e4ab00aeb2160f90463
+Author: Louis White <louis.white1500@gmail.com>
+Date:   Fri Oct 20 13:39:45 2017 +0800
+
+    Added a completed ethics checklist
+
+commit 23fd5623bbd43c9bef6bbf64f039d66def4b7992
+Merge: f7dbab9 1a158ae
+Author: Victorolo <21976342@student.uwa.edu.au>
+Date:   Fri Oct 20 13:15:18 2017 +0800
+
+    Merge branch 'master' of https://github.com/LouisWhite15/cits3200
+
+commit f7dbab92fe5e7149697aafa6a1daa0565319ab34
+Author: Victorolo <21976342@student.uwa.edu.au>
+Date:   Fri Oct 20 13:15:08 2017 +0800
+
+    fixed licences showing as offroad files
+
+commit f61bd3994e327a206267c489aacfb909b3a8f523
+Author: Victorolo <21976342@student.uwa.edu.au>
+Date:   Fri Oct 20 13:05:10 2017 +0800
+
+    admin email verification for coordinators
+
+commit 1a158ae64fcaa6254277a605e2367ed06445215f
+Author: Louis White <louis.white1500@gmail.com>
+Date:   Fri Oct 20 12:58:56 2017 +0800
+
+    Added INSTALL.txt
+
+commit 48ed1bdf49d1c782b8acf5ba811a15ebe7c38684
+Author: Louis White <louis.white1500@gmail.com>
+Date:   Fri Oct 20 12:49:25 2017 +0800
+
+    Updated Tech doc
+
+commit b104f9cea5e8db26c4cbfd62702a6e5f04abe959
+Merge: 5eb1131 d226cae
+Author: hamishstg <hamishstg@gmail.com>
+Date:   Fri Oct 20 11:23:36 2017 +0800
+
+    Merge branch 'master' of https://github.com/LouisWhite15/cits3200
+
+commit 5eb11312a9f3cf47730ad72ace76781d27fe2ac0
+Author: hamishstg <hamishstg@gmail.com>
+Date:   Fri Oct 20 11:23:19 2017 +0800
+
+    fixed datepickers
+
+commit d226cae5adaa7793a1480699cb1130ed79b14057
+Author: kiirisuna <21707741@student.uwa.edu.au>
+Date:   Fri Oct 20 11:20:46 2017 +0800
+
+    :fire: changes
+
+commit e639987d6265c9fa60e4480314bef9d9a9e3df60
+Author: kiirisuna <21707741@student.uwa.edu.au>
+Date:   Fri Oct 20 11:06:56 2017 +0800
+
+    more changes
+
+commit 2a5eea7e6a156bd18e3aa28356f1e08858b0fdff
+Author: kiirisuna <21707741@student.uwa.edu.au>
+Date:   Fri Oct 20 11:03:57 2017 +0800
+
+    fixed readonly
+
+commit 81d90ee5e39ece66a54a0cefa3915f77c898f088
+Author: Louis White <21500209@student.uwa.edu.au>
+Date:   Fri Oct 20 10:57:10 2017 +0800
+
+    Forms now go to the fieldwork coordinator
+
+commit 6cfba4d72dc8a90401568ab3a1b61f2093369482
+Author: kiirisuna <21707741@student.uwa.edu.au>
+Date:   Fri Oct 20 10:47:14 2017 +0800
+
+    :fire: :fire :fire:
+
+commit 59e478910f001da564941ac1012bc40e56d6dc8c
+Merge: 87db126 f04386b
+Author: kiirisuna <21707741@student.uwa.edu.au>
+Date:   Fri Oct 20 10:45:30 2017 +0800
+
+    Merge branch 'master' of http://github.com/LouisWhite15/cits3200
+
+commit 87db126acdd36cece7981d23225fe07aad859971
+Author: kiirisuna <21707741@student.uwa.edu.au>
+Date:   Fri Oct 20 10:45:13 2017 +0800
+
+    changes made
+
+commit f04386b0ad55942bc47592513e9ceffacff99829
+Merge: 14e8f1b 7d2b80c
+Author: Victorolo <21976342@student.uwa.edu.au>
+Date:   Fri Oct 20 04:27:34 2017 +0800
+
+    Merge branch 'master' of https://github.com/LouisWhite15/cits3200
+
+commit 14e8f1b2ac340b371f2caced673dd8b9743a11a4
+Author: Victorolo <21976342@student.uwa.edu.au>
+Date:   Fri Oct 20 04:27:19 2017 +0800
+
+    fixed table print styling
+
+commit 7d2b80c687719058a202ae08dbc7f16de7b4ca2f
+Merge: 8f1fd2b b7bf6ee
+Author: hamishstg <hamishstg@gmail.com>
+Date:   Fri Oct 20 04:21:27 2017 +0800
+
+    Merge branch 'master' of https://github.com/LouisWhite15/cits3200
+
+commit 8f1fd2b6760f3d4c985636f83d4ae5a098ea98be
+Author: hamishstg <hamishstg@gmail.com>
+Date:   Fri Oct 20 04:21:11 2017 +0800
+
+    finished test case c
+
+commit b7bf6eed39f6ab0bb3f77a2313875b44466f75b0
+Author: kiirisuna <21707741@student.uwa.edu.au>
+Date:   Fri Oct 20 04:19:52 2017 +0800
+
+    delete
+
+commit 2e294699286952c99580e5b95162122f2d862b1d
+Author: hamishstg <hamishstg@gmail.com>
+Date:   Fri Oct 20 04:11:58 2017 +0800
+
+    fixed tables in riskassform
+
+commit 86b0cd05868426d00fefc1db21399efc43f103be
+Merge: 1bf2543 b9be52f
+Author: Victorolo <21976342@student.uwa.edu.au>
+Date:   Fri Oct 20 04:04:28 2017 +0800
+
+    Merge branch 'master' of https://github.com/LouisWhite15/cits3200
+
+commit 1bf25433092c980b325f5f85db2138a0f3c552db
+Author: Victorolo <21976342@student.uwa.edu.au>
+Date:   Fri Oct 20 04:04:14 2017 +0800
+
+    undo min width on risk tables
+
+commit b9be52fd7f39257330774f53cf755d1d5afecb8d
+Merge: fe57f1f 7c96032
+Author: kiirisuna <21707741@student.uwa.edu.au>
+Date:   Fri Oct 20 03:51:23 2017 +0800
+
+    Merge branch 'master' of http://github.com/LouisWhite15/cits3200
+
+commit fe57f1f471679973455d3e867ceba3ccad735e33
+Author: kiirisuna <21707741@student.uwa.edu.au>
+Date:   Fri Oct 20 03:51:04 2017 +0800
+
+    :ice::ice: baby
+
+commit 7c9603269b955194e5808a5657c0278b4f76eac9
+Author: Louis White <louis.white1500@gmail.com>
+Date:   Fri Oct 20 03:40:32 2017 +0800
+
+    Comments on index.js
+
+commit d904469261586d8963b54ce43749eea33d0ba9db
+Merge: 636fe65 d5d86e3
+Author: Louis White <louis.white1500@gmail.com>
+Date:   Fri Oct 20 03:31:19 2017 +0800
+
+    Merge branch 'master' of https://github.com/LouisWhite15/cits3200
+
+commit 636fe65521ac6573cb8aa7c593497d874530160c
+Author: Louis White <louis.white1500@gmail.com>
+Date:   Fri Oct 20 03:31:00 2017 +0800
+
+    Completed Test Case B and updated the issue log
+
+commit d5d86e3b3bf4b930db492a75e01b818893afc2c3
+Author: hamishstg <hamishstg@gmail.com>
+Date:   Fri Oct 20 03:27:46 2017 +0800
+
+    added my tests
+
+commit 64c68dd26d4183c281e7803cc07ce01790413629
+Author: kiirisuna <21707741@student.uwa.edu.au>
+Date:   Fri Oct 20 03:24:34 2017 +0800
+
+    :fire:
+
+commit 7f779a1e18d73b5c1a85acb6bf7dab58c58ad7ab
+Author: kiirisuna <21707741@student.uwa.edu.au>
+Date:   Fri Oct 20 03:23:48 2017 +0800
+
+    :fire:
+
+commit d8e39ee3fc2a6297f4fde0174db337bf7bbb8613
+Merge: d7e4a8c b63ece5
+Author: Victorolo <21976342@student.uwa.edu.au>
+Date:   Fri Oct 20 03:22:51 2017 +0800
+
+    Merge branch 'master' of https://github.com/LouisWhite15/cits3200
+
+commit d7e4a8c281d5d411727b8b0de1d9734fa6b364fe
+Author: Victorolo <21976342@student.uwa.edu.au>
+Date:   Fri Oct 20 03:22:32 2017 +0800
+
+    shouldve added page break avoid to table td
+
+commit b63ece56aaed0eb947ca9d986ef1d6f191114b08
+Author: kiirisuna <21707741@student.uwa.edu.au>
+Date:   Fri Oct 20 03:21:33 2017 +0800
+
+    updated readme
+
+commit 3634184d9651cf802124d4a218f9825020fa2c1e
+Author: Victorolo <21976342@student.uwa.edu.au>
+Date:   Fri Oct 20 03:00:36 2017 +0800
+
+    allowed javascript on phantom js again so textboxes would expand, changes print so they have an unreachable button which is pressed by phantom js and sets print opactiy to 0
+
+commit b7ecb20f3b23a0df052a7b54dcfe03b8c91f5b67
+Merge: ea8c409 f879feb
+Author: Victorolo <21976342@student.uwa.edu.au>
+Date:   Fri Oct 20 02:52:50 2017 +0800
+
+    Merge branch 'master' of https://github.com/LouisWhite15/cits3200
+
+commit ea8c4097a85eb9c57a94309c8e529df6cb0a1a01
+Author: Victorolo <21976342@student.uwa.edu.au>
+Date:   Fri Oct 20 02:52:37 2017 +0800
+
+    allowed javascript on phantom js again so textboxes would expand, changes print so they have an unreachable button which is pressed by phantom js and sets print opactiy to 0:
+
+commit f879feb3f1ada51660a9760c0bbd9a41213b9b98
+Merge: a0f1ee5 f754050
+Author: Louis White <louis.white1500@gmail.com>
+Date:   Fri Oct 20 02:52:33 2017 +0800
+
+    Merge branch 'master' of https://github.com/LouisWhite15/cits3200
+
+commit a0f1ee52beb0395fad391dc52e311e901fc30746
+Author: Louis White <louis.white1500@gmail.com>
+Date:   Fri Oct 20 02:52:16 2017 +0800
+
+    Updated issue log
+
+commit f754050e09a18e52971d29b61a43902e9edb63c7
+Merge: 5836328 21b71c5
+Author: kiirisuna <21707741@student.uwa.edu.au>
+Date:   Fri Oct 20 02:44:32 2017 +0800
+
+    Merge branch 'master' of http://github.com/LouisWhite15/cits3200
+
+commit 5836328389a325efa2bba38cbcd78d8b64ed9b60
+Author: kiirisuna <21707741@student.uwa.edu.au>
+Date:   Fri Oct 20 02:44:12 2017 +0800
+
+    :thinking:
+
+commit 21b71c5d469e9b3fc3c06a14a0b4afd2235c5c7e
+Merge: 9a94f8d 3a9ebb8
+Author: Louis White <louis.white1500@gmail.com>
+Date:   Fri Oct 20 02:39:48 2017 +0800
+
+    Merge branch 'master' of https://github.com/LouisWhite15/cits3200
+
+commit 9a94f8dd0e304aa5594c07872b305e855efd3d81
+Author: Louis White <louis.white1500@gmail.com>
+Date:   Fri Oct 20 02:39:32 2017 +0800
+
+    Formulated issues text file
+
+commit 3a9ebb81fb00fa2a8fcbf64b2f5f84f3da7d049a
+Author: Kiirisuna <31201780+Kiirisuna@users.noreply.github.com>
+Date:   Fri Oct 20 01:49:40 2017 +0800
+
+    Delete New Text Document.txt
+
+commit ad029e990025d3dd0cd982f5fc2a204fc9dbfde1
+Author: Kiirisuna <31201780+Kiirisuna@users.noreply.github.com>
+Date:   Fri Oct 20 01:15:24 2017 +0800
+
+    Delete HTML DOCUMENTATION.docx
+
+commit 06b0ad16abbc46d1a696aa11cab937a36c7abae2
+Author: Kiirisuna <31201780+Kiirisuna@users.noreply.github.com>
+Date:   Fri Oct 20 01:15:21 2017 +0800
+
+    Delete Style Guide for Online Fieldwork System.docx
+
+commit 122e8b9a7e3a6b5cdfbc98127d585df360fa32b3
+Author: Kiirisuna <31201780+Kiirisuna@users.noreply.github.com>
+Date:   Fri Oct 20 01:15:18 2017 +0800
+
+    Delete Back-end Technical Documentation.docx
+
+commit 7d1f9d4be6ab460f5a98acce40d70b93cc9e5088
+Author: kiirisuna <21707741@student.uwa.edu.au>
+Date:   Fri Oct 20 01:13:34 2017 +0800
+
+    all docs
+
+commit 062150fedc7e6fa99ece9076f7820d19dbe393d6
+Merge: 993ec06 31be280
+Author: hamishstg <hamishstg@gmail.com>
+Date:   Fri Oct 20 00:59:43 2017 +0800
+
+    fixed merge
+
+commit 993ec0645542ada5e461a8ba8723c71b34d1ed6c
+Author: hamishstg <hamishstg@gmail.com>
+Date:   Fri Oct 20 00:49:56 2017 +0800
+
+    fixed all forms so taht they display correctly and so that when adding dynamically it will do so successfully there are known bug especially in deleting controls but i feel like it is to late to do stuff about it
+
+commit 31be28067eee26d2c83e5e63c18b5ef9c9631361
+Author: Victorolo <21976342@student.uwa.edu.au>
+Date:   Fri Oct 20 00:08:03 2017 +0800
+
+    got rid of console logs in ejs, added email verif for admins to student review
+
+commit cc71b2552b1e11e9b557f9c3a8b890e3d627c65c
+Author: Victorolo <21976342@student.uwa.edu.au>
+Date:   Thu Oct 19 23:52:31 2017 +0800
+
+    added admin email verification for risk review and form 7 review
+
+commit 33ec7bd1c448924ef1d8f645dec51c77488c4218
+Merge: bb65b57 eb3265f
+Author: Victorolo <21976342@student.uwa.edu.au>
+Date:   Thu Oct 19 23:39:53 2017 +0800
+
+    admins must be real eamils in risk ass
+
+commit bb65b57d61055c60367533b292854f3059bf5b7d
+Author: Victorolo <21976342@student.uwa.edu.au>
+Date:   Thu Oct 19 23:37:59 2017 +0800
+
+    admins must be real eamils in risk ass
+
+commit eb3265f2f48ad2daccf81713aa2151788cae2a7d
+Author: Kiirisuna <31201780+Kiirisuna@users.noreply.github.com>
+Date:   Thu Oct 19 23:29:08 2017 +0800
+
+    Delete ~WRL3501.tmp
+
+commit e47d47366b578e65560d546cc84056cf0c4c088f
+Author: Kiirisuna <31201780+Kiirisuna@users.noreply.github.com>
+Date:   Thu Oct 19 23:29:07 2017 +0800
+
+    Delete ~WRL3370.tmp
+
+commit cfdc576c0ec3fba22fdd08f664d29640bd3b0519
+Author: Kiirisuna <31201780+Kiirisuna@users.noreply.github.com>
+Date:   Thu Oct 19 23:29:05 2017 +0800
+
+    Delete ~WRL0963.tmp
+
+commit 9f0acd8a70cb31e6ea5386153fc19e265c383597
+Author: Kiirisuna <31201780+Kiirisuna@users.noreply.github.com>
+Date:   Thu Oct 19 23:29:04 2017 +0800
+
+    Delete ~WRL0780.tmp
+
+commit ea3bfc7008ec9015c750eafb835104d52395dc6d
+Author: Kiirisuna <31201780+Kiirisuna@users.noreply.github.com>
+Date:   Thu Oct 19 23:29:03 2017 +0800
+
+    Delete ~$yle Guide for Online Fieldwork System.docx
+
+commit 93bf79066ac4a4785a481815aff91385184ca20c
+Author: Kiirisuna <31201780+Kiirisuna@users.noreply.github.com>
+Date:   Thu Oct 19 23:28:53 2017 +0800
+
+    Delete ~$stingResultManual.docx
+
+commit fc539569fdfb03a357c0cdca438ff9d00dbdf162
+Author: Kiirisuna <31201780+Kiirisuna@users.noreply.github.com>
+Date:   Thu Oct 19 23:28:51 2017 +0800
+
+    Delete ~$ck-end Technical Documentation.docx
+
+commit 295bdbfe96e5226aaf15734b911479d69a63f410
+Author: Kiirisuna <31201780+Kiirisuna@users.noreply.github.com>
+Date:   Thu Oct 19 23:28:50 2017 +0800
+
+    Delete ~$ML DOCUMENTATION.docx
+
+commit 56b63eb5cb723a207c264025476b1f9bb8e8e693
+Author: Kiirisuna <31201780+Kiirisuna@users.noreply.github.com>
+Date:   Thu Oct 19 23:28:14 2017 +0800
+
+    Delete Doc7e17.doc
+
+commit 6eb1e9455aed9813dc2f636e69df0a1ae3b17b90
+Author: Kiirisuna <31201780+Kiirisuna@users.noreply.github.com>
+Date:   Thu Oct 19 23:28:12 2017 +0800
+
+    Delete sample.pdf
+
+commit 6f442b395e2cbe4535cb7c09ab1493c31bb08c88
+Author: Kiirisuna <31201780+Kiirisuna@users.noreply.github.com>
+Date:   Thu Oct 19 23:28:08 2017 +0800
+
+    Delete samp3.pdf
+
+commit f0ffb2a35ebef498d01c670627a3c8376719bbee
+Author: Rob <20495129@student.uwa.edu.au>
+Date:   Thu Oct 19 23:27:08 2017 +0800
+
+    risk ass tables fixed
+
+commit 6d37411f25cc5eddab83d351f0ee2bb6e6c0b730
+Merge: da91ff0 9eb47ca
+Author: Rob <20495129@student.uwa.edu.au>
+Date:   Thu Oct 19 23:21:21 2017 +0800
+
+    Merge branch 'master' of https://github.com/LouisWhite15/cits3200 into robTest
+
+commit 089cb614b2e0d4f6c9c3263596efe624d0ce12c3
+Merge: 5865646 9eb47ca
+Author: Victorolo <21976342@student.uwa.edu.au>
+Date:   Thu Oct 19 23:20:57 2017 +0800
+
+    Merge branch 'master' of https://github.com/LouisWhite15/cits3200
+
+commit 586564681bc88bb9cc3e9cb81c9d402dcbc6c0b4
+Author: Victorolo <21976342@student.uwa.edu.au>
+Date:   Thu Oct 19 23:20:45 2017 +0800
+
+    form7 now checks for admins
+
+commit da91ff025db1e51ac83941052194bbdc5d67fba9
+Author: Rob <20495129@student.uwa.edu.au>
+Date:   Thu Oct 19 23:20:35 2017 +0800
+
+    risk ass tables fixed
+
+commit 9eb47ca49edb6a23743cf79dd3f1ec042a505239
+Merge: 87de36c 4767d21
+Author: Louis White <louis.white1500@gmail.com>
+Date:   Thu Oct 19 23:18:56 2017 +0800
+
+    Merge branch 'master' of https://github.com/LouisWhite15/cits3200
+
+commit 87de36c8f756515a7fcbe80beeb00c5eaba2d3bb
+Author: Louis White <louis.white1500@gmail.com>
+Date:   Thu Oct 19 23:17:28 2017 +0800
+
+    Added results for Test Case A and D
+
+commit 62f93c5ea52a2702d1e91dbdbb06933a763b53cc
+Merge: 55d25a7 4767d21
+Author: Rob <20495129@student.uwa.edu.au>
+Date:   Thu Oct 19 23:16:18 2017 +0800
+
+    Merge branch 'master' of https://github.com/LouisWhite15/cits3200 into robTest
+
+commit 55d25a78a28e188802a43880f9d4cbf3db666cff
+Author: Rob <20495129@student.uwa.edu.au>
+Date:   Thu Oct 19 23:16:12 2017 +0800
+
+    please merge
+
+commit 4767d21cfd6d196102793c8640740d7c0c3c97b0
+Author: kiirisuna <21707741@student.uwa.edu.au>
+Date:   Thu Oct 19 23:13:16 2017 +0800
+
+    removed office only
+
+commit c868f5dc8a8ca120c0d89f1511788c7e7be0bd98
+Author: kiirisuna <21707741@student.uwa.edu.au>
+Date:   Thu Oct 19 23:01:20 2017 +0800
+
+    added date check for expiry
+
+commit d735205f78e515cdb1d94b1193f602139f0c6e53
+Author: kiirisuna <21707741@student.uwa.edu.au>
+Date:   Thu Oct 19 22:35:22 2017 +0800
+
+    updated UserDoc, date check for form 7
+
+commit 87390d685abe96f05bf2d7697529840b149481c0
+Author: Rob <20495129@student.uwa.edu.au>
+Date:   Thu Oct 19 22:28:55 2017 +0800
+
+    textarea text black
+
+commit c90b266def6953a5e8a2348d95fa11b4175ed289
+Author: Rob <20495129@student.uwa.edu.au>
+Date:   Thu Oct 19 22:26:17 2017 +0800
+
+    textarea text black
+
+commit c66e822a584b8e82a86cbc7babfadefb9f90e941
+Author: Rob <20495129@student.uwa.edu.au>
+Date:   Thu Oct 19 22:23:28 2017 +0800
+
+    textarea backgrounds white
+
+commit 543945a338b5ded3bdb33a52ecd382b90d14fbbd
+Author: Rob <20495129@student.uwa.edu.au>
+Date:   Thu Oct 19 22:16:35 2017 +0800
+
+    added testing for CSS and browser compatability
+
+commit 1c232d8836e4dfe284acbea3a493810f446fd76c
+Merge: e2ba0dd cdc2ae5
+Author: Victorolo <21976342@student.uwa.edu.au>
+Date:   Thu Oct 19 22:15:05 2017 +0800
+
+    Merge branch 'master' of https://github.com/LouisWhite15/cits3200
+
+commit e2ba0dd17fb0107f0304e947e2cbea74660cfa89
+Merge: 75398ca 78d636c
+Author: Victorolo <21976342@student.uwa.edu.au>
+Date:   Thu Oct 19 22:14:58 2017 +0800
+
+    added file upload stuff to backend docs
+
+commit cdc2ae5bf920049f122af9beb549d7f758a80e25
+Merge: a0b4301 78d636c
+Author: hamishstg <hamishstg@gmail.com>
+Date:   Thu Oct 19 22:09:35 2017 +0800
+
+    Merge branch 'master' of https://github.com/LouisWhite15/cits3200
+
+commit a0b430114f53d0c7de36da3c83c178498216cbab
+Author: hamishstg <hamishstg@gmail.com>
+Date:   Thu Oct 19 22:09:11 2017 +0800
+
+    changed some small errors in the riskform review and sreview that caused them to not send values correctly. Also finished the HTML documentation. Sorry for adding the crappy files but im too tired to figure out how to remove them
+
+commit 75398ca1db3a47166ffff8de747377d65c0750aa
+Author: Victorolo <21976342@student.uwa.edu.au>
+Date:   Thu Oct 19 22:06:40 2017 +0800
+
+    added file upload stuff to backend docs
+
+commit 78d636c2354c7869bdd4e05bbfb419ad3184cb06
+Merge: 6396104 a3a29c8
+Author: kiirisuna <21707741@student.uwa.edu.au>
+Date:   Thu Oct 19 21:15:08 2017 +0800
+
+    Merge branch 'master' of http://github.com/LouisWhite15/cits3200
+
+commit 639610497aa80705e172d586d0be13055fe078be
+Author: kiirisuna <21707741@student.uwa.edu.au>
+Date:   Thu Oct 19 21:14:41 2017 +0800
+
+    basically complete?
+
+commit a3a29c8e35b8b18819a7f7018f783b3b2f2a5a94
+Author: Rob <20495129@student.uwa.edu.au>
+Date:   Thu Oct 19 20:58:43 2017 +0800
+
+    restyled textareas for printforms
+
+commit 162b3c4406a687fc0a7fc576e7277844c89b488b
+Merge: fb395be d065130
+Author: Rob <20495129@student.uwa.edu.au>
+Date:   Thu Oct 19 20:58:18 2017 +0800
+
+    Merge branch 'master' of https://github.com/LouisWhite15/cits3200 into robTest
+
+commit fb395beb55f433a3baadebee20c3f96cda3ce0e2
+Author: Rob <20495129@student.uwa.edu.au>
+Date:   Thu Oct 19 20:57:24 2017 +0800
+
+    restyled textareas for form7
+
+commit d065130763096d648795603fbe43172f48514c6e
+Merge: 809119d d38ffcf
+Author: kiirisuna <21707741@student.uwa.edu.au>
+Date:   Thu Oct 19 20:54:38 2017 +0800
+
+    Merge branch 'master' of http://github.com/LouisWhite15/cits3200
+
+commit 809119d0ea75fdb3e8ead606d28e0ff6bdd83152
+Author: kiirisuna <21707741@student.uwa.edu.au>
+Date:   Thu Oct 19 20:53:55 2017 +0800
+
+    only section 1 and 2  left
+
+commit a95e9a86bf515a5b3031641b131c962acf0246e7
+Author: Rob <20495129@student.uwa.edu.au>
+Date:   Thu Oct 19 20:48:37 2017 +0800
+
+    added testing for different resolutions
+
+commit d38ffcf5812bfaf0cbc3ff00fa980911a93a9c4c
+Author: Louis White <louis.white1500@gmail.com>
+Date:   Thu Oct 19 20:24:36 2017 +0800
+
+    Added revokeAdmin to documentation
+
+commit 044ca1a810b57d1588949105daf3a3e601c81c60
+Author: Louis White <louis.white1500@gmail.com>
+Date:   Thu Oct 19 20:21:51 2017 +0800
+
+    When making and revoking admin the user stays on the same page
+
+commit f48e52248df5c9bbd2f04d24dc950acf8ce30e97
+Author: Louis White <louis.white1500@gmail.com>
+Date:   Thu Oct 19 20:18:58 2017 +0800
+
+    Fixed syntax error
+
+commit b815b16a7350bc814192d0162817817ddfb95c3c
+Merge: 73af74c 9e8ab84
+Author: Louis White <louis.white1500@gmail.com>
+Date:   Thu Oct 19 20:18:12 2017 +0800
+
+    Merge branch 'master' of https://github.com/LouisWhite15/cits3200
+
+commit 73af74c666e7b4cc47faf866cddce88de822e395
+Author: Louis White <louis.white1500@gmail.com>
+Date:   Thu Oct 19 20:17:34 2017 +0800
+
+    Added revoke admin
+
+commit 9e8ab84a5d8bdb8e7224736a6da8d58d53c0b487
+Merge: 64b76eb 4690550
+Author: kiirisuna <21707741@student.uwa.edu.au>
+Date:   Thu Oct 19 19:17:50 2017 +0800
+
+    Merge branch 'master' of http://github.com/LouisWhite15/cits3200
+
+commit 64b76ebc05f9fe8509f127466849e802422d4c9d
+Author: kiirisuna <21707741@student.uwa.edu.au>
+Date:   Thu Oct 19 19:17:34 2017 +0800
+
+    minor changes
+
+commit 469055030da10d90b18cffb81f5612d021871b6c
+Merge: 3673ff1 35ccf7e
+Author: Rob <20495129@student.uwa.edu.au>
+Date:   Thu Oct 19 19:16:23 2017 +0800
+
+    Merge branch 'master' of https://github.com/LouisWhite15/cits3200 into robTest
+
+commit 3673ff14179f1d89b95e61febb7171b55dc82b75
+Author: Rob <20495129@student.uwa.edu.au>
+Date:   Thu Oct 19 19:16:07 2017 +0800
+
+    restyle register and password change pages
+
+commit 35ccf7e3730a3ace75818e154b58be9a4602dc35
+Merge: ec3f0be 0451ac1
+Author: kiirisuna <21707741@student.uwa.edu.au>
+Date:   Thu Oct 19 19:14:47 2017 +0800
+
+    Merge branch 'master' of http://github.com/LouisWhite15/cits3200
+
+commit ec3f0bea6f0305865b8ef9de95423c235efdf97b
+Author: kiirisuna <21707741@student.uwa.edu.au>
+Date:   Thu Oct 19 19:14:32 2017 +0800
+
+    minor changes
+
+commit 0451ac1ebcb6d726ec701d4dcde2bef79b0d0c14
+Author: Victorolo <21976342@student.uwa.edu.au>
+Date:   Thu Oct 19 18:52:20 2017 +0800
+
+    changed print forms to have text areas, fixed dsahboard typo, fixed wbug with lenght of contacts dispalying inadmin review
+
+commit bb2337206a9e800748649133735c2cd501d2407b
+Author: kiirisuna <21707741@student.uwa.edu.au>
+Date:   Thu Oct 19 18:27:56 2017 +0800
+
+    minor changes
+
+commit 9812682cbea6aa1129491ee303fb0bf389aaec3b
+Author: Victorolo <21976342@student.uwa.edu.au>
+Date:   Thu Oct 19 18:24:05 2017 +0800
+
+    added ability for admins to check licence info
+
+commit 1dda6c3da364273b674c06a9137e70f2db1c7ff5
+Author: kiirisuna <21707741@student.uwa.edu.au>
+Date:   Thu Oct 19 18:09:24 2017 +0800
+
+    half done i think?
+
+commit 3154884ee8d982b0fae446a2720fc9c8cad60314
+Merge: 5af7ab8 99a5383
+Author: Victorolo <21976342@student.uwa.edu.au>
+Date:   Thu Oct 19 17:45:33 2017 +0800
+
+    added text saying max file size, put form 1 links on new lines
+
+commit 99a5383b0e765c9e2ac3d918ba2cb0f3db44ea27
+Author: Rob <20495129@student.uwa.edu.au>
+Date:   Thu Oct 19 17:39:02 2017 +0800
+
+    style guide finished
+
+commit 5af7ab8c8fc45cd1347c472ca975dae6a1375ff6
+Author: Victorolo <21976342@student.uwa.edu.au>
+Date:   Thu Oct 19 17:38:59 2017 +0800
+
+    added text saying max file size, put form 1 links on new lines
+
+commit 029c824055393685e2192a63255bf5add13def3a
+Author: Rob <20495129@student.uwa.edu.au>
+Date:   Thu Oct 19 17:25:04 2017 +0800
+
+    mild styling changes
+
+commit db24f2db1520a846cccc5f6e30853dbd5b289952
+Author: Rob <20495129@student.uwa.edu.au>
+Date:   Thu Oct 19 17:17:20 2017 +0800
+
+    mild styling for dashboard
+
+commit 2cd618b69f92253cd62cd37a3244cce35733e2dc
+Author: Rob <20495129@student.uwa.edu.au>
+Date:   Thu Oct 19 17:14:10 2017 +0800
+
+    mild styling for dashboard
+
+commit 074f3a3e2d4c65df27c4270f02fbc391787fefd3
+Author: Louis White <louis.white1500@gmail.com>
+Date:   Thu Oct 19 16:43:04 2017 +0800
+
+    Risk assessment form back to student should no longer stay in admin dashboard
+
+commit 4c5649ddad26ee73d28a3e7051e3cda2ae3a3d0b
+Author: Louis White <louis.white1500@gmail.com>
+Date:   Thu Oct 19 16:35:33 2017 +0800
+
+    Back-end technical documentation word doc added. Need Victors parts done
+
+commit eea0acfa25c1e79981bfc639776dbc9cf3dbf24e
+Author: Louis White <louis.white1500@gmail.com>
+Date:   Thu Oct 19 16:27:26 2017 +0800
+
+    If register account already exists, return back to the register page
+
+commit 1ad6e557e126fe4955e09423d1704e8e2a8e3226
+Author: Louis White <louis.white1500@gmail.com>
+Date:   Thu Oct 19 16:22:58 2017 +0800
+
+    Fixed server crash when invalid email added to forgot password page
+
+commit 1f76cdadf8593f8a5a65439a4a92b2cfdb8c2c11
+Author: Victorolo <21976342@student.uwa.edu.au>
+Date:   Thu Oct 19 16:13:41 2017 +0800
+
+    first aid now only accpets pdfs
+
+commit 46a4863eacc024c78c609d9756342238ba542ba1
+Merge: 87a0657 d9840a1
+Author: Louis White <louis.white1500@gmail.com>
+Date:   Thu Oct 19 16:10:02 2017 +0800
+
+    Merge branch 'master' of https://github.com/LouisWhite15/cits3200
+
+commit 87a065796c92b68676cf180eefc9c26b31ee811f
+Author: Louis White <louis.white1500@gmail.com>
+Date:   Thu Oct 19 16:09:40 2017 +0800
+
+    Minor cleanup after documenting
+
+commit d9840a1da19453cea4c77c8116b1fed9154be346
+Author: Rob <20495129@student.uwa.edu.au>
+Date:   Thu Oct 19 15:55:32 2017 +0800
+
+    further work on style guide and fixed form7studentreview bug
+
+commit 336a5cc17f3a9e6d86a226c1b44332db60817ea4
+Author: kiirisuna <21707741@student.uwa.edu.au>
+Date:   Thu Oct 19 15:39:15 2017 +0800
+
+    minor changes
+
+commit bf3cc7ad16f556f30c4f2e6e7784222229072e3a
+Author: kiirisuna <21707741@student.uwa.edu.au>
+Date:   Thu Oct 19 15:07:14 2017 +0800
+
+    minor changes
+
+commit eef54049090025462362774df06a429b03d64af1
+Merge: f0c3589 f778daa
+Author: hamishstg <hamishstg@gmail.com>
+Date:   Thu Oct 19 15:00:39 2017 +0800
+
+    Merge branch 'master' of https://github.com/LouisWhite15/cits3200
+
+commit f0c3589635adbce85e5306b3faaf4574e43d09f1
+Author: hamishstg <hamishstg@gmail.com>
+Date:   Thu Oct 19 14:59:42 2017 +0800
+
+    added a file for my HTML documentation mostly done just need to finish riskform review sreview and print
+
+commit f778daa0bae1ca8577070f42b7bf113e802efaed
+Author: Rob <20495129@student.uwa.edu.au>
+Date:   Thu Oct 19 14:46:59 2017 +0800
+
+    reworded dbso checkbox, added beginning of style guide
+
+commit 80914365f9f0c4434fbea674fd7c5ef8ae5f10a5
+Author: kiirisuna <21707741@student.uwa.edu.au>
+Date:   Thu Oct 19 14:27:57 2017 +0800
+
+    userdoc and minor changes to typo
+
+commit b8b40c528efee87d740e0c54e847c1bf9cc1bb92
+Author: Victorolo <21976342@student.uwa.edu.au>
+Date:   Thu Oct 19 14:24:03 2017 +0800
+
+    should only log inserting file if file is of correct size now
+
+commit 8bd33511e7d5c1e2382ff78aba6232e56bce9d4d
+Author: Rob <20495129@student.uwa.edu.au>
+Date:   Thu Oct 19 14:01:33 2017 +0800
+
+    minor styling corrections, added boating link to dash
+
+commit 252682095ba656837f0eae82d24a9266ca6d5f09
+Author: Rob <20495129@student.uwa.edu.au>
+Date:   Thu Oct 19 13:52:42 2017 +0800
+
+    minor styling corrections, added boating link to dash
+
+commit d45335cffdc31d50ae8944e4d7a5840f437d3e2c
+Author: Victorolo <21976342@student.uwa.edu.au>
+Date:   Thu Oct 19 13:28:37 2017 +0800
+
+    changed wording on some pdy upload sections
+
+commit 83955b910ca5ee1a1ead4aa2c57d63811544679a
+Merge: 46b3fb6 2b7aa41
+Author: Victorolo <21976342@student.uwa.edu.au>
+Date:   Thu Oct 19 13:18:06 2017 +0800
+
+    Merge branch 'master' of https://github.com/LouisWhite15/cits3200
+
+commit 46b3fb693737abbda6c74308c569c59c17596ade
+Author: Victorolo <21976342@student.uwa.edu.au>
+Date:   Thu Oct 19 13:17:53 2017 +0800
+
+    changed print ejs posts so they work
+
+commit 2b7aa41fef9b6db6285fc8cfa66cc2da2d8089fa
+Author: kiirisuna <21707741@student.uwa.edu.au>
+Date:   Thu Oct 19 12:54:31 2017 +0800
+
+    tech doc sample
+
+commit bfdc10e3772e06aca8ea5c82f94d850c1b62d9e8
+Author: hamishstg <hamishstg@gmail.com>
+Date:   Thu Oct 19 12:06:07 2017 +0800
+
+    whole bunch of bug and text fixes to the forms, highlights include fixing variable names in form7 and Riskform so taht they match the index.js variables fixing datepickers in form7, fixing readonly on fc in form7,
+
+commit 4463fa06b5fd8fb7a2807de0e0bd94bdb9615e9c
+Author: kiirisuna <21707741@student.uwa.edu.au>
+Date:   Thu Oct 19 04:12:32 2017 +0800
+
+    user doc with most of the neccessary headings
+
+commit 597f4b851f2621840efba7f15f460d3b5f4c55c0
+Author: Victorolo <21976342@student.uwa.edu.au>
+Date:   Thu Oct 19 03:51:38 2017 +0800
+
+    added 2 more tests to the testing doc
+
+commit c9c2eb31477e7fdb0be2e6a8960385db4da61673
+Author: Victorolo <21976342@student.uwa.edu.au>
+Date:   Thu Oct 19 02:56:18 2017 +0800
+
+    forgot to delete some code in admin.ejs
+
+commit 8d6e48b31f9c620804413e3e07eb9cc6f211d016
+Author: Victorolo <21976342@student.uwa.edu.au>
+Date:   Thu Oct 19 02:54:04 2017 +0800
+
+    changed dash layout for pdf abit and added some (commented out) code for admin dashboard to find user licences
+
+commit 131db2384627b8b37b204317704b8ec83ae0e0c2
+Merge: b6b817e 8020f88
+Author: hamishstg <hamishstg@gmail.com>
+Date:   Thu Oct 19 01:10:20 2017 +0800
+
+    Merge branch 'master' of https://github.com/LouisWhite15/cits3200
+
+commit b6b817e5b0d229b7b765ee836cc25e23dae12322
+Author: hamishstg <hamishstg@gmail.com>
+Date:   Thu Oct 19 01:10:06 2017 +0800
+
+    text fixes to all documents plus some quality of life stuff that has been changed to make forms more obvious easier to interpret
+
+commit 8020f88dbe25fcede90fdb0d8952cf1c2c5a5e5e
+Author: Victorolo <21976342@student.uwa.edu.au>
+Date:   Thu Oct 19 00:37:57 2017 +0800
+
+    pdfs now open in a new tab
+
+commit 8c98e58830cb605e445d3685074bd26be3a15bcd
+Author: Victorolo <21976342@student.uwa.edu.au>
+Date:   Thu Oct 19 00:37:15 2017 +0800
+
+    pdfs now open in a new tab
+
+commit 15aee30a38cb88308c09f9d417545b63a6b108e5
+Author: Victorolo <21976342@student.uwa.edu.au>
+Date:   Thu Oct 19 00:36:58 2017 +0800
+
+    pdfs now open in a new tab
+
+commit 8866b2c8192373eef5d3af95949eca0d3b50ce04
+Author: hamishstg <hamishstg@gmail.com>
+Date:   Wed Oct 18 23:56:08 2017 +0800
+
+    added the collab message on the form7 plus changed the checkbox on form7 review so that they are disabled
+
+commit d58cc9cb7f588d728539c3eeaf7552238b21fd4f
+Author: hamishstg <hamishstg@gmail.com>
+Date:   Wed Oct 18 23:52:11 2017 +0800
+
+    changed it so that now the auto tick boxes will only run after the form has been validated succesfully on all form7's
+
+commit b82ad0e76838c0924d9e7643e8cfb1cc984b854f
+Author: hamishstg <hamishstg@gmail.com>
+Date:   Wed Oct 18 23:29:33 2017 +0800
+
+    added datepickers to all the new date fields
+
+commit 3fa2605bd3a90693aeca150896daef40e90f655f
+Merge: 475adb9 4497743
+Author: hamishstg <hamishstg@gmail.com>
+Date:   Wed Oct 18 23:20:36 2017 +0800
+
+    Merge branch 'master' of https://github.com/LouisWhite15/cits3200
+
+commit 475adb965782ffbb63fa0fd5b68d6625bc83c391
+Author: hamishstg <hamishstg@gmail.com>
+Date:   Wed Oct 18 23:20:24 2017 +0800
+
+    changed the review and print forms so they should now show the values of the newly added fields
+
+commit 4497743df5fc1e0af48228cb1f0257bf3f9b043d
+Merge: c72b775 72f815a
+Author: Victorolo <21976342@student.uwa.edu.au>
+Date:   Wed Oct 18 22:57:22 2017 +0800
+
+    Merge branch 'master' of https://github.com/LouisWhite15/cits3200
+
+commit c72b7757a872eca7f13227ecaa8a8d19bf8043d6
+Author: Victorolo <21976342@student.uwa.edu.au>
+Date:   Wed Oct 18 22:57:14 2017 +0800
+
+    student review pdf uploads now work
+
+commit 72f815ac192bdcc0ca004f1173ffb52ae74fb66f
+Author: hamishstg <hamishstg@gmail.com>
+Date:   Wed Oct 18 22:45:45 2017 +0800
+
+    added all the correct fields so that it populates in the database in index.js
+
+commit 1b6e28874205526cadb247c70a6361a3b679518e
+Merge: e04b353 52584e2
+Author: Victorolo <21976342@student.uwa.edu.au>
+Date:   Wed Oct 18 22:17:54 2017 +0800
+
+    Merge branch 'master' of https://github.com/LouisWhite15/cits3200
+
+commit e04b353eebe9a525422e5e793323cd60ec8b562c
+Author: Victorolo <21976342@student.uwa.edu.au>
+Date:   Wed Oct 18 22:17:38 2017 +0800
+
+    fixed pdf review for admin
+
+commit 52584e206854269b6360c71920df8b4e39cbd8f0
+Author: Rob <20495129@student.uwa.edu.au>
+Date:   Wed Oct 18 22:15:49 2017 +0800
+
+    admin dashboard pulling username correctly
+
+commit 42a7826a22d402303f596d1ba5fd117fdd060b67
+Author: Rob <20495129@student.uwa.edu.au>
+Date:   Wed Oct 18 22:12:41 2017 +0800
+
+    admin dashboard pulling username correctly
+
+commit 3a2246d6a922521fb3ecc99987057146bc8cb0db
+Merge: 30380c9 79ecec5
+Author: Victorolo <21976342@student.uwa.edu.au>
+Date:   Wed Oct 18 22:09:36 2017 +0800
+
+    Merge branch 'master' of https://github.com/LouisWhite15/cits3200
+
+commit 30380c951cc6760906e638cc959591a54a821642
+Author: Victorolo <21976342@student.uwa.edu.au>
+Date:   Wed Oct 18 22:09:30 2017 +0800
+
+    files work somewhat
+
+commit 79ecec50220b50a87c37398f6fa69d8c01f5fd66
+Author: Rob <20495129@student.uwa.edu.au>
+Date:   Wed Oct 18 21:53:48 2017 +0800
+
+    added form1 subtitle
+
+commit 73499f9afe0028d5b917e90e211e79515359f0bf
+Author: Rob <20495129@student.uwa.edu.au>
+Date:   Wed Oct 18 21:42:03 2017 +0800
+
+    form7print checkboxes styled nicely
+
+commit d7c92158069dea542054d443650462bea3a6d4c2
+Author: Rob <20495129@student.uwa.edu.au>
+Date:   Wed Oct 18 21:36:06 2017 +0800
+
+    form1print checkboxes styled nicely
+
+commit fd486ddd292da0d23d484f560b14b0fe99dd88e6
+Author: hamishstg <hamishstg@gmail.com>
+Date:   Wed Oct 18 21:35:21 2017 +0800
+
+    added new fields to db in form7 and riskform still to do it in index.js
+
+commit c51eddbaae20557798afe621cf2b94b628ca0218
+Author: hamishstg <hamishstg@gmail.com>
+Date:   Wed Oct 18 21:23:25 2017 +0800
+
+    now added the link to policy + the collaborator statment + changed readonly + added fc to all relevant forms still need to add to index and models
+
+commit a9985d3d466374964dd841a5b129f5c693f8d927
+Merge: ad8b20d ac7474a
+Author: Victorolo <21976342@student.uwa.edu.au>
+Date:   Wed Oct 18 21:08:58 2017 +0800
+
+    Merge branch 'master' of https://github.com/LouisWhite15/cits3200
+
+commit ad8b20d36585b0d1671bdf53992de7c3f9277d8a
+Author: Victorolo <21976342@student.uwa.edu.au>
+Date:   Wed Oct 18 21:08:42 2017 +0800
+
+    testing pdf uploads
+
+commit ac7474ad00fea9445e3418a33ea2db3294964f18
+Author: Louis White <louis.white1500@gmail.com>
+Date:   Wed Oct 18 21:07:42 2017 +0800
+
+    Register fixed
+
+commit 43f1537cc9976554b4a667a39f1ced7ce59e9e42
+Merge: 1bdfe4e 5fa8e6c
+Author: hamishstg <hamishstg@gmail.com>
+Date:   Wed Oct 18 20:36:30 2017 +0800
+
+    Merge branch 'master' of https://github.com/LouisWhite15/cits3200
+
+commit 1bdfe4edcf313fd54d7a62ef9efd420bb167907e
+Author: hamishstg <hamishstg@gmail.com>
+Date:   Wed Oct 18 20:36:15 2017 +0800
+
+    fixed sreview form7 plus so far I have done rename form1 header, remove phonenumber checks, tell user to upload collab and added checkbox for riskform
+
+commit 5fa8e6cb6d4a4936bfa44e72047401a2172a80cf
+Merge: b368e3d f45f544
+Author: Victorolo <21976342@student.uwa.edu.au>
+Date:   Wed Oct 18 20:31:00 2017 +0800
+
+    Merge branch 'master' of https://github.com/LouisWhite15/cits3200
+
+commit b368e3dcc4ddbf4bfcd55c75fde0add7d4710bf0
+Author: Victorolo <21976342@student.uwa.edu.au>
+Date:   Wed Oct 18 20:30:50 2017 +0800
+
+    files arent going into database
+
+commit f45f544838cbb15214d333bacf8ce24af037c2b0
+Author: Louis White <louis.white1500@gmail.com>
+Date:   Wed Oct 18 20:20:14 2017 +0800
+
+    Added brief comments in index.js
+
+commit 82e59354b8b663166eab1c9697d287cd68aec229
+Merge: c343a3e 3b31b6c
+Author: Louis White <louis.white1500@gmail.com>
+Date:   Wed Oct 18 20:08:34 2017 +0800
+
+    Merge branch 'master' of https://github.com/LouisWhite15/cits3200
+
+commit c343a3e6880511794f874e99680a7df0a616b84c
+Author: Louis White <louis.white1500@gmail.com>
+Date:   Wed Oct 18 20:07:16 2017 +0800
+
+    Removed unneccessary get calls in index route
+
+commit 3b31b6ce6af360a047d42295e126eacc40d7afaa
+Author: Victorolo <21976342@student.uwa.edu.au>
+Date:   Wed Oct 18 19:05:33 2017 +0800
+
+    merging
+
+commit 4136754eeded3f9d4124a51084858e848cdce29e
+Merge: f31c0f6 b639671
+Author: Victorolo <21976342@student.uwa.edu.au>
+Date:   Wed Oct 18 18:58:45 2017 +0800
+
+    merging
+
+commit f31c0f683b0a8204daee0b0a6ee0c937dc3391f8
+Author: Victorolo <21976342@student.uwa.edu.au>
+Date:   Wed Oct 18 18:50:45 2017 +0800
+
+    changing index js so file uplaods arent broken
+
+commit b639671506bbe2f8d15776a0afa03655d082ecba
+Author: Louis White <louis.white1500@gmail.com>
+Date:   Wed Oct 18 18:40:22 2017 +0800
+
+    Minor clean up
+
+commit 3e8e9980c8078c1c1dd98c7d8c4f79f6e2b03078
+Author: Louis White <louis.white1500@gmail.com>
+Date:   Wed Oct 18 18:39:38 2017 +0800
+
+    Form naming conventions tested and working
+
+commit e7a97a064487c4f415180c369a2102f1391b281c
+Author: Louis White <louis.white1500@gmail.com>
+Date:   Wed Oct 18 18:30:11 2017 +0800
+
+    Made risk assessment count same as form7 count for the matching of fieldwork :snake:
+
+commit ddce6176fa9ef7c04d3d60dca761d6cb1a5e5da0
+Author: Louis White <louis.white1500@gmail.com>
+Date:   Wed Oct 18 18:28:04 2017 +0800
+
+    Naming convention fix
+
+commit 142e7040a580c5346ae9884789dfb6caaed0c3ce
+Author: Louis White <louis.white1500@gmail.com>
+Date:   Wed Oct 18 18:23:24 2017 +0800
+
+    Updated readme
+
+commit 61ca4a741f5d9607f74555366c647ca88b9015bc
+Author: Louis White <louis.white1500@gmail.com>
+Date:   Wed Oct 18 18:22:40 2017 +0800
+
+    Fixed syntax error
+
+commit 28d9c3daba95d5cfdfd88aa86c81dd15ea5eb107
+Author: Louis White <louis.white1500@gmail.com>
+Date:   Wed Oct 18 18:22:14 2017 +0800
+
+    Fixed syntax error
+
+commit fcc5132cf0ef1811e810b058ef3ff9fbae71920a
+Merge: db933ac c5eaaba
+Author: Louis White <louis.white1500@gmail.com>
+Date:   Wed Oct 18 18:21:11 2017 +0800
+
+    Merge branch 'master' of https://github.com/LouisWhite15/cits3200
+
+commit db933ac54196baefe0e6a831a3ed1d74d50fec29
+Author: Louis White <louis.white1500@gmail.com>
+Date:   Wed Oct 18 18:20:55 2017 +0800
+
+    Added a naming convention for the forms
+
+commit c5eaabae1f6c97e1b9254bb47d8f4b187d7fb1c3
+Author: kiirisuna <21707741@student.uwa.edu.au>
+Date:   Wed Oct 18 18:08:59 2017 +0800
+
+    removed fieldwork description
+
+commit e8b903e4270e8af6e783ef7e0722fe150d42330e
+Author: kiirisuna <21707741@student.uwa.edu.au>
+Date:   Wed Oct 18 18:07:01 2017 +0800
+
+    changed fieldwork details
+
+commit 9d97944673f777d98f15642f87bc34ff8c1b91cc
+Author: kiirisuna <21707741@student.uwa.edu.au>
+Date:   Wed Oct 18 18:02:26 2017 +0800
+
+    temp fix for name in title (not checking if form exist for user properly [i think])
+
+commit 91defc6333f5b29c1d9eeac9a7e6860a6cea405d
+Author: kiirisuna <21707741@student.uwa.edu.au>
+Date:   Wed Oct 18 17:50:16 2017 +0800
+
+    fixed name not showing up
+
+commit 642352a012e38b05c48905fbc565857fe64ca0bd
+Author: Louis White <louis.white1500@gmail.com>
+Date:   Wed Oct 18 17:41:37 2017 +0800
+
+    After form completion, redirects to formPrint of the current form
+
+commit a4dbfafb3453b0c00d446620e4250fcfd5fb471e
+Author: Louis White <louis.white1500@gmail.com>
+Date:   Wed Oct 18 17:31:51 2017 +0800
+
+    Readme formatting
+
+commit 5f4e8b1e0f1b6f9e0de087c3932091e52c68fdaf
+Author: Louis White <louis.white1500@gmail.com>
+Date:   Wed Oct 18 17:31:17 2017 +0800
+
+    Changed state 'Reviewed by Student' to 'Reviewed by User'
+
+commit 02f3068098f7d27a5f0743d0f5d4506a44c64dd7
+Author: Louis White <louis.white1500@gmail.com>
+Date:   Wed Oct 18 17:23:39 2017 +0800
+
+    Updated readme
+
+commit 40523de2c7ea0b31c9f37a4ba57e813fb9dab8ad
+Merge: 15e7eba 2a97097
+Author: Louis White <louis.white1500@gmail.com>
+Date:   Wed Oct 18 17:22:18 2017 +0800
+
+    Merge branch 'master' of https://github.com/LouisWhite15/cits3200
+
+commit 15e7eba204388ca0e87ec7701f4f1879ec4d8277
+Author: Louis White <louis.white1500@gmail.com>
+Date:   Wed Oct 18 17:21:57 2017 +0800
+
+    Fixed typo which I believe to be the cause of failed form flow
+
+commit 2a97097bde8c712d085eb90fad82b04b49b7e482
+Author: kiirisuna <21707741@student.uwa.edu.au>
+Date:   Wed Oct 18 17:13:43 2017 +0800
+
+    title changes as well
+
+commit e6af12a9fb38c309ee1a9c9c3ed85e8f95454aea
+Author: kiirisuna <21707741@student.uwa.edu.au>
+Date:   Wed Oct 18 17:11:47 2017 +0800
+
+    changes to titles
+
+commit c31f11c89b6c40f0da892688dc2cb639d474885e
+Author: Louis White <louis.white1500@gmail.com>
+Date:   Wed Oct 18 16:50:18 2017 +0800
+
+    Updated README.md to show TODO list
+
+commit b3ea44a7f0dd8930fc8b880a9fd9b4b27bab5707
+Author: kiirisuna <21707741@student.uwa.edu.au>
+Date:   Wed Oct 18 16:41:33 2017 +0800
+
+    typo fixed
+
+commit ad8ea497e87c91917b0edd2c0bcfc3e46cfbe206
+Author: kiirisuna <21707741@student.uwa.edu.au>
+Date:   Wed Oct 18 16:35:49 2017 +0800
+
+    typos suss'ed out
+
+commit 57a2d73ddd3d2df77d1adbc55a57f086e965e37c
+Author: kiirisuna <21707741@student.uwa.edu.au>
+Date:   Wed Oct 18 16:13:47 2017 +0800
+
+    title changes
+
+commit 48c82173b918f04733bfbe41ebfd726fd6245998
+Author: kiirisuna <21707741@student.uwa.edu.au>
+Date:   Wed Oct 18 15:28:47 2017 +0800
+
+    title changes
+
+commit 9cd1b4cac81134f3bd142ce511625cba1df58ddf
+Author: kiirisuna <21707741@student.uwa.edu.au>
+Date:   Wed Oct 18 15:23:03 2017 +0800
+
+    phrasing changes
+
+commit 5d7d7816e269f24b568bff5b57a3662130241e38
+Author: hamishstg <hamishstg@gmail.com>
+Date:   Wed Oct 18 13:08:57 2017 +0800
+
+    version without showing pdf so that the form7 review doesn't break when showing to people
+
+commit a7c86a9e7530864f752b791e5f8caf9f143c1f05
+Author: hamishstg <hamishstg@gmail.com>
+Date:   Wed Oct 18 12:04:19 2017 +0800
+
+    hopefully fixed the issue with attached pdf not displaying properly
+
+commit bea1cc912afe15bf493e52e1311e67281201a218
+Author: hamishstg <hamishstg@gmail.com>
+Date:   Wed Oct 18 11:49:07 2017 +0800
+
+    fixed POST page routes so should now post and create pdf on live app
+
+commit 20d4826e36240a181c10225687791e03259e8618
+Author: hamishstg <hamishstg@gmail.com>
+Date:   Wed Oct 18 11:43:26 2017 +0800
+
+    test change to form7 print
+
+commit fb5596f3aa37ccdbb49fcd2a7c2598b5901a2d9d
+Author: hamishstg <hamishstg@gmail.com>
+Date:   Wed Oct 18 11:12:46 2017 +0800
+
+    fixed form7 buttons so it will not select the buttons that are required to be ticked to submit the form
+
+commit 73355f32a283a2326bcc324c4426c7ca306d293a
+Author: hamishstg <hamishstg@gmail.com>
+Date:   Wed Oct 18 10:35:11 2017 +0800
+
+    fixed some stuff in form7 highights include fixing the phone numbers('finally'), and fixing the comments so they all work, also fixed the placeholder for no comment on riskform and form7
+
+commit 3b36d00aed6cf30f9bad11eb27a5b44530e2509e
+Author: hamishstg <hamishstg@gmail.com>
+Date:   Wed Oct 18 09:57:03 2017 +0800
+
+    fixed a whole bunch of small things in the forms, including the datepickers in form7, placeholders in riskform review and sreview, text fixes in riskform, changed required tags in riskform review and sreview, fixed comments in riskform so they all now work
+
+commit 115376e89b1d7c51572994c9b2c26053e181d6ee
+Author: Louis White <louis.white1500@gmail.com>
+Date:   Wed Oct 18 02:41:34 2017 +0800
+
+    Fix for formidable to allow multiple files again
+
+commit 651f72a342f30705e6349d1d3ef7ac52e2a3a6be
+Author: Louis White <louis.white1500@gmail.com>
+Date:   Wed Oct 18 02:28:37 2017 +0800
+
+    Rolled back index.js a few commits to when it worked
+
+commit c49b9ac138dd9b165bc69c99b182bf3c9268ee21
+Author: Louis White <louis.white1500@gmail.com>
+Date:   Wed Oct 18 02:12:39 2017 +0800
+
+    Phantomjs version change to allow it to work on Linux
+
+commit 2c9b07d3dc4f9b5f4b4b6e49dcd6063c17aec673
+Merge: bc04fd7 b38ce48
+Author: Louis White <louis.white1500@gmail.com>
+Date:   Wed Oct 18 01:50:34 2017 +0800
+
+    Merge branch 'master' of https://github.com/LouisWhite15/cits3200
+
+commit bc04fd7b47b003f9236ef0996ca61fd4c6735fad
+Author: Louis White <louis.white1500@gmail.com>
+Date:   Wed Oct 18 01:50:10 2017 +0800
+
+    Workflow works and form7 all works
+
+commit b38ce488513e027120576447a7538377f5c4f218
+Author: Victorolo <21976342@student.uwa.edu.au>
+Date:   Wed Oct 18 01:46:23 2017 +0800
+
+    pages shouldnt break in the middle of sections now
+
+commit df2e39fa35cd807a49e7450dd45f1c25560f3d7c
+Author: Victorolo <21976342@student.uwa.edu.au>
+Date:   Wed Oct 18 01:40:14 2017 +0800
+
+    now says when a licence file is found
+
+commit 3e5126bbead9ad588a455570ad852f5034680fda
+Author: Victorolo <21976342@student.uwa.edu.au>
+Date:   Wed Oct 18 01:27:33 2017 +0800
+
+    changed back to formidable form 7 version
+
+commit 85bade2d93545c1238e1e1527c60255a79192333
+Author: Louis White <louis.white1500@gmail.com>
+Date:   Wed Oct 18 01:11:04 2017 +0800
+
+    Allows arrays to work again :snake: :snake:
+
+commit ae8034f1517a4729ab31c823020fcc3c31e792c5
+Author: hamishstg <hamishstg@gmail.com>
+Date:   Wed Oct 18 00:54:59 2017 +0800
+
+    all forms now correctly display data posted into the database when data is entered in every field, also deletes where fixed for all riskforms. Finally changed the requireds so that people can not enter something in first risk but once they add a risk they must add in data for those fields. Still needs to be tested for when people don't add data to all risks
+
+commit 35215e9247a088b55e01a481f80ed6b1c11eb8b9
+Merge: 7c7f9d2 edca9aa
+Author: Victorolo <21976342@student.uwa.edu.au>
+Date:   Tue Oct 17 22:55:09 2017 +0800
+
+    Merge branch 'master' of https://github.com/LouisWhite15/cits3200
+
+commit 7c7f9d2bbd001aade3f0dbfd1f8b87ff0bc043fe
+Author: Victorolo <21976342@student.uwa.edu.au>
+Date:   Tue Oct 17 22:54:58 2017 +0800
+
+    added seperate forms in form 7 ejs
+
+commit edca9aa5186e8d553f50d599cdd52758dcb8ffd9
+Author: Louis White <21500209@student.uwa.edu.au>
+Date:   Tue Oct 17 22:53:34 2017 +0800
+
+    Added student reviews to testAll
+
+commit 42c9448b6bfcb906f88e5503c1aec5e25e4ec723
+Author: hamishstg <hamishstg@gmail.com>
+Date:   Tue Oct 17 22:52:14 2017 +0800
+
+    changed the dates to be in dd/mm/yy format and also removed the readonly from montime
+
+commit c87ec4ac5a07a10b533b84b7b55fcbde69a89b1c
+Author: hamishstg <hamishstg@gmail.com>
+Date:   Tue Oct 17 22:39:30 2017 +0800
+
+    changed the name of value of adminastrative from adminastrve to adminastrative
+
+commit e2f407fb17d343ed65ef54839f008ad329e1d2e0
+Merge: 0cbd9db 2f9a127
+Author: hamishstg <hamishstg@gmail.com>
+Date:   Tue Oct 17 22:33:14 2017 +0800
+
+    Merge branch 'master' of https://github.com/LouisWhite15/cits3200
+
+commit 0cbd9db7f1eead5ce743a9f6ec7962a63795ada9
+Author: hamishstg <hamishstg@gmail.com>
+Date:   Tue Oct 17 22:32:57 2017 +0800
+
+    fixed the riskassform so they now display the post and display the correct data in the print and normal risk forms haven't tested the review and sreview
+
+commit 2f9a127f2485d2b8b7f7f881c841c1a0aebe2018
+Merge: e8fe185 206385e
+Author: Rob <20495129@student.uwa.edu.au>
+Date:   Tue Oct 17 22:00:52 2017 +0800
+
+    Merge branch 'master' of https://github.com/LouisWhite15/cits3200 into robTest
+
+commit e8fe185a7a02447a275df07f639924e715593a41
+Author: Rob <20495129@student.uwa.edu.au>
+Date:   Tue Oct 17 22:00:41 2017 +0800
+
+    styling on viewforms page
+
+commit 206385e2722f665bac266b8c2d130d5c8f6ad0ba
+Merge: 3779114 d78108b
+Author: Victorolo <21976342@student.uwa.edu.au>
+Date:   Tue Oct 17 21:58:07 2017 +0800
+
+    Merge branch 'master' of https://github.com/LouisWhite15/cits3200
+
+commit 3779114b250a17bc1707549dac71652bca343332
+Author: Victorolo <21976342@student.uwa.edu.au>
+Date:   Tue Oct 17 21:57:55 2017 +0800
+
+    added print to all print pages
+
+commit d78108ba40ce63b7c48bdba4d8605d41a50eb7a3
+Author: kiirisuna <21707741@student.uwa.edu.au>
+Date:   Tue Oct 17 21:49:56 2017 +0800
+
+    removed console log
+
+commit 63d7d788ef669742d6f4391f0833ac9cae76204a
+Merge: cf35d68 d736fc9
+Author: hamishstg <hamishstg@gmail.com>
+Date:   Tue Oct 17 21:49:38 2017 +0800
+
+    Merge branch 'master' of https://github.com/LouisWhite15/cits3200
+
+commit d736fc9d71cd188d2b5ea6123bb9e0993178f557
+Author: kiirisuna <21707741@student.uwa.edu.au>
+Date:   Tue Oct 17 21:47:23 2017 +0800
+
+    error msg for checkbox fixed
+
+commit d6e91d5fe23c46a38304d1b6f660127ba49ee997
+Merge: 2a2c490 b2d7cd3
+Author: Victorolo <21976342@student.uwa.edu.au>
+Date:   Tue Oct 17 21:45:45 2017 +0800
+
+    Merge branch 'master' of https://github.com/LouisWhite15/cits3200
+
+commit 2a2c490513fb6564a059b00a39e2c256b55c5c3d
+Author: Victorolo <21976342@student.uwa.edu.au>
+Date:   Tue Oct 17 21:45:27 2017 +0800
+
+    print pdf now deletes afterwards
+
+commit cf35d687f6411ed0e60f0ff3dadfcc3ae65c304e
+Merge: 0849109 b2d7cd3
+Author: hamishstg <hamishstg@gmail.com>
+Date:   Tue Oct 17 21:41:53 2017 +0800
+
+    Merge branch 'master' of https://github.com/LouisWhite15/cits3200
+
+commit 0849109d6b86f557801d52c3e1dee2828b413f28
+Author: hamishstg <hamishstg@gmail.com>
+Date:   Tue Oct 17 21:41:47 2017 +0800
+
+    need to do this
+
+commit b2d7cd3a8847c7456051a217f913d0a7f7f613dd
+Author: Rob <20495129@student.uwa.edu.au>
+Date:   Tue Oct 17 21:19:31 2017 +0800
+
+    styling on viewforms page
+
+commit f618b2954b60945ff327205852d8fd9eb09a267e
+Author: Rob <20495129@student.uwa.edu.au>
+Date:   Tue Oct 17 21:15:17 2017 +0800
+
+    styling on viewforms page
+
+commit 6a12f5cedddd5859a8b7d3b1732ac17fedb08dc0
+Merge: 65350ee d47939d
+Author: kiirisuna <21707741@student.uwa.edu.au>
+Date:   Tue Oct 17 21:04:57 2017 +0800
+
+    Merge branch 'master' of http://github.com/LouisWhite15/cits3200
+
+commit d47939de1ab1061ddcc5a05236b15e318df334e2
+Author: Rob <20495129@student.uwa.edu.au>
+Date:   Tue Oct 17 21:04:53 2017 +0800
+
+    initial backend pass of viewforms
+
+commit 65350ee10810d89ffa9854b9108524170757fb1d
+Author: kiirisuna <21707741@student.uwa.edu.au>
+Date:   Tue Oct 17 21:04:36 2017 +0800
+
+    office only added
+
+commit 9c80ccdf3accd557ea7c69ff343b7bb23e862844
+Author: Rob <20495129@student.uwa.edu.au>
+Date:   Tue Oct 17 21:00:34 2017 +0800
+
+    initial backend pass of viewforms
+
+commit 1123032fa080f08402a052c78ae76bb991eb5495
+Author: kiirisuna <21707741@student.uwa.edu.au>
+Date:   Tue Oct 17 20:58:30 2017 +0800
+
+    checkbox disable
+
+commit 8d92af0fe699af8ae4e594f495b8377d766f13f2
+Merge: 0cc9354 7e42efe
+Author: hamishstg <hamishstg@gmail.com>
+Date:   Tue Oct 17 20:34:38 2017 +0800
+
+    Merge branch 'master' of https://github.com/LouisWhite15/cits3200
+
+commit 0cc9354f79b479ee7db1e17b75058b8dabc59094
+Author: hamishstg <hamishstg@gmail.com>
+Date:   Tue Oct 17 20:34:23 2017 +0800
+
+    fixed the riskform delete plus fixed ids on form7
+
+commit 7e42efe6a05ae23b33f8ce90ce2ef7e22847c492
+Author: Victorolo <21976342@student.uwa.edu.au>
+Date:   Tue Oct 17 20:32:27 2017 +0800
+
+    changed back to res send file
+
+commit 52fd3197905d6b87e62e52adaf4b5078889232d2
+Author: Victorolo <21976342@student.uwa.edu.au>
+Date:   Tue Oct 17 20:29:14 2017 +0800
+
+    changed res send file to  opn
+
+commit 902134eb5110890efb3168a6dc5c3587dd620e39
+Author: Victorolo <21976342@student.uwa.edu.au>
+Date:   Tue Oct 17 20:25:25 2017 +0800
+
+    changed res send file to  opn
+
+commit 1ab1ba5062d40e4a6b2d9dac64b1c3be7fe08f56
+Author: Rob <20495129@student.uwa.edu.au>
+Date:   Tue Oct 17 20:23:14 2017 +0800
+
+    initial backend pass of viewforms
+
+commit 33587253845bdf9dab21f4f3d98a1c490aa0e3a0
+Author: Rob <20495129@student.uwa.edu.au>
+Date:   Tue Oct 17 20:20:54 2017 +0800
+
+    initial backend pass of viewforms
+
+commit 42b3e5fdb8d71877d5c053f3cfedfb3452a007bc
+Author: Rob <20495129@student.uwa.edu.au>
+Date:   Tue Oct 17 20:18:29 2017 +0800
+
+    initial backend pass of viewforms
+
+commit 19b76d2deafa24f3f92dac054e6c3bbc631922ef
+Author: Rob <20495129@student.uwa.edu.au>
+Date:   Tue Oct 17 20:14:29 2017 +0800
+
+    initial backend pass of viewforms
+
+commit fb17b387c14cf2f782376e3849ebc165251dd108
+Author: Rob <20495129@student.uwa.edu.au>
+Date:   Tue Oct 17 20:09:26 2017 +0800
+
+    initial backend pass of viewforms
+
+commit 16e26c58505da03091a0fb94b3687ad79e567316
+Author: hamishstg <hamishstg@gmail.com>
+Date:   Tue Oct 17 20:05:41 2017 +0800
+
+    fixed bug that caused it to delete risks when it shouldn't
+
+commit 490aa450522527c2c976b48c93d5d8195676dc3f
+Author: kiirisuna <21707741@student.uwa.edu.au>
+Date:   Tue Oct 17 19:52:07 2017 +0800
+
+    consistency changes
+
+commit 8ab341ae169d8027bfbc43a27a24330824dd0983
+Author: kiirisuna <21707741@student.uwa.edu.au>
+Date:   Tue Oct 17 19:41:15 2017 +0800
+
+    dashboard padding/date and slight title changes
+
+commit bd1a1e626a6d873853febbdcd871b51ebe2d7cbc
+Author: Louis White <louis.white1500@gmail.com>
+Date:   Tue Oct 17 19:33:27 2017 +0800
+
+    Spacing
+
+commit 0391182150c16fa12084174eda9f76bd2656fac3
+Merge: 94395f2 06e6135
+Author: Louis White <louis.white1500@gmail.com>
+Date:   Tue Oct 17 19:31:39 2017 +0800
+
+    Merge branch 'master' of https://github.com/LouisWhite15/cits3200
+
+commit 94395f21c539d44eed083ea0648119619981ec8f
+Author: Louis White <louis.white1500@gmail.com>
+Date:   Tue Oct 17 19:31:08 2017 +0800
+
+    Fixed reset password styling
+
+commit 06e61353afbd8115cd639f056740d16395b4b71e
+Author: Rob <20495129@student.uwa.edu.au>
+Date:   Tue Oct 17 19:30:21 2017 +0800
+
+    begun work on admin search
+
+commit d1640a16d5595ad5398247637e2e61c27e6e959f
+Author: kiirisuna <21707741@student.uwa.edu.au>
+Date:   Tue Oct 17 19:27:28 2017 +0800
+
+    padding
+
+commit 5ea89f6a11ae5f617b9b4496f68b3cfb51c18ec0
+Author: Louis White <louis.white1500@gmail.com>
+Date:   Tue Oct 17 19:14:24 2017 +0800
+
+    Same as last commit but made it actually work
+
+commit 68e4ab19b8cb4b66e7c5a4ac566a9c95c423a655
+Merge: 275653d 6817f56
+Author: Louis White <louis.white1500@gmail.com>
+Date:   Tue Oct 17 19:13:24 2017 +0800
+
+    Merge branch 'master' of https://github.com/LouisWhite15/cits3200
+
+commit 275653dbaaf099ba27083280bd133f5ad7626c80
+Author: Louis White <louis.white1500@gmail.com>
+Date:   Tue Oct 17 19:12:59 2017 +0800
+
+    /reset should work for style testing
+
+commit 6817f56d7d0c9d93b5151b949715d2c25618af4f
+Author: Rob <20495129@student.uwa.edu.au>
+Date:   Tue Oct 17 19:02:06 2017 +0800
+
+    adding a table to admin dashboard
+
+commit 331352d9fd763c1e366e636b194363aa9e4199b0
+Merge: 118e9cd b8e232e
+Author: Rob <20495129@student.uwa.edu.au>
+Date:   Tue Oct 17 19:00:55 2017 +0800
+
+    Merge branch 'master' of https://github.com/LouisWhite15/cits3200 into robTest
+
+commit 118e9cdbc6d2716132a5a0328383f9c4e1dd2edc
+Author: Rob <20495129@student.uwa.edu.au>
+Date:   Tue Oct 17 19:00:40 2017 +0800
+
+    adding a table to admin dashboard
+
+commit 16b4edc8df119d84d337a15893ec196222366914
+Author: Rob <20495129@student.uwa.edu.au>
+Date:   Tue Oct 17 18:57:12 2017 +0800
+
+    adding a table to admin dashboard
+
+commit b8e232e69289c0f6209d54947aa25df602340664
+Merge: 4468027 97e136c
+Author: Louis White <louis.white1500@gmail.com>
+Date:   Tue Oct 17 18:56:30 2017 +0800
+
+    Merge branch 'master' of https://github.com/LouisWhite15/cits3200
+
+commit 44680273b89e09867968683db3aa07fa22f7ee09
+Author: Louis White <louis.white1500@gmail.com>
+Date:   Tue Oct 17 18:56:09 2017 +0800
+
+    Make admin is now just a button
+
+commit 97e136cabde6235f1502dc5b28612d1c90907f38
+Author: Rob <20495129@student.uwa.edu.au>
+Date:   Tue Oct 17 18:55:09 2017 +0800
+
+    adding a table to admin dashboard
+
+commit cf4e96bdf70a8138ec428b33a8a2e16ab3d86393
+Author: Rob <20495129@student.uwa.edu.au>
+Date:   Tue Oct 17 18:47:32 2017 +0800
+
+    adding a table to admin dashboard
+
+commit 0e5a923bef0a94a20a944af6c9ce9e9f8a80c89b
+Author: Rob <20495129@student.uwa.edu.au>
+Date:   Tue Oct 17 18:43:53 2017 +0800
+
+    adding a table to admin dashboard
+
+commit 345915a5107c0e5dab7294952d7a39c73aff4897
+Author: Rob <20495129@student.uwa.edu.au>
+Date:   Tue Oct 17 18:40:58 2017 +0800
+
+    adding a table to admin dashboard
+
+commit d673f9ad3728149440d84f09d9ada68a6d903ee5
+Merge: 1b69e7e cd98e36
+Author: Rob <20495129@student.uwa.edu.au>
+Date:   Tue Oct 17 18:34:25 2017 +0800
+
+    Merge branch 'master' of https://github.com/LouisWhite15/cits3200 into robTest
+
+commit 1b69e7eb1961da920aa99f05b30325978bac579d
+Author: Rob <20495129@student.uwa.edu.au>
+Date:   Tue Oct 17 18:34:13 2017 +0800
+
+    adding a table to admin dashboard
+
+commit cd98e36f9cf803f0e587189070094aff621008e9
+Author: Louis White <louis.white1500@gmail.com>
+Date:   Tue Oct 17 18:33:10 2017 +0800
+
+    Made a typo earlier :cry:
+
+commit 325ed2e0df6b90077aa3c89bfcbff1b58a5db4a4
+Merge: e7dc89e 58ea9e2
+Author: Louis White <louis.white1500@gmail.com>
+Date:   Tue Oct 17 18:31:16 2017 +0800
+
+    Merge branch 'master' of https://github.com/LouisWhite15/cits3200
+
+commit e7dc89e6e5b7a77b8fc17efff7393875bf175894
+Author: Louis White <louis.white1500@gmail.com>
+Date:   Tue Oct 17 18:30:52 2017 +0800
+
+    Fixed forms not showing up because of new state
+
+commit 58ea9e2f6beddbad889348b957e6b0adb2d6031c
+Author: Rob <20495129@student.uwa.edu.au>
+Date:   Tue Oct 17 18:25:25 2017 +0800
+
+    adding a table to admin dashboard
+
+commit 82dfe7723fa701264a850f7f53ae9aa44a4a8315
+Author: Louis White <louis.white1500@gmail.com>
+Date:   Tue Oct 17 18:23:49 2017 +0800
+
+    Cleanup
+
+commit 603f9fa195a570089922b9bd69f2bb8cc56afea0
+Author: Louis White <louis.white1500@gmail.com>
+Date:   Tue Oct 17 18:21:38 2017 +0800
+
+    Fix risk assessment form flow
+
+commit 19ca4e42361984c4009b6a9bd7b4bf0327d8024a
+Author: Louis White <louis.white1500@gmail.com>
+Date:   Tue Oct 17 18:20:30 2017 +0800
+
+    Cleanup
+
+commit 82aea484850a806693cadbf64ec71d320959849c
+Merge: ca5121b 1a6829e
+Author: Louis White <louis.white1500@gmail.com>
+Date:   Tue Oct 17 18:20:10 2017 +0800
+
+    Merge branch 'master' of https://github.com/LouisWhite15/cits3200
+
+commit ca5121bd4445a7b7abf264096c4791af1f403b8a
+Author: Louis White <louis.white1500@gmail.com>
+Date:   Tue Oct 17 18:19:47 2017 +0800
+
+    Admin flow of forms works
+
+commit 1a6829e7a19bd501e1fcf985e519b269cda404bf
+Merge: 206c3fe ed4f398
+Author: Victorolo <21976342@student.uwa.edu.au>
+Date:   Tue Oct 17 17:47:07 2017 +0800
+
+    Merge branch 'master' of https://github.com/LouisWhite15/cits3200
+
+commit 206c3fe0a31a6eb6e386679a513225f0d6b6a570
+Author: Victorolo <21976342@student.uwa.edu.au>
+Date:   Tue Oct 17 17:46:55 2017 +0800
+
+    logs fiel name in form 1 print
+
+commit ed4f398c951594e541864e98e0ec297b1ec9c79b
+Merge: 0666228 2995aa5
+Author: Louis White <louis.white1500@gmail.com>
+Date:   Tue Oct 17 17:40:25 2017 +0800
+
+    Merge branch 'master' of https://github.com/LouisWhite15/cits3200
+
+commit 066622857ae4f170fbf81f8c518e349b623b2a52
+Author: Louis White <louis.white1500@gmail.com>
+Date:   Tue Oct 17 17:40:02 2017 +0800
+
+    Workflow implemented. Currently testing
+
+commit 2995aa53aa35607d0984ceb4f653e072378a85a5
+Merge: 47a926a 15a60f2
+Author: hamishstg <hamishstg@gmail.com>
+Date:   Tue Oct 17 17:33:11 2017 +0800
+
+    Merge branch 'master' of https://github.com/LouisWhite15/cits3200
+
+commit 47a926a04514455b792220cc7af400979011db7e
+Author: hamishstg <hamishstg@gmail.com>
+Date:   Tue Oct 17 17:32:54 2017 +0800
+
+    got rid of a console.log that crashed the app
+
+commit 15a60f25e4c67be95c870ef02018b7a5e162f824
+Merge: 458a225 8fc8c56
+Author: kiirisuna <21707741@student.uwa.edu.au>
+Date:   Tue Oct 17 17:32:14 2017 +0800
+
+    Merge branch 'master' of http://github.com/LouisWhite15/cits3200
+
+commit 8fc8c56a09e34b9c0e45b246ac09b555a0f39db2
+Merge: e8a5511 cd3bda2
+Author: Victorolo <21976342@student.uwa.edu.au>
+Date:   Tue Oct 17 17:32:06 2017 +0800
+
+    Merge branch 'master' of https://github.com/LouisWhite15/cits3200
+
+commit e8a55112b11ffdbf98fa5e470e981e81c6913018
+Author: Victorolo <21976342@student.uwa.edu.au>
+Date:   Tue Oct 17 17:31:52 2017 +0800
+
+    form1print no longer deletes pdf
+
+commit 458a225038a06b2f27dd0248470a8a07f0af391b
+Author: kiirisuna <21707741@student.uwa.edu.au>
+Date:   Tue Oct 17 17:31:41 2017 +0800
+
+    moved the view buttons
+
+commit cd3bda29872abc884f648629235e47a10624aad1
+Merge: 62d2647 a38531f
+Author: hamishstg <hamishstg@gmail.com>
+Date:   Tue Oct 17 17:28:30 2017 +0800
+
+    Merge branch 'master' of https://github.com/LouisWhite15/cits3200
+
+commit 62d2647b5c95d4edfbeca3f84e3fdecdad4ce11d
+Author: hamishstg <hamishstg@gmail.com>
+Date:   Tue Oct 17 17:28:24 2017 +0800
+
+    addded a button to the two risk forms that will submit to /formnameReview/id
+
+commit a38531f5dc9d6defe78818ee7f05aac90d671bf7
+Merge: ebf5914 294c4ef
+Author: Victorolo <21976342@student.uwa.edu.au>
+Date:   Tue Oct 17 17:26:52 2017 +0800
+
+    Merge branch 'master' of https://github.com/LouisWhite15/cits3200
+
+commit ebf59147adf66f551371cacceff0fa1039da62b7
+Author: Victorolo <21976342@student.uwa.edu.au>
+Date:   Tue Oct 17 17:26:39 2017 +0800
+
+    delete is now forced for form 1 print
+
+commit 294c4ef85a3db3c743ba56208e57137a881b2d45
+Author: kiirisuna <21707741@student.uwa.edu.au>
+Date:   Tue Oct 17 17:19:20 2017 +0800
+
+    slight change to title
+
+commit 0013575bfb39dfe0e339fe54c0b4eaba41702072
+Author: kiirisuna <21707741@student.uwa.edu.au>
+Date:   Tue Oct 17 17:14:04 2017 +0800
+
+    slight change to title
+
+commit 8e68df2477c73d2595dc496fe9b3a8012e5919b5
+Merge: 72edd2d 767f7e2
+Author: kiirisuna <21707741@student.uwa.edu.au>
+Date:   Tue Oct 17 17:07:28 2017 +0800
+
+    Merge branch 'master' of http://github.com/LouisWhite15/cits3200
+
+commit 72edd2daf072f7e9f514ca5142c33ab23f10f860
+Author: kiirisuna <21707741@student.uwa.edu.au>
+Date:   Tue Oct 17 17:07:05 2017 +0800
+
+    slight title changes
+
+commit 767f7e2e97264b71ec08b5285d01f122daffe80b
+Author: Victorolo <21976342@student.uwa.edu.au>
+Date:   Tue Oct 17 17:06:33 2017 +0800
+
+    testing form 1 print for heroku
+
+commit 09b23aad2c8ed185efad757132284ac02a45260b
+Author: Victorolo <21976342@student.uwa.edu.au>
+Date:   Tue Oct 17 16:59:54 2017 +0800
+
+    file no longer self deletes
+
+commit 4c133043c46b2180f4eff6149c15b6e77a879bd5
+Author: Louis White <louis.white1500@gmail.com>
+Date:   Tue Oct 17 16:52:57 2017 +0800
+
+    Added packages back
+
+commit d18ca3bd5dc6055bc6ba57e3ce0a9676820b76f5
+Author: Victorolo <21976342@student.uwa.edu.au>
+Date:   Tue Oct 17 16:49:35 2017 +0800
+
+    added opn
+
+commit 6b12e44344461b4f7d421a78f416d6337360e2d1
+Merge: 4c5fc50 740cdc3
+Author: Rob <20495129@student.uwa.edu.au>
+Date:   Tue Oct 17 16:46:48 2017 +0800
+
+    Merge branch 'master' of https://github.com/LouisWhite15/cits3200 into robTest
+
+commit 4c5fc501d2b169df225c48d3808144c4f742c644
+Author: Rob <20495129@student.uwa.edu.au>
+Date:   Tue Oct 17 16:45:46 2017 +0800
+
+    mild dashboard styling
+
+commit 740cdc3e1e08f11e7a0a95c2f7ac5cb96cc34e38
+Author: Victorolo <21976342@student.uwa.edu.au>
+Date:   Tue Oct 17 16:45:16 2017 +0800
+
+    added back broken parts
+
+commit fead85e4d8638ff0b7090fe8460f3c6288dc8105
+Author: Victorolo <21976342@student.uwa.edu.au>
+Date:   Tue Oct 17 16:42:31 2017 +0800
+
+    with path and fs
+
+commit 5604cfbd9407e5a6548ac69f2a92ea2019f18a71
+Author: Victorolo <21976342@student.uwa.edu.au>
+Date:   Tue Oct 17 16:37:16 2017 +0800
+
+    form 1 should print now
+
+commit 77ab0a01d753aa884216aedb1aa35dc71564d85f
+Author: Victorolo <21976342@student.uwa.edu.au>
+Date:   Tue Oct 17 16:32:57 2017 +0800
+
+    trying to get form 1 to print
+
+commit 5c7f89f84a1993c8f9272e6038863fd3ba32eed9
+Author: Victorolo <21976342@student.uwa.edu.au>
+Date:   Tue Oct 17 16:28:55 2017 +0800
+
+    changed html to pdf to not run javascript
+
+commit 419d59cb8cb7ee82d0d151d089a3ad2dd9f1c7ba
+Author: Rob <20495129@student.uwa.edu.au>
+Date:   Tue Oct 17 16:20:11 2017 +0800
+
+    slight restyling dashboard, added changepassword
+
+commit 1172d9ede316bd2eabf66720529503d1b8cd5c53
+Author: Louis White <louis.white1500@gmail.com>
+Date:   Tue Oct 17 16:14:11 2017 +0800
+
+    Updates to workflow
+
+commit 7d54ee1cb283766009fd562d1925477989ef1a47
+Merge: d9dc7cf b975a45
+Author: Louis White <louis.white1500@gmail.com>
+Date:   Tue Oct 17 16:12:53 2017 +0800
+
+    Merge branch 'master' of https://github.com/LouisWhite15/cits3200
+
+commit d9dc7cf295f1610f41fd3dea3d07b2852f8cd540
+Merge: 4f49c57 82f2020
+Author: Louis White <louis.white1500@gmail.com>
+Date:   Tue Oct 17 16:08:07 2017 +0800
+
+    Merge branch 'master' of https://github.com/LouisWhite15/cits3200
+
+commit b975a4519390ecd022145acc3590a6870264a23f
+Author: Rob <20495129@student.uwa.edu.au>
+Date:   Tue Oct 17 16:07:59 2017 +0800
+
+    risk assessment wont render if no completed form1
+
+commit 82f202041cc9057a972c47071ebb721816d72d7f
+Author: Rob <20495129@student.uwa.edu.au>
+Date:   Tue Oct 17 16:05:13 2017 +0800
+
+    risk assessment wont render if no completed form1
+
+commit 4f49c57be3d3a5a42e2aa03b3b56ff826e49967e
+Author: Louis White <louis.white1500@gmail.com>
+Date:   Tue Oct 17 16:04:35 2017 +0800
+
+    Added some work flow
+
+commit ac597f2bbbbb9dd0adb1ea33af134c99d28c976d
+Author: Rob <20495129@student.uwa.edu.au>
+Date:   Tue Oct 17 16:04:06 2017 +0800
+
+    risk assessment wont render if no completed form1
+
+commit cab8b4784b6e1581c8796d10a2b3e6f08cd395ec
+Author: Rob <20495129@student.uwa.edu.au>
+Date:   Tue Oct 17 16:01:51 2017 +0800
+
+    risk assessment wont render if no completed form1
+
+commit ef8a44f8fa9ece9ca2e8f4134629fb9bfa1f5a1e
+Merge: 6d171a7 64726c8
+Author: hamishstg <hamishstg@gmail.com>
+Date:   Tue Oct 17 15:49:53 2017 +0800
+
+    Merge branch 'master' of https://github.com/LouisWhite15/cits3200
+
+commit 6d171a7f42eb057f6f835a283083ab82a20a9a0b
+Author: hamishstg <hamishstg@gmail.com>
+Date:   Tue Oct 17 15:48:42 2017 +0800
+
+    changed form7 print to match the other two print forms and be a bit more legible
+
+commit 64726c8558a9c021f1821d0096cdbbb178832f90
+Merge: 184dd14 a6a7d1e
+Author: Louis White <louis.white1500@gmail.com>
+Date:   Tue Oct 17 15:30:51 2017 +0800
+
+    Merge branch 'master' of https://github.com/LouisWhite15/cits3200
+
+commit 184dd1411fb207ab26dd357d998de5eee098c64c
+Author: Louis White <louis.white1500@gmail.com>
+Date:   Tue Oct 17 15:29:01 2017 +0800
+
+    Small workflow changes, not finished
+
+commit a6a7d1e84c0a10c6aaed1955aadc40ae2c0ddbd3
+Author: Rob <20495129@student.uwa.edu.au>
+Date:   Tue Oct 17 15:22:52 2017 +0800
+
+    form7 wont render if no completed form1
+
+commit 337111c87ddb5fbabbaac732f616209d79529f4a
+Author: hamishstg <hamishstg@gmail.com>
+Date:   Tue Oct 17 15:09:11 2017 +0800
+
+    readded the email parts for riskform
+
+commit ab7576c4d30b6956ca21a4a2e5933041c8ccddc9
+Author: hamishstg <hamishstg@gmail.com>
+Date:   Tue Oct 17 15:03:53 2017 +0800
+
+    readded the email parts to the database
+
+commit 09d08cb076105c0dc1764e323a405fcee940e339
+Author: hamishstg <hamishstg@gmail.com>
+Date:   Tue Oct 17 14:52:18 2017 +0800
+
+    readded risk form sreview
+
+commit 1d2522631b7531c52768909ebe7796cdaff6f4c9
+Author: hamishstg <hamishstg@gmail.com>
+Date:   Tue Oct 17 14:51:24 2017 +0800
+
+    readded risk form review
+
+commit b3a05113fb61b56df16aa3fcc1b98775e785561a
+Author: hamishstg <hamishstg@gmail.com>
+Date:   Tue Oct 17 14:50:08 2017 +0800
+
+    readded risk form print
+
+commit bf0bc4971aee85496abc7e50b93c32af6a0b0502
+Author: hamishstg <hamishstg@gmail.com>
+Date:   Tue Oct 17 14:46:25 2017 +0800
+
+    readded riskform
+
+commit 460e9817c3b614790bf49fb854981d210b702d9c
+Author: hamishstg <hamishstg@gmail.com>
+Date:   Tue Oct 17 14:43:16 2017 +0800
+
+    readded form7sreview
+
+commit 05b1c5e5245f8967127f055d144100ff5338c985
+Author: hamishstg <hamishstg@gmail.com>
+Date:   Tue Oct 17 14:42:21 2017 +0800
+
+    readded form7Review
+
+commit 39f56ac47da32c9ecfddd9f0bd4422f172621238
+Author: hamishstg <hamishstg@gmail.com>
+Date:   Tue Oct 17 14:40:08 2017 +0800
+
+    readded form7print
+
+commit aa3074300ccdc76a33a456d6dbf7732f3e8ed7a4
+Author: hamishstg <hamishstg@gmail.com>
+Date:   Tue Oct 17 14:38:36 2017 +0800
+
+    readded form7
+
+commit 1d01f455c7ffa5efb18147a9adb2f74482e0110a
+Author: hamishstg <hamishstg@gmail.com>
+Date:   Tue Oct 17 14:37:18 2017 +0800
+
+    readded form1 and form1 print
+
+commit 54a0b9ba9df452ae92301b7fa52827e3df6255dc
+Author: Rob <20495129@student.uwa.edu.au>
+Date:   Tue Oct 17 14:08:44 2017 +0800
+
+    form7 wont render if no completed form1
+
+commit e875328a59e2cbec4ca8d5d2c031676aca3d39e4
+Author: Rob <20495129@student.uwa.edu.au>
+Date:   Tue Oct 17 14:03:31 2017 +0800
+
+    form7 wont render if no completed form1
+
+commit 9bfcddeac796d6f49a434dc381506a9fa26c7c10
+Author: Rob <20495129@student.uwa.edu.au>
+Date:   Tue Oct 17 13:09:40 2017 +0800
+
+    rolled back to attempt to fix server
+
+commit 6531eefa81792041fb6f00a1f63934117ea14148
+Author: Rob <20495129@student.uwa.edu.au>
+Date:   Tue Oct 17 12:54:36 2017 +0800
+
+    rolled back to attempt to fix server
+
+commit ae9fd28b9ac928a26dbb2f566ca55c5d3f62538e
+Author: Rob <20495129@student.uwa.edu.au>
+Date:   Tue Oct 17 12:48:17 2017 +0800
+
+    rolled back to attempt to fix server
+
+commit 1df613acf8b5022cacccbbbceb5d4ff768353af6
+Author: Rob <20495129@student.uwa.edu.au>
+Date:   Tue Oct 17 12:41:12 2017 +0800
+
+    rolled back to attempt to fix server
+
+commit 2823919b79f72eeab31cafe781c032ab59061a21
+Author: Rob <20495129@student.uwa.edu.au>
+Date:   Tue Oct 17 12:36:05 2017 +0800
+
+    rolled back to attempt to fix server
+
+commit a0ca14116547f3ec42db6b432b55654f7eb65790
+Author: Rob <20495129@student.uwa.edu.au>
+Date:   Tue Oct 17 12:31:14 2017 +0800
+
+    rolled back to attempt to fix server
+
+commit 15d50b94c420ba524f45cf9210830b307009f123
+Author: Rob <20495129@student.uwa.edu.au>
+Date:   Tue Oct 17 12:25:27 2017 +0800
+
+    rolled back to attempt to fix server
+
+commit 426be328de4e9b212b7cbab0ce563ec20b26bb46
+Author: Rob <20495129@student.uwa.edu.au>
+Date:   Tue Oct 17 12:15:43 2017 +0800
+
+    rolled back to attempt to fix server
+
+commit 50c69d7097f15e35998e1d91f83fc90296d78e04
+Author: Rob <20495129@student.uwa.edu.au>
+Date:   Tue Oct 17 11:45:29 2017 +0800
+
+    rolled back to attempt to fix server
+
+commit 69c8aed9cf1079ee440758c258b0eb162d57c798
+Merge: 90da1f2 8f36062
+Author: Rob <20495129@student.uwa.edu.au>
+Date:   Tue Oct 17 11:44:01 2017 +0800
+
+    Merge branch 'master' of https://github.com/LouisWhite15/cits3200 into robTest
+
+commit 90da1f20f3c617a43e0b5e3ab3031cb966a6575c
+Author: Rob <20495129@student.uwa.edu.au>
+Date:   Tue Oct 17 11:43:20 2017 +0800
+
+    rolled back to attempt to fix server
+
+commit 8f36062f4747fb1d6d2ee17ea90cda62c3a7dc30
+Author: hamishstg <hamishstg@gmail.com>
+Date:   Tue Oct 17 11:36:13 2017 +0800
+
+    changed some variable names in the index.js hopefully it fixes the live version
+
+commit a553ce1b89a396550c31a0f168019404342c7599
+Author: hamishstg <hamishstg@gmail.com>
+Date:   Tue Oct 17 10:10:15 2017 +0800
+
+    the delete risk function on the forms now works git reset
+
+commit b301679fc2f2eb05203670bf2215e459333d41d0
+Merge: 4804915 03fd341
+Author: Victorolo <21976342@student.uwa.edu.au>
+Date:   Tue Oct 17 01:55:24 2017 +0800
+
+    Merge branch 'master' of https://github.com/LouisWhite15/cits3200
+
+commit 48049157ce67f5a92491ac82bef59390ffbe5677
+Author: Victorolo <21976342@student.uwa.edu.au>
+Date:   Tue Oct 17 01:55:07 2017 +0800
+
+    got rid of more info buttons onform 7 print
+
+commit ca93e599970d3875b5f83abac25ad43c4ef8c799
+Author: Victorolo <21976342@student.uwa.edu.au>
+Date:   Tue Oct 17 01:53:04 2017 +0800
+
+    form7 and risk prints now work properly, more info buttons still show up
+
+commit 33823a57565d2dfdf47523511e530752961841f0
+Author: Victorolo <21976342@student.uwa.edu.au>
+Date:   Tue Oct 17 01:48:35 2017 +0800
+
+    form1 print now deletes the saved pdf in the file system after it has been sent
+
+commit bcb11e9abb5b223f5f38cf98d789e5d69a31abff
+Author: Victorolo <21976342@student.uwa.edu.au>
+Date:   Tue Oct 17 01:45:01 2017 +0800
+
+    form1 print should now take the user to a pdf page
+
+commit 6f4a51a8c631347b4bc75ab565e0906422e48ea3
+Author: Victorolo <21976342@student.uwa.edu.au>
+Date:   Tue Oct 17 01:44:22 2017 +0800
+
+    form1 print should now take the user to a pdf page
+
+commit 03fd341c4b7a700861015dc79c0fa5dc9684d8fe
+Author: hamishstg <hamishstg@gmail.com>
+Date:   Tue Oct 17 00:57:14 2017 +0800
+
+    added the ability to delete a risk within the risk form. This fixes a problem in regards to requireds and needing them within the risk identification part of the form. It is not perfect but I will fix it in the morning.
+
+commit f93e867892003b4d56d06cffb8019717a49bf423
+Merge: 54950e0 9fcb266
+Author: hamishstg <hamishstg@gmail.com>
+Date:   Tue Oct 17 00:26:13 2017 +0800
+
+    Merge branch 'master' of https://github.com/LouisWhite15/cits3200
+
+commit 54950e04dd18828f440eb8ccfc0aee70b110a6c7
+Author: hamishstg <hamishstg@gmail.com>
+Date:   Tue Oct 17 00:25:04 2017 +0800
+
+    fixed the grammar in the risk assessment form risk definition table, which was atrocious
+
+commit 9fcb266f01e1677fa4a59c0dd66a659b7977c1ef
+Merge: 4543d1f d4f28ae
+Author: Victorolo <21976342@student.uwa.edu.au>
+Date:   Tue Oct 17 00:07:22 2017 +0800
+
+    Merge branch 'master' of https://github.com/LouisWhite15/cits3200
+
+commit 4543d1f06d492733041b5aac9e340ebc5d00fc1d
+Author: Victorolo <21976342@student.uwa.edu.au>
+Date:   Tue Oct 17 00:07:17 2017 +0800
+
+    button now dissapears on print
+
+commit d4f28ae880b10fd8de8e02a13bd37b10a0ead808
+Author: hamishstg <hamishstg@gmail.com>
+Date:   Mon Oct 16 23:58:20 2017 +0800
+
+    added an email field to the bottom of both form7 and risk assessments also changed these parts of the form so they are readonly for students. Also added the checklist of likely risk for riskassessment form
+
+commit 99a1012b73f31b262acf98c368fd95e93d37f61e
+Author: hamishstg <hamishstg@gmail.com>
+Date:   Mon Oct 16 23:09:35 2017 +0800
+
+    changed the forms, highlights including make the print forms more readable and more print based, plus some small text fixes in other forms
+
+commit c7db1fe24cc05af4ad7d2ec01ba16976e9a83c90
+Author: Louis White <21500209@student.uwa.edu.au>
+Date:   Mon Oct 16 22:06:58 2017 +0800
+
+    Added student review forms to testAll page
+
+commit 8398cf1b46728d31a673bb6e1784331c6cc1a9e1
+Merge: 1c09132 3e9edda
+Author: hamishstg <hamishstg@gmail.com>
+Date:   Mon Oct 16 22:02:15 2017 +0800
+
+    Merge branch 'master' of https://github.com/LouisWhite15/cits3200
+
+commit 1c091321c52c7bbdbeae88e9890625bbc729b954
+Author: hamishstg <hamishstg@gmail.com>
+Date:   Mon Oct 16 22:01:50 2017 +0800
+
+    changed forms so that the clash in names on the risk assessment form was removed and comments should display properly, also added a placeholder to comments so that will show if nothing is written in the comment
+
+commit 3e9eddab9a4b5c3f6bd914ef1543f0f41cbfb0a9
+Author: Victorolo <21976342@student.uwa.edu.au>
+Date:   Mon Oct 16 21:44:52 2017 +0800
+
+    Print button for form 1 print now creates a pdf called sample pdf in the root directory
+
+commit 5bd5ba1ea839dce5f68eb92a8217b8d7d7b613bc
+Author: kiirisuna <21707741@student.uwa.edu.au>
+Date:   Mon Oct 16 21:11:16 2017 +0800
+
+    req.href
+
+commit 865bfc438b19233819fa00b7debc52d1c1a0c191
+Author: kiirisuna <21707741@student.uwa.edu.au>
+Date:   Mon Oct 16 21:00:44 2017 +0800
+
+    url function
+
+commit f321bc8b619b16f956506cf2cfe445a2c1957ec4
+Author: kiirisuna <21707741@student.uwa.edu.au>
+Date:   Mon Oct 16 20:53:22 2017 +0800
+
+    url function
+
+commit f51c65541a55db63a5651595e931888ba7b19081
+Merge: 479c19c 11bcd7f
+Author: Victorolo <21976342@student.uwa.edu.au>
+Date:   Mon Oct 16 20:07:37 2017 +0800
+
+    Merge branch 'master' of https://github.com/LouisWhite15/cits3200
+
+commit 479c19c87117b49feda7839eb6989d87cc40a77a
+Author: Victorolo <21976342@student.uwa.edu.au>
+Date:   Mon Oct 16 20:07:30 2017 +0800
+
+    added base functionality print button to formprint1
+
+commit 11bcd7f1dd6e99d50fb9b0b1eeaebc95bfc8f9e9
+Author: kiirisuna <21707741@student.uwa.edu.au>
+Date:   Mon Oct 16 19:04:02 2017 +0800
+
+    acceptance test for client
+
+commit 8d07dbbc7b1cbf9c9a04eeb963b7c687de216ae7
+Author: Victorolo <21976342@student.uwa.edu.au>
+Date:   Mon Oct 16 18:34:16 2017 +0800
+
+    Fixed pdf uploads for review forms and spaced out pdf upload section abit more
+
+commit 87147189752e3f2f7cc5adc28926095661796e13
+Merge: 54c371c a708277
+Author: Victorolo <21976342@student.uwa.edu.au>
+Date:   Mon Oct 16 18:16:00 2017 +0800
+
+    Merge branch 'master' of https://github.com/LouisWhite15/cits3200
+
+commit 54c371c446a5f38f80cd46467c4b5c01d426654b
+Author: Victorolo <21976342@student.uwa.edu.au>
+Date:   Mon Oct 16 18:12:39 2017 +0800
+
+    Fixing pdf upload for review forms
+
+commit a7082779e420f15e0e8868ae14f6e37f1a4ad516
+Author: Louis White <21500209@student.uwa.edu.au>
+Date:   Mon Oct 16 18:11:55 2017 +0800
+
+    Fixed student review
+
+commit b673c4908b185f855b1444d6710d1a93b9307a66
+Author: Louis White <louis.white1500@gmail.com>
+Date:   Mon Oct 16 17:27:01 2017 +0800
+
+    Minor spacing fix
+
+commit 591df10b8bf728aefda5da248191dc72838fb2c1
+Author: Louis White <louis.white1500@gmail.com>
+Date:   Mon Oct 16 17:24:57 2017 +0800
+
+    dashboard update allowing for admin value false
+
+commit 93c2be538598e3f76066fe4b6b2b1b0bc5e0cb68
+Author: Louis White <louis.white1500@gmail.com>
+Date:   Mon Oct 16 17:17:03 2017 +0800
+
+    Added default false for admin value so only users who are not admin are shown in the admin dashboard
+
+commit 29bb1d204e801878e72385a2d1ae0b5d11c3f1e8
+Author: Louis White <louis.white1500@gmail.com>
+Date:   Mon Oct 16 17:01:42 2017 +0800
+
+    Fixed nodemailer error (probably due to merge)
+
+commit 121ca582fc67885488f08349a70da3cd44c5da71
+Merge: 154092f d544159
+Author: Louis White <louis.white1500@gmail.com>
+Date:   Mon Oct 16 16:59:30 2017 +0800
+
+    Merge branch 'master' of https://github.com/LouisWhite15/cits3200
+
+commit 154092fedbc71766533b4f62c36fe7e6a23919b1
+Author: Louis White <louis.white1500@gmail.com>
+Date:   Mon Oct 16 16:56:31 2017 +0800
+
+    Forgot password functionality added and working
+
+commit d544159235711d75a3cdd938500a6a22b1e01efb
+Merge: 6f83d40 474934d
+Author: kiirisuna <21707741@student.uwa.edu.au>
+Date:   Mon Oct 16 15:48:34 2017 +0800
+
+    Merge branch 'master' of http://github.com/LouisWhite15/cits3200
+
+commit 6f83d40fad9614f0e4a8f5e4f63e2f2939b31e69
+Author: kiirisuna <21707741@student.uwa.edu.au>
+Date:   Mon Oct 16 15:44:18 2017 +0800
+
+    added email-verification package and comments in button2.js for later
+
+commit 474934dfae878becd94d994e2fe11a687618ae67
+Merge: 37f95c9 15a07aa
+Author: Victorolo <21976342@student.uwa.edu.au>
+Date:   Mon Oct 16 14:45:34 2017 +0800
+
+    Merge branch 'master' of https://github.com/LouisWhite15/cits3200
+
+commit 37f95c9f395e74b0d0a810f3a362abc3cfd3028e
+Author: Victorolo <21976342@student.uwa.edu.au>
+Date:   Mon Oct 16 14:45:17 2017 +0800
+
+    got rid of pdf upload section in print forms
+
+commit 15a07aa9f9a7ddb00afc6e5ea8bfeecc30d4a8b8
+Merge: d943705 c1c06da
+Author: Louis White <louis.white1500@gmail.com>
+Date:   Mon Oct 16 14:28:18 2017 +0800
+
+    Merge branch 'master' of https://github.com/LouisWhite15/cits3200
+
+commit d94370572b96665512d6a1843bc005b78a0bf245
+Author: Louis White <louis.white1500@gmail.com>
+Date:   Mon Oct 16 14:27:44 2017 +0800
+
+    Added logout feature
+
+commit c1c06dac04ea7900ef83a8cf9b52028a4e927f71
+Merge: da18615 ae5123b
+Author: Victorolo <21976342@student.uwa.edu.au>
+Date:   Mon Oct 16 14:25:02 2017 +0800
+
+    Merge branch 'master' of https://github.com/LouisWhite15/cits3200
+
+commit da18615d8d1608f4a9b44417fad1aacec301adfc
+Author: Victorolo <21976342@student.uwa.edu.au>
+Date:   Mon Oct 16 14:24:49 2017 +0800
+
+    Fixed one file uploads in form 7 not being entered into the data base
+
+commit ae5123b7e1113875ceff5cb81878cb8ea0b47ba7
+Author: Louis White <louis.white1500@gmail.com>
+Date:   Mon Oct 16 14:18:06 2017 +0800
+
+    Change password page and functionality added
+
+commit f79c184ec38ea144a139e8912d022046f4f73b79
+Merge: 21e83a5 bfe815b
+Author: Victorolo <21976342@student.uwa.edu.au>
+Date:   Mon Oct 16 03:35:32 2017 +0800
+
+    Merge branch 'master' of https://github.com/LouisWhite15/cits3200
+
+commit 21e83a52a93706810a7ff2bc7d4b284cc85ddd86
+Author: Victorolo <21976342@student.uwa.edu.au>
+Date:   Mon Oct 16 03:35:09 2017 +0800
+
+    Can now show uploaded files in the review pages but cannot add new ones just yet
+
+commit fbccb1fd4129e897e72715d83da4178723911a59
+Author: Victorolo <21976342@student.uwa.edu.au>
+Date:   Mon Oct 16 02:45:36 2017 +0800
+
+    confirmed files upload
+
+commit b285a97a4c543ac01200c6f80c1cf35d9019ca0b
+Author: Victorolo <21976342@student.uwa.edu.au>
+Date:   Mon Oct 16 01:42:29 2017 +0800
+
+    pdf upload should now happen in form 7. Changed the req.body in post form 7 to fields. changed enc type to multipart for file upload
+
+commit bfe815b8545010587ee9977394b3b3a73aad879e
+Author: hamishstg <hamishstg@gmail.com>
+Date:   Mon Oct 16 00:18:16 2017 +0800
+
+    changed a whole bunch of small things within the forms highlights include adding the abilities to delete controls and imporving the add controls functions, fixing riskform prints columns in the risk section, fixing the participants declaration section in form7 print removing signarue field and add file in the risk forms
+
+commit 7cf4ab87ba4df492419e7dfe94474ab805492870
+Author: Rob <20495129@student.uwa.edu.au>
+Date:   Sun Oct 15 20:55:35 2017 +0800
+
+    adding admin styling
+
+commit cab179876d6717744d3b7cf37dac5951f11ae15a
+Author: Rob <20495129@student.uwa.edu.au>
+Date:   Sun Oct 15 20:49:20 2017 +0800
+
+    adding admin styling
+
+commit 73f4c48c73895f90632ee4c78462f493df883835
+Author: Rob <20495129@student.uwa.edu.au>
+Date:   Sun Oct 15 20:45:41 2017 +0800
+
+    adding admin styling
+
+commit 712d5f9dcedb7ea5cf27784ed0cce3dc96e0e90d
+Author: Rob <20495129@student.uwa.edu.au>
+Date:   Sun Oct 15 20:34:22 2017 +0800
+
+    adding admin styling
+
+commit 7a12a10fa34105377ac0b1696db55e0eb3e5ba7a
+Author: Rob <20495129@student.uwa.edu.au>
+Date:   Sun Oct 15 20:25:19 2017 +0800
+
+    adding admin styling
+
+commit 7adbadaf0f0390c028be461f66497d0dfb6187a4
+Author: Rob <20495129@student.uwa.edu.au>
+Date:   Sun Oct 15 20:20:25 2017 +0800
+
+    adding admin styling
+
+commit 161707f451411270521ca7cd93ab3411258b2094
+Author: Rob <20495129@student.uwa.edu.au>
+Date:   Sun Oct 15 20:17:19 2017 +0800
+
+    adding admin styling
+
+commit 7611f331c6acfbc0cfaf0f000a311b82f1d3c0e7
+Author: Rob <20495129@student.uwa.edu.au>
+Date:   Sun Oct 15 20:13:36 2017 +0800
+
+    adding admin styling
+
+commit f807e8670670de13adca6664d2eb515e56da606c
+Author: Rob <20495129@student.uwa.edu.au>
+Date:   Sun Oct 15 20:10:28 2017 +0800
+
+    restyling buttons
+
+commit c26c6276af4a70ce21111e8ecd77d9f0b0ceb9c9
+Author: Rob <20495129@student.uwa.edu.au>
+Date:   Sun Oct 15 20:08:09 2017 +0800
+
+    restyling buttons
+
+commit af09b19a385b33694ffea2a324a9ac090dd84933
+Author: Rob <20495129@student.uwa.edu.au>
+Date:   Sun Oct 15 20:05:47 2017 +0800
+
+    restyling buttons
+
+commit 42b7e2c13dfb78cf7dda63b9224d4a716711bf1f
+Author: Rob <20495129@student.uwa.edu.au>
+Date:   Sun Oct 15 20:02:09 2017 +0800
+
+    added form visibility logic to dashboard
+
+commit a7e837a59e9bd3dd88d4392001671a8adc40275c
+Author: Rob <20495129@student.uwa.edu.au>
+Date:   Sun Oct 15 19:51:54 2017 +0800
+
+    added form visibility logic to dashboard
+
+commit 700bb9211051623ccf4115cfb13e41804051c9c4
+Author: Rob <20495129@student.uwa.edu.au>
+Date:   Sun Oct 15 19:45:21 2017 +0800
+
+    added form visibility logic to dashboard
+
+commit 1c225573d0baf5e603d7c73b711abb9015db70a0
+Author: Rob <20495129@student.uwa.edu.au>
+Date:   Sun Oct 15 19:32:12 2017 +0800
+
+    added form visibility logic to dashboard
+
+commit 34e0b8520802acb1d6371b21558098d79dfde0e2
+Author: kiirisuna <21707741@student.uwa.edu.au>
+Date:   Sun Oct 15 18:08:14 2017 +0800
+
+    almost complete without result
+
+commit 412a2c73f60da2302fd63526a7c3eba733b553a9
+Author: Louis White <louis.white1500@gmail.com>
+Date:   Sun Oct 15 17:33:44 2017 +0800
+
+    Admin functionality added
+
+commit 7a21fd9b18c94dd611e591fa5440c23fa89f46ce
+Merge: 2aad7d5 f72ed64
+Author: Louis White <louis.white1500@gmail.com>
+Date:   Sun Oct 15 17:18:28 2017 +0800
+
+    Merge branch 'master' of https://github.com/LouisWhite15/cits3200
+
+commit 2aad7d5dd9606cf9707efa1ea7389282171ea6d8
+Author: Louis White <louis.white1500@gmail.com>
+Date:   Sun Oct 15 17:17:51 2017 +0800
+
+    Added an admin page to allow admins to make other users admins
+
+commit f72ed64dcb5ae061fd8698362f61d3c626cbcaf1
+Author: Rob <20495129@student.uwa.edu.au>
+Date:   Sun Oct 15 17:10:12 2017 +0800
+
+    added form visibility logic to dashboard
+
+commit 934546d103220ba1fa989d7245d2871fc4ddb4aa
+Merge: 9aad804 81a3711
+Author: hamishstg <hamishstg@gmail.com>
+Date:   Sun Oct 15 16:43:06 2017 +0800
+
+    Merge branch 'master' of https://github.com/LouisWhite15/cits3200
+
+commit 9aad804a07c39ea1d383dd0efd51a032336df2e8
+Author: hamishstg <hamishstg@gmail.com>
+Date:   Sun Oct 15 16:42:50 2017 +0800
+
+    improved the forms a bit they are all tested now and all essentially work as intened except for the risk assessment print form, major fixes where in preventing a infinite loop in the risk forms and making sure all points are now entered in the database.
+
+commit 81a3711d7df099fff408d69817284e6dafdaa47f
+Author: Rob <20495129@student.uwa.edu.au>
+Date:   Sun Oct 15 16:39:09 2017 +0800
+
+    added form visibility logic to dashboard
+
+commit fb6121e5e5cf137e29d8db61f92aae107745bb5f
+Author: Rob <20495129@student.uwa.edu.au>
+Date:   Sun Oct 15 16:33:13 2017 +0800
+
+    added form visibility logic to dashboard
+
+commit 50f69205ea0c8dce2019ef5f47b585bb32e4ce1e
+Merge: bdd7f52 d76dd9a
+Author: Louis White <louis.white1500@gmail.com>
+Date:   Sun Oct 15 16:03:07 2017 +0800
+
+    Merge branch 'master' of https://github.com/LouisWhite15/cits3200
+
+commit bdd7f52e7730ef698d77fe57b7538c5a13fa98f8
+Author: Louis White <louis.white1500@gmail.com>
+Date:   Sun Oct 15 16:02:18 2017 +0800
+
+    Basic admin functionality added
+
+commit d76dd9aa8d481ff1530f856d4b4697d118e59779
+Author: Victorolo <21976342@student.uwa.edu.au>
+Date:   Sun Oct 15 02:35:26 2017 +0800
+
+    added off and licence fields which can be updated and viewed in dashboard
+
+commit 6c41930203a023a959cc673674ba81a23bb423a1
+Author: Victorolo <21976342@student.uwa.edu.au>
+Date:   Sun Oct 15 00:11:17 2017 +0800
+
+    adding packages
+
+commit f07bb57e6ca3fde7ee906ce45fa47660305eedbd
+Author: Victorolo <21976342@student.uwa.edu.au>
+Date:   Sun Oct 15 00:10:33 2017 +0800
+
+    added show first aid button to dashboard which should display last added pdf for that user
+
+commit 9c887d4df71cf0afbb04c56f303634c65d35e848
+Author: Victorolo <21976342@student.uwa.edu.au>
+Date:   Sun Oct 15 00:09:15 2017 +0800
+
+    changed pdfupload testing files to use upload js instead of a link to a src
+
+commit c5a5a14c108fdecc1ca4504c285f0a013752f1a8
+Author: Victorolo <21976342@student.uwa.edu.au>
+Date:   Sun Oct 15 00:07:50 2017 +0800
+
+    added upload.js as a js version of b64-to-blob package
+
+commit 61d44ee81d9294cc6982796fabc81199f0ffcf63
+Author: Louis White <louis.white1500@gmail.com>
+Date:   Sat Oct 14 16:21:08 2017 +0800
+
+    Fixed typo
+
+commit 176e292530d96f9cc944cef7e088718685fbb596
+Author: Louis White <louis.white1500@gmail.com>
+Date:   Sat Oct 14 16:18:12 2017 +0800
+
+    Implemented the student review forms into the system. All working :boom:
+
+commit 0ed09e05795cfb7ad6e07abdc192f5ce8ad42ad5
+Author: Louis White <louis.white1500@gmail.com>
+Date:   Sat Oct 14 15:28:32 2017 +0800
+
+    Date filled is now set in the post for each form creation
+
+commit 34f416fc424eee70093f8d2fb48a6f862f63ada9
+Author: Louis White <louis.white1500@gmail.com>
+Date:   Sat Oct 14 14:55:21 2017 +0800
+
+    Date filled should now work
+
+commit e19cfd4645177358a4ed0c9cf057356b1efb9725
+Author: Rob <20495129@student.uwa.edu.au>
+Date:   Sat Oct 14 13:02:21 2017 +0800
+
+    added date field to all forms, auto-filling, should populate dashboard
+
+commit 0edc22c6ee1cec542e2df41392d06bd92df69fb6
+Author: Rob <20495129@student.uwa.edu.au>
+Date:   Sat Oct 14 12:46:24 2017 +0800
+
+    added date field to all forms, auto-filling, should populate dashboard
+
+commit 1792b710f2f10a5d3dd1c91904ef175221c67179
+Author: Rob <20495129@student.uwa.edu.au>
+Date:   Sat Oct 14 12:36:45 2017 +0800
+
+    added date field to all forms, auto-filling, should populate dashboard
+
+commit 10e903abc3f929fe9e0c00adba3d5bb5275499e7
+Author: Rob <20495129@student.uwa.edu.au>
+Date:   Sat Oct 14 11:48:55 2017 +0800
+
+    added date field to form1
+
+commit 648ad435cea340a7d9e9d777966b73601dabbc6d
+Merge: 16f0ef1 16d6f73
+Author: Victorolo <21976342@student.uwa.edu.au>
+Date:   Sat Oct 14 04:14:54 2017 +0800
+
+    Merge branch 'master' of https://github.com/LouisWhite15/cits3200
+
+commit 16f0ef118276fe3774aeab701afeef756f350db3
+Author: Victorolo <21976342@student.uwa.edu.au>
+Date:   Sat Oct 14 04:14:38 2017 +0800
+
+    Added some js and packages to convert binary data to string which can be viewed in browser
+
+commit 16d6f73baecbe3a78bc8c4e610fe429cab6f8c7a
+Author: hamishstg <hamishstg@gmail.com>
+Date:   Fri Oct 13 21:56:27 2017 +0800
+
+    fixed dates again hopefully they work on everything now, also fixed the linking on riskforms
+
+commit 06192fb3eb024494aabefb07dbfb182a6fb2d1cd
+Author: Louis White <louis.white1500@gmail.com>
+Date:   Fri Oct 13 19:42:00 2017 +0800
+
+    File upload testing
+
+commit 606ba0406812db4b3348684a7042de67862d400f
+Merge: 66521ce 69eb92e
+Author: Victorolo <21976342@student.uwa.edu.au>
+Date:   Fri Oct 13 19:22:11 2017 +0800
+
+    Merge branch 'master' of https://github.com/LouisWhite15/cits3200
+
+commit 66521ce60eb1c870cc412324b75cc6676258eee0
+Author: Victorolo <21976342@student.uwa.edu.au>
+Date:   Fri Oct 13 19:21:48 2017 +0800
+
+    inserted a pdf upload to model for first aid and to the dashboard
+
+commit 69eb92e254ca040733e071f867b573dfd3c0c8b9
+Author: Louis White <louis.white1500@gmail.com>
+Date:   Fri Oct 13 17:42:02 2017 +0800
+
+    Correct form now displays with correct state
+
+commit d02084aaabb3c714e56aaef3d2a9e26f989a06f1
+Author: Louis White <louis.white1500@gmail.com>
+Date:   Fri Oct 13 17:31:37 2017 +0800
+
+    Added some functionality to show the correct forms and show states
+
+commit 7478590a9a48c5d46aa23af6431bf055254a3363
+Merge: 441c7f8 581ceed
+Author: Victorolo <21976342@student.uwa.edu.au>
+Date:   Fri Oct 13 15:51:18 2017 +0800
+
+    Merge branch 'master' of https://github.com/LouisWhite15/cits3200
+
+commit 441c7f8f5903d98ad49bdba6d7960ccdc021cf06
+Author: Victorolo <21976342@student.uwa.edu.au>
+Date:   Fri Oct 13 15:51:05 2017 +0800
+
+    server js now uploads a file and will edit one field
+
+commit 581ceed862bd28c396195d5eb817355f17fd40c0
+Author: Louis White <louis.white1500@gmail.com>
+Date:   Fri Oct 13 15:36:14 2017 +0800
+
+    Minor index route touch ups
+
+commit 5bcd56244ab0836628daa284a8ac730b2ce1c7a4
+Author: Louis White <louis.white1500@gmail.com>
+Date:   Fri Oct 13 15:33:50 2017 +0800
+
+    Fixed report status not displaying on dashboard
+
+commit 3f08f0a2f29e41af32bde634b91a6f44baa3eef6
+Author: Louis White <louis.white1500@gmail.com>
+Date:   Fri Oct 13 15:28:03 2017 +0800
+
+    Currently form 7 update works and risk assessment update is yet to be tested
+
+commit 9c657814abd8db3f50606ff3f56de6bc651f994d
+Author: hamishstg <hamishstg@gmail.com>
+Date:   Fri Oct 13 14:11:22 2017 +0800
+
+    changed the student review forms so they match and have same functionality as other review forms, forms are pretty much done from what i can tell but there is still lots of testing on functionality required
+
+commit 9e87e702999dc50b66a6012cf8ebd92188a61d3d
+Author: hamishstg <hamishstg@gmail.com>
+Date:   Fri Oct 13 13:52:24 2017 +0800
+
+    fixed some stuff on form7 where date pickers on the dynamic parts where not working
+
+commit e72f529c023dea17e74ef9597fcff306700e2498
+Author: hamishstg <hamishstg@gmail.com>
+Date:   Fri Oct 13 13:48:35 2017 +0800
+
+    fixed the buttons so they now display properly the actual data in the form
+
+commit c802ce3f5a78a62990b364140f14b0ce1655abda
+Author: hamishstg <hamishstg@gmail.com>
+Date:   Fri Oct 13 11:57:47 2017 +0800
+
+    changed the dates to be of type Date in database and fixed the presentation of dates in the forms. also still working on getting checkboxes to work so there are some in progress changes such as changing the type of these to String in the database
+
+commit 7247572dba777ab04519280e4897f1239674ea11
+Author: hamishstg <hamishstg@gmail.com>
+Date:   Fri Oct 13 09:59:29 2017 +0800
+
+    now gets data correctly I think plus has all the hidden values so should be able to correctly update
+
+commit 8cd7235a8fbdce25df448d9938745030da182a0d
+Author: Louis White <louis.white1500@gmail.com>
+Date:   Fri Oct 13 03:19:41 2017 +0800
+
+    Removed unneccessary commas in Risk Assessment model and Risk Assessment form create
+
+commit 552580a63be62bb1e83a7794d907b3fb7c7fafe4
+Author: Louis White <louis.white1500@gmail.com>
+Date:   Fri Oct 13 02:55:23 2017 +0800
+
+    Defaulted Booleans to false so if unticked they now show false in the database
+
+commit 1ebd87099ae1a6a793b71ddcdf1bfbd471aafc9d
+Author: Louis White <louis.white1500@gmail.com>
+Date:   Fri Oct 13 02:47:26 2017 +0800
+
+    Made the Dates appear nicer in print forms and review forms by making them type String in models
+
+commit 6825d49566f037b5e71dedaf05acd4e52a51a146
+Author: Louis White <louis.white1500@gmail.com>
+Date:   Fri Oct 13 02:26:40 2017 +0800
+
+    Form updating still hangs and shows no errors but doesn't work
+
+commit ffed29a89108f7cc10694d968bf90ef753e02d48
+Merge: d3f3fdb d7551d5
+Author: hamishstg <hamishstg@gmail.com>
+Date:   Thu Oct 12 23:59:10 2017 +0800
+
+    Merge branch 'master' of https://github.com/LouisWhite15/cits3200
+
+commit d3f3fdb236677ceacf607e760f9145fb09c4d1d3
+Author: hamishstg <hamishstg@gmail.com>
+Date:   Thu Oct 12 23:58:53 2017 +0800
+
+    risk form now changed so only has one residual risk plus changed to render the these parts of the forms properly but the data retrieval is not correct
+
+commit d7551d52090d99e8f465a348c51ea3959c93289b
+Author: kiirisuna <21707741@student.uwa.edu.au>
+Date:   Thu Oct 12 22:57:42 2017 +0800
+
+    parts of case D E F incomplete
+
+commit 6664e47542852c56c807cfcadd60109036fd9efa
+Author: Louis White <21500209@student.uwa.edu.au>
+Date:   Thu Oct 12 22:24:36 2017 +0800
+
+    Update index.js
+
+commit de4e73db471a6382b5f519bc549a96c840c98dd9
+Author: Louis White <21500209@student.uwa.edu.au>
+Date:   Thu Oct 12 22:23:56 2017 +0800
+
+    Update riskAssForm.js
+
+commit 6ca57ee993667fa5fe6f772c7165fe1add366958
+Author: hamishstg <hamishstg@gmail.com>
+Date:   Thu Oct 12 21:47:19 2017 +0800
+
+    fixed some small issues on the risk form + the checkboxes should work once a false value is added
+
+commit 6feedc2dc2bb559ee288a3dbf6b15eaafcb0b85e
+Author: Louis White <21500209@student.uwa.edu.au>
+Date:   Thu Oct 12 21:08:21 2017 +0800
+
+    Update form7.js
+
+commit 7dfeba910c0db3f37c6a9caa180e8b683adab4c0
+Author: Louis White <21500209@student.uwa.edu.au>
+Date:   Thu Oct 12 21:05:13 2017 +0800
+
+    Update form7.js
+
+commit 8be1cd30753ceef75c2e90e2569c970eb4d299d6
+Author: kiirisuna <21707741@student.uwa.edu.au>
+Date:   Thu Oct 12 20:24:17 2017 +0800
+
+    testing manual
+
+commit 281732658c2dad3065e1a55f650be7b1bbead9ec
+Author: Louis White <louis.white1500@gmail.com>
+Date:   Thu Oct 12 17:16:17 2017 +0800
+
+    Added comments to form 7
+
+commit 130343eba34cb1a6db7e170066c0e4553fc8c084
+Author: kiirisuna <21707741@student.uwa.edu.au>
+Date:   Thu Oct 12 16:44:26 2017 +0800
+
+    deleted generated sample file
+
+commit e6c9a89352c60f0f7f636cb5e552bb23141a4938
+Author: Louis White <louis.white1500@gmail.com>
+Date:   Thu Oct 12 15:41:51 2017 +0800
+
+    Fixed participant declaration on form 7 review
+
+commit db4ec2bd88811692b33db47a39d84ffeea8303c1
+Author: Louis White <louis.white1500@gmail.com>
+Date:   Thu Oct 12 15:10:17 2017 +0800
+
+    index route clean up
+
+commit f5eb3345e6eef010c79676be1837075e5cc7f965
+Author: Louis White <louis.white1500@gmail.com>
+Date:   Thu Oct 12 14:55:24 2017 +0800
+
+    Added comments to models
+
+commit 5b0edd42513a0e4f57514afc55b378e4d1b1bed1
+Author: Louis White <louis.white1500@gmail.com>
+Date:   Thu Oct 12 14:53:24 2017 +0800
+
+    Added some links to pages on dashboard and added some form 7 functionality
+
+commit 995760c77c5c5203a2fe91067d69f9a7868c5b04
+Author: Louis White <louis.white1500@gmail.com>
+Date:   Thu Oct 12 14:29:27 2017 +0800
+
+    Added navigation to website and pass all forms into dashboard through route
+
+commit f48ac0308ba50a34b74bf9d1476f33ce36012c29
+Author: Louis White <louis.white1500@gmail.com>
+Date:   Thu Oct 12 14:12:41 2017 +0800
+
+    Added id parameter to review calls for updating already existing forms
+
+commit 5eaee54f8cb87f72b607848f32ca09f14a0da54e
+Author: Louis White <louis.white1500@gmail.com>
+Date:   Thu Oct 12 13:49:38 2017 +0800
+
+    Added id parameter to all print and review forms so you can print or review any form
+
+commit bce225352d888ced146ffb901ebc24ba010cd989
+Author: hamishstg <hamishstg@gmail.com>
+Date:   Thu Oct 12 11:30:50 2017 +0800
+
+    changed the forms a bit
+
+commit b928f59a35bf36f96b046a32c1e48d87d2a74062
+Author: Victorolo <21976342@student.uwa.edu.au>
+Date:   Thu Oct 12 00:53:34 2017 +0800
+
+    added some files to test pdf uploads, a js file, html upload page and a sample of what got uploaded
+
+commit 484b5821a24dacca58bdbbcb5eb25b379d50d5c8
+Merge: f9c5401 b6891c7
+Author: hamishstg <hamishstg@gmail.com>
+Date:   Wed Oct 11 23:45:35 2017 +0800
+
+    Merge branch 'master' of https://github.com/LouisWhite15/cits3200
+
+commit f9c540190dde4f831f0a23af9bd0a33d684cfb78
+Author: hamishstg <hamishstg@gmail.com>
+Date:   Wed Oct 11 23:43:29 2017 +0800
+
+    fixed a whole bunch of things in risk print form in particular fixed the the select boxes so they now load the correct choice
+
+commit b6891c7dd78b9f3ea02b5676b06d292589bfc1f4
+Author: Louis White <louis.white1500@gmail.com>
+Date:   Wed Oct 11 22:33:58 2017 +0800
+
+    Minor text change
+
+commit 93f2dc8a7fa144c551d20b7b91a6e01d7f76051e
+Author: Louis White <louis.white1500@gmail.com>
+Date:   Wed Oct 11 22:32:31 2017 +0800
+
+    Form1Print now gets correct form
+
+commit 14976beb337e0aa8c7f06a610fdbb270299a67df
+Merge: 54e7561 5f8e2b3
+Author: Louis White <louis.white1500@gmail.com>
+Date:   Wed Oct 11 22:25:57 2017 +0800
+
+    Merge branch 'master' of https://github.com/LouisWhite15/cits3200
+
+commit 54e7561c1ed024498bb9062bcab5c79957517599
+Author: Louis White <louis.white1500@gmail.com>
+Date:   Wed Oct 11 22:25:35 2017 +0800
+
+    Still trying to display correct form based on id
+
+commit 5f8e2b39790c11d7643dea45845dc158f1c12174
+Author: Kiirisuna <31201780+Kiirisuna@users.noreply.github.com>
+Date:   Wed Oct 11 21:37:56 2017 +0800
+
+    Delete trial.html
+
+commit f59acaa3d8cfe09bcd5a0e785ca26ce70b55ac86
+Author: kiirisuna <21707741@student.uwa.edu.au>
+Date:   Wed Oct 11 21:33:28 2017 +0800
+
+    const added
+
+commit 8719e8b18780a6c613d0dbf4855db4f98fd303ca
+Merge: 0795815 31453be
+Author: hamishstg <hamishstg@gmail.com>
+Date:   Wed Oct 11 21:24:29 2017 +0800
+
+    Merge branch 'master' of https://github.com/LouisWhite15/cits3200
+
+commit 07958159baaa0a1b2ec4ffa3fa66e611fb83f595
+Author: hamishstg <hamishstg@gmail.com>
+Date:   Wed Oct 11 21:24:01 2017 +0800
+
+    riskform review now works but still needs alot of work and fixed a line in form7 print routes
+
+commit 31453bef34ba1ebebfc94c2dcac3bd631454d243
+Merge: 57d1937 b7facf4
+Author: Louis White <louis.white1500@gmail.com>
+Date:   Wed Oct 11 21:20:06 2017 +0800
+
+    form1print fixes
+
+commit 57d19378f8cc7b37fe6458c9b05596210bf4b9e0
+Author: Louis White <louis.white1500@gmail.com>
+Date:   Wed Oct 11 21:16:30 2017 +0800
+
+    dashboard fixes
+
+commit b7facf4952222d85365015a099273e056ae879a7
+Author: kiirisuna <21707741@student.uwa.edu.au>
+Date:   Wed Oct 11 21:07:48 2017 +0800
+
+    pushed
+
+commit 213df9b44298c1eadb0e82128dd9751d4b38a3dd
+Author: Rob <20495129@student.uwa.edu.au>
+Date:   Wed Oct 11 21:01:51 2017 +0800
+
+    rob test4
+
+commit 12b43b66be2f91a1089add3da31572130d7f8334
+Author: Rob <20495129@student.uwa.edu.au>
+Date:   Wed Oct 11 20:52:18 2017 +0800
+
+    rob test4
+
+commit 289b0fd9ae86b5bccb200dd55e5ab7e7db8c8cd7
+Merge: c17e26a dce7624
+Author: Rob <20495129@student.uwa.edu.au>
+Date:   Wed Oct 11 20:47:22 2017 +0800
+
+    Merge branch 'master' of https://github.com/LouisWhite15/cits3200 into robTest
+
+commit c17e26a80203b773a7a43ade2c11b5eb079db902
+Author: Rob <20495129@student.uwa.edu.au>
+Date:   Wed Oct 11 20:46:57 2017 +0800
+
+    rob test4
+
+commit dce7624a03cec1d07ea47ae5357864aad98a2c18
+Author: kiirisuna <21707741@student.uwa.edu.au>
+Date:   Wed Oct 11 20:46:51 2017 +0800
+
+    opens PDF in default viewer instead of just downloading
+
+commit 0439c7a12f8d143e07716e28dd7b009aa0d91469
+Author: kiirisuna <21707741@student.uwa.edu.au>
+Date:   Wed Oct 11 20:45:15 2017 +0800
+
+    added opn
+
+commit 2d03c1d878884263572e6289254c02ffa0254e82
+Merge: d3989ab 1472dc4
+Author: Rob <20495129@student.uwa.edu.au>
+Date:   Wed Oct 11 20:43:14 2017 +0800
+
+    Merge branch 'master' of https://github.com/LouisWhite15/cits3200 into robTest
+
+commit d3989abf5d836238789c16d5ebf885b99b8c1114
+Author: Rob <20495129@student.uwa.edu.au>
+Date:   Wed Oct 11 20:42:36 2017 +0800
+
+    rob test4
+
+commit 1472dc44dad86abfba036aa3c284247d83abe96c
+Author: kiirisuna <21707741@student.uwa.edu.au>
+Date:   Wed Oct 11 20:35:37 2017 +0800
+
+    now opens the PDF in browser instead of just downloading it
+
+commit a58b13898c936fd77717f97bfaa692e77c2e44c9
+Author: Rob <20495129@student.uwa.edu.au>
+Date:   Wed Oct 11 20:27:35 2017 +0800
+
+    rob test4
+
+commit e7e5428cf8e2567205e4b1d41b8c28547be9ea4f
+Author: Rob <20495129@student.uwa.edu.au>
+Date:   Wed Oct 11 20:00:22 2017 +0800
+
+    rob test4
+
+commit 0ce7e28bf07f1ec70f4dbc8bf6b1dcd9abbb9a3b
+Author: Rob <20495129@student.uwa.edu.au>
+Date:   Wed Oct 11 19:56:38 2017 +0800
+
+    rob test4
+
+commit 456c58134f220eb2c38832af05c937fbfb1ee187
+Author: Rob <20495129@student.uwa.edu.au>
+Date:   Wed Oct 11 19:46:36 2017 +0800
+
+    rob test4
+
+commit 4ac1fca146f11ac2433b123ef98e71b1fd135e41
+Author: Rob <20495129@student.uwa.edu.au>
+Date:   Wed Oct 11 19:33:25 2017 +0800
+
+    rob test4
+
+commit 15fc71365a9d8bbdcba32497d5da7792dd1e790d
+Author: Rob <20495129@student.uwa.edu.au>
+Date:   Wed Oct 11 17:30:56 2017 +0800
+
+    rob test 3
+
+commit fbd819e79e4b1dc204535cd45fce8ab4704869cd
+Merge: 9e3dbd8 a1a1e45
+Author: Louis White <louis.white1500@gmail.com>
+Date:   Wed Oct 11 17:00:06 2017 +0800
+
+    Merge branch 'master' of https://github.com/LouisWhite15/cits3200
+
+commit 9e3dbd83511c052d06e686ef7148d7cec8ea88c5
+Author: Louis White <louis.white1500@gmail.com>
+Date:   Wed Oct 11 16:59:41 2017 +0800
+
+    Added form update functionality
+
+commit a1a1e452055893b4444767a41b001df6d5cec4c8
+Author: Rob <20495129@student.uwa.edu.au>
+Date:   Wed Oct 11 16:30:42 2017 +0800
+
+    rob test 3
+
+commit 4c6867fb8aa8bfe8377b714254016994e2ef55a5
+Author: Rob <20495129@student.uwa.edu.au>
+Date:   Wed Oct 11 16:02:38 2017 +0800
+
+    rob test 3
+
+commit 9b987839ef9dd2435538077da048c6cb1a981ad3
+Author: Rob <20495129@student.uwa.edu.au>
+Date:   Wed Oct 11 14:46:23 2017 +0800
+
+    rob test 3
+
+commit e1e10659592220daa96415cdd19893dd77f6a534
+Author: Rob <20495129@student.uwa.edu.au>
+Date:   Wed Oct 11 14:39:40 2017 +0800
+
+    rob test 3
+
+commit 6b1751e5db51c613d76883f6839d93f0536570bc
+Author: Rob <20495129@student.uwa.edu.au>
+Date:   Wed Oct 11 14:31:30 2017 +0800
+
+    rob test 3
+
+commit 8b14fca77fb923d79dcb11c62bc7cb19409b4932
+Merge: 13b1228 e197711
+Author: Rob <20495129@student.uwa.edu.au>
+Date:   Wed Oct 11 14:18:49 2017 +0800
+
+    Merge branch 'master' of https://github.com/LouisWhite15/cits3200 into robTest
+
+commit 13b122883bf50cc8f3697756d5f5c25f03675279
+Author: Rob <20495129@student.uwa.edu.au>
+Date:   Wed Oct 11 14:18:35 2017 +0800
+
+    rob test 3
+
+commit e1977114c3a47c781dbd7420073265cc27f29c88
+Author: Louis White <louis.white1500@gmail.com>
+Date:   Wed Oct 11 14:05:30 2017 +0800
+
+    Added montime to risk assessment form in database
+
+commit 4f65edbb07cdafe8545be81041e12ba757f3c337
+Author: Louis White <louis.white1500@gmail.com>
+Date:   Wed Oct 11 14:01:48 2017 +0800
+
+    Syntax fix in dashboard route
+
+commit 7ed98bfbddb1fbf3f3b1be126d607d894b6c26d6
+Author: Rob <20495129@student.uwa.edu.au>
+Date:   Wed Oct 11 13:29:09 2017 +0800
+
+    rob test 3
+
+commit a8cf140bca57faf3a674e66ef71d5b85d7985898
+Author: Rob <20495129@student.uwa.edu.au>
+Date:   Wed Oct 11 13:25:28 2017 +0800
+
+    rob test 3
+
+commit 4792aa51045a8e14fb46101d9dd103b5cd2104f7
+Author: Rob <20495129@student.uwa.edu.au>
+Date:   Wed Oct 11 13:06:02 2017 +0800
+
+    rob test 3
+
+commit ebdd53fda5f3f5dcbc00b5e5147187c5cdd835fe
+Author: Rob <20495129@student.uwa.edu.au>
+Date:   Wed Oct 11 12:51:53 2017 +0800
+
+    rob test 3
+
+commit 3d6b5b13b50dc0961a50aec37ebf505ba6847c05
+Author: Rob <20495129@student.uwa.edu.au>
+Date:   Wed Oct 11 12:49:48 2017 +0800
+
+    rob test 3
+
+commit e93debb3aea5860139142330c6df8017b3c88d20
+Author: Rob <20495129@student.uwa.edu.au>
+Date:   Wed Oct 11 12:45:40 2017 +0800
+
+    rob test 3
+
+commit d6c37a1ed9c3af34ea0be2642bfddf3b00d31855
+Author: Rob <20495129@student.uwa.edu.au>
+Date:   Wed Oct 11 12:27:56 2017 +0800
+
+    rob test 3
+
+commit c51f734f28f6bd2578918313ba258a0195bea12c
+Author: Rob <20495129@student.uwa.edu.au>
+Date:   Wed Oct 11 12:23:35 2017 +0800
+
+    rob test 3
+
+commit b9ce7f091d3775ab99e77b04d41dac21935825d7
+Author: Rob <20495129@student.uwa.edu.au>
+Date:   Wed Oct 11 12:13:07 2017 +0800
+
+    rob test 3
+
+commit 703b9a4efab80a2ded9ca9676999c09fc06cf959
+Merge: d2e31a1 87d8a6f
+Author: Rob <20495129@student.uwa.edu.au>
+Date:   Wed Oct 11 10:57:54 2017 +0800
+
+    Merge branch 'master' of https://github.com/LouisWhite15/cits3200 into robTest
+
+commit d2e31a1c3084bcea6b048da14eaf8e9b45e6f922
+Author: Rob <20495129@student.uwa.edu.au>
+Date:   Wed Oct 11 10:57:21 2017 +0800
+
+    rob test 3
+
+commit 87d8a6fd0cb98d505864662748f38ef1cd731b86
+Author: hamishstg <hamishstg@gmail.com>
+Date:   Wed Oct 11 10:56:27 2017 +0800
+
+    forgot to add this in with the last commit should fix everything now
+
+commit d08a29ac4421a37136da92155a174ff64115ee90
+Merge: 96fad3e 12020e0
+Author: hamishstg <hamishstg@gmail.com>
+Date:   Wed Oct 11 10:52:42 2017 +0800
+
+    Merge branch 'master' of https://github.com/LouisWhite15/cits3200
+
+commit 96fad3e919770c381e1a068e80e4682b88773892
+Author: hamishstg <hamishstg@gmail.com>
+Date:   Wed Oct 11 10:52:22 2017 +0800
+
+    Hopefully finished all the forms, added two student review forms where they can change values but not edit comments plus changed a few things in the risk form so it prints everything, most of these forms still need more advanced testing
+
+commit 12020e0356bc428b34414a61b71849b50bb88e89
+Author: Rob <20495129@student.uwa.edu.au>
+Date:   Wed Oct 11 10:50:59 2017 +0800
+
+    rob test 3
+
+commit dbd115ba8b4596813b0e8d5b4f29de26454cf559
+Author: Rob <20495129@student.uwa.edu.au>
+Date:   Wed Oct 11 10:41:33 2017 +0800
+
+    rob test 3
+
+commit c9291b97023d66c6c798701105168bb955f94818
+Author: Rob <20495129@student.uwa.edu.au>
+Date:   Wed Oct 11 10:38:56 2017 +0800
+
+    rob test 3
+
+commit d7ad11fb4680b4b3daa6aa71297f80cbcd6aeed3
+Author: Rob <20495129@student.uwa.edu.au>
+Date:   Wed Oct 11 10:27:24 2017 +0800
+
+    rob test 3
+
+commit 66551998239f59a72e1ad680b449aec76fe5c23e
+Merge: 184178b 0e62b54
+Author: hamishstg <hamishstg@gmail.com>
+Date:   Wed Oct 11 00:33:04 2017 +0800
+
+    Merge branch 'master' of https://github.com/LouisWhite15/cits3200
+
+commit 184178b60838b85bb56b7cc5f6fb7f6b9776ebe2
+Author: hamishstg <hamishstg@gmail.com>
+Date:   Wed Oct 11 00:32:46 2017 +0800
+
+    fixed the issue with posting to the database and also fixed an issue with formatting in the print form
+
+commit 0e62b54ec833d34322eacc46eaee9f04343500bd
+Author: Victorolo <21976342@student.uwa.edu.au>
+Date:   Tue Oct 10 23:50:37 2017 +0800
+
+    changed indexes from 0 to i in the form7ejs itin table
+
+commit 3268206f8515a52fb5632195f9f9e81a66de6c37
+Author: hamishstg <hamishstg@gmail.com>
+Date:   Tue Oct 10 23:46:30 2017 +0800
+
+    changed the print form so that it now works and gets data from the database
+
+commit 2ea97bcb72f242d1347430f23cfe086e95c84bb7
+Author: hamishstg <hamishstg@gmail.com>
+Date:   Tue Oct 10 22:31:53 2017 +0800
+
+    created a form7 print form and changed the form7 print to be a final print copy of form7
+
+commit bcc6d18fbe8bd462d0b239e6eea046893b9c6e29
+Author: Rob <20495129@student.uwa.edu.au>
+Date:   Tue Oct 10 20:35:38 2017 +0800
+
+    robtest2
+
+commit 084008f1814f37ad005cd0c7acf1e67efb1752d0
+Author: Rob <20495129@student.uwa.edu.au>
+Date:   Tue Oct 10 20:24:33 2017 +0800
+
+    rob test1
+
+commit a0b2fecbb6a8f2f2461934309cb0238e61ccd05a
+Author: Rob <20495129@student.uwa.edu.au>
+Date:   Tue Oct 10 20:22:52 2017 +0800
+
+    what is happening
+
+commit 732ebf4916f8a80960537e8e56955259a894fdb7
+Merge: da913b9 fb57e8a
+Author: robbiesaurus <robbiesaurus1@gmail.com>
+Date:   Tue Oct 10 20:19:45 2017 +0800
+
+    Merge pull request #1 from LouisWhite15/robTest
+    
+    Rob test
+
+commit fb57e8a8be6f882b0203bcd3fdac3f27637740fc
+Merge: da43c8f da913b9
+Author: Rob <20495129@student.uwa.edu.au>
+Date:   Tue Oct 10 20:14:56 2017 +0800
+
+    Merge branch 'robTest' of https://github.com/LouisWhite15/cits3200 into robTest
+
+commit da43c8f3494dff133e1d954702313b51e4a2a9bb
+Author: Rob <20495129@student.uwa.edu.au>
+Date:   Tue Oct 10 20:08:26 2017 +0800
+
+    new test
+
+commit da913b98654bd111280676337ce09a2c31f1e080
+Author: Louis White <louis.white1500@gmail.com>
+Date:   Tue Oct 10 18:11:28 2017 +0800
+
+    Risk Assessment Form populates database
+
+commit e8329aa87cb017fc566d166dc528c7866b17ca98
+Author: hamishstg <hamishstg@gmail.com>
+Date:   Tue Oct 10 17:41:55 2017 +0800
+
+    added all the for loops that where needed plus changed the variable inside the arrys within those for loops
+
+commit 846969fb4fb2a7fc494792f3a99ce4852ca3effe
+Author: hamishstg <hamishstg@gmail.com>
+Date:   Tue Oct 10 17:31:11 2017 +0800
+
+    form7print now works entirely except for logic on checkboces in participants declration which i don't think work at the moment
+
+commit 7e83662f706f38d86c72be2b1df29fcc0191deed
+Merge: c1dc60e 789be75
+Author: hamishstg <hamishstg@gmail.com>
+Date:   Tue Oct 10 16:44:23 2017 +0800
+
+    Merge branch 'master' of https://github.com/LouisWhite15/cits3200
+
+commit c1dc60e38cb446664c458b2349a13ab6532ae4e3
+Author: hamishstg <hamishstg@gmail.com>
+Date:   Tue Oct 10 16:44:06 2017 +0800
+
+    finished form7 - hopefully
+
+commit 789be7515761265135582a1bdffe5aaabbdd4db6
+Author: Louis White <louis.white1500@gmail.com>
+Date:   Tue Oct 10 16:32:00 2017 +0800
+
+    Fixed risk assessment form reference error
+
+commit aaeca7bbc727c77646ff3520588cec9acf073908
+Merge: 9302671 d1a9c00
+Author: Louis White <louis.white1500@gmail.com>
+Date:   Tue Oct 10 16:28:10 2017 +0800
+
+    Merge branch 'master' of https://github.com/LouisWhite15/cits3200
+
+commit 9302671b3d640686fb950303915b6472f190580e
+Author: Louis White <louis.white1500@gmail.com>
+Date:   Tue Oct 10 16:27:33 2017 +0800
+
+    Added risk assessment form model and made changes to ejs to allow posting
+
+commit d1a9c002fc6489653550d87f71b08673032ebd91
+Author: hamishstg <hamishstg@gmail.com>
+Date:   Tue Oct 10 16:24:31 2017 +0800
+
+    changed some listeners
+
+commit b98a2c7c5109969e91e2e8af0bb11acb7e7bd6f6
+Author: hamishstg <hamishstg@gmail.com>
+Date:   Tue Oct 10 15:29:04 2017 +0800
+
+    changed the names on everything
+
+commit 0405d14df257dd132a0f13b4da0184e6ae24cba1
+Author: Louis White <louis.white1500@gmail.com>
+Date:   Tue Oct 10 15:05:40 2017 +0800
+
+    Dynamic fields in form 7 populate database
+
+commit d4953e90c64e68f8ed40feff84385bae1cb4b1b3
+Author: Louis White <louis.white1500@gmail.com>
+Date:   Tue Oct 10 14:49:02 2017 +0800
+
+    Change to form7 view to allow post
+
+commit bfc32e900a3baf1e03cfecb3f055a5723dafc8df
+Author: kiirisuna <21707741@student.uwa.edu.au>
+Date:   Tue Oct 10 13:25:13 2017 +0800
+
+    changes made to converter + trial for html
+
+commit 5fe17063da07f08e5c9261fdb66bf6fd9c6271b1
+Author: hamishstg <hamishstg@gmail.com>
+Date:   Tue Oct 10 09:59:28 2017 +0800
+
+    added a public file and fixed the load issues with the node app
+
+commit 122831eb7493a8afa35db20774ddeaf83b666189
+Author: hamishstg <hamishstg@gmail.com>
+Date:   Tue Oct 10 09:52:01 2017 +0800
+
+    fixed the issue with node not getting the css and images and added a public file where all static files should go
+
+commit f716a3f13a7c73fbfbc1fe06e22fa3fec17e5a66
+Author: hamishstg <hamishstg@gmail.com>
+Date:   Tue Oct 10 09:34:09 2017 +0800
+
+    added datepickers to form7
+
+commit 4bed0168d7fff5ca98af41222656ab7f43d1f01b
+Merge: 30787fa 1d400a5
+Author: Louis White <louis.white1500@gmail.com>
+Date:   Mon Oct 9 17:33:14 2017 +0800
+
+    Merge branch 'master' of https://github.com/LouisWhite15/cits3200
+
+commit 30787faefbc93b04183491312477e95cc436b5de
+Author: Louis White <louis.white1500@gmail.com>
+Date:   Mon Oct 9 17:32:49 2017 +0800
+
+    Fixed mongoose depreciation warning
+
+commit 1d400a5970797ac2286cb87bb42f26cb0973af90
+Author: Victorolo <21976342@student.uwa.edu.au>
+Date:   Mon Oct 9 17:26:09 2017 +0800
+
+    fixed up some more ejs syntax in form7print ejs
+
+commit 72a654254bd98df4e167c5c4759abbe2922aeb51
+Author: Victorolo <21976342@student.uwa.edu.au>
+Date:   Mon Oct 9 17:24:38 2017 +0800
+
+    changed looping for tables in ejs onform7print ejs
+
+commit a9aecd63bbd55f7330e8f7d08534c499363d70ef
+Author: Victorolo <21976342@student.uwa.edu.au>
+Date:   Mon Oct 9 17:17:37 2017 +0800
+
+    fixed up some ejs syntax in form7print ejs
+
+commit 75b9fc1c7b092445d9c82bb4f4d61e15eacba4e1
+Merge: 9066c64 18cc4c4
+Author: Louis White <louis.white1500@gmail.com>
+Date:   Mon Oct 9 16:53:48 2017 +0800
+
+    Merge branch 'master' of https://github.com/LouisWhite15/cits3200
+
+commit 9066c642e21219f4f115015fd55a55e4c2278028
+Author: Louis White <louis.white1500@gmail.com>
+Date:   Mon Oct 9 16:53:01 2017 +0800
+
+    Form 7 now populates database
+
+commit 18cc4c425317ed397fb862fc7e0f8f394267f0d2
+Author: kiirisuna <21707741@student.uwa.edu.au>
+Date:   Mon Oct 9 16:22:58 2017 +0800
+
+    working now.
+
+commit 45dfd2c54ccbfdb6c8133b43c1d22396633327bf
+Author: kiirisuna <21707741@student.uwa.edu.au>
+Date:   Mon Oct 9 16:09:43 2017 +0800
+
+    hopefully only changed phantomjs files
+
+commit 0ff38a06671ea590b77b59eeefbb0a36073547e2
+Author: kiirisuna <21707741@student.uwa.edu.au>
+Date:   Mon Oct 9 16:08:41 2017 +0800
+
+    not exactly working
+
+commit cfa8533da919aafa79c2f9099d64affd9ac89a31
+Author: kiirisuna <21707741@student.uwa.edu.au>
+Date:   Mon Oct 9 16:08:01 2017 +0800
+
+    changes
+
+commit 728a6fef883c39a082c5a033d0da5b65d9474293
+Author: kiirisuna <21707741@student.uwa.edu.au>
+Date:   Mon Oct 9 15:58:33 2017 +0800
+
+    better HTML to PDF
+
+commit 38d164369d0d761d9625936f814c19015031e420
+Author: Louis White <louis.white1500@gmail.com>
+Date:   Mon Oct 9 14:24:36 2017 +0800
+
+    NaN bug fixed
+
+commit 4687d977be86ea1e3ce90f0edf7cb14a3a5dc99c
+Author: Louis White <21500209@student.uwa.edu.au>
+Date:   Mon Oct 9 12:41:12 2017 +0800
+
+    Update account.js
+
+commit 9f2c3c1fe82b85104b4c7d04b8384e4313034a56
+Author: kiirisuna <21707741@student.uwa.edu.au>
+Date:   Mon Oct 9 12:12:03 2017 +0800
+
+    error check and better PDF formatting
+
+commit 0bf4d4ecd92827e30b3c117a6aee94855ae3386d
+Author: Victorolo <21976342@student.uwa.edu.au>
+Date:   Sun Oct 8 23:41:36 2017 +0800
+
+    Added comment boxes to form 7 print ejs
+
+commit b751c8b44cc7a8b666a421111ec27acdf603a3b0
+Author: hamishstg <hamishstg@gmail.com>
+Date:   Sun Oct 8 17:17:20 2017 +0800
+
+    some small changes made to these files in regards to there data validation
+
+commit 4f61dddd3016f4f895f243cba7797ee07e6312b6
+Author: Louis White <louis.white1500@gmail.com>
+Date:   Sun Oct 8 16:02:47 2017 +0800
+
+    Form 1 Print gets data from correct form
+
+commit c66873947800f4af12dd99f1e586860acfc624ef
+Author: Victorolo <21976342@student.uwa.edu.au>
+Date:   Sun Oct 8 15:46:56 2017 +0800
+
+    Changed some ejs syntax in form 1 print ejs
+
+commit 3b09398cb19d716b6e5ebaad349e98e40d7244bc
+Merge: b2ba970 3e19aaa
+Author: Victorolo <21976342@student.uwa.edu.au>
+Date:   Sat Oct 7 22:44:31 2017 +0800
+
+    Merge branch 'master' of https://github.com/LouisWhite15/cits3200
+
+commit b2ba97093ae2684f9a9f764dd12e36f9645c632c
+Author: Victorolo <21976342@student.uwa.edu.au>
+Date:   Sat Oct 7 22:43:52 2017 +0800
+
+    Slightly changed if else tag syntx for form 7 print
+
+commit 09cd0d77d03c7753c29b2b7bac9abdc34f855326
+Author: Victorolo <21976342@student.uwa.edu.au>
+Date:   Sat Oct 7 20:45:34 2017 +0800
+
+    Changed form 7 print ejs to reflect chris' comments
+
+commit ae7ab6a76eeb1511c00a8a4b5b7d0ea3ddadd92a
+Author: Victorolo <21976342@student.uwa.edu.au>
+Date:   Sat Oct 7 20:40:47 2017 +0800
+
+    Changed form 7 ejs to reflect chris's comments
+
+commit 3cca69629cd41c9fb098d91b6ebb8393342e5470
+Author: Victorolo <21976342@student.uwa.edu.au>
+Date:   Sat Oct 7 20:36:17 2017 +0800
+
+    changed form 7 to reflect Chris' comments
+
+commit 3e19aaa638bbf8a26638cb4fd146c263040b54bf
+Author: Rob <20495129@student.uwa.edu.au>
+Date:   Sat Oct 7 19:20:57 2017 +0800
+
+    updated dashboard css
+
+commit de7c4f0d6ab1e47417bb9d2fb2bee0413be8a4b2
+Author: Louis White <louis.white1500@gmail.com>
+Date:   Sat Oct 7 15:51:12 2017 +0800
+
+    Form 1 Print almost ready
+
+commit 691369cadeff661a2477e2124eaf71a4e15d6b2e
+Author: Louis White <louis.white1500@gmail.com>
+Date:   Sat Oct 7 15:21:51 2017 +0800
+
+    Form1 fields add to database
+
+commit 94647f963e7d24432d05abf1c969a71f079f3661
+Author: hamishstg <hamishstg@gmail.com>
+Date:   Sat Oct 7 12:05:27 2017 +0800
+
+    all the names on form1 and the two riskassessment forms should all be unique now
+
+commit b1e63d697ab0fe09dcc3f78c107f03a4919c2f75
+Author: Rob <20495129@student.uwa.edu.au>
+Date:   Sat Oct 7 10:59:16 2017 +0800
+
+    added in responsive tables
+
+commit 3db7a25af2b08990be5f6b83c3f8699a7a46aa94
+Author: hamishstg <hamishstg@gmail.com>
+Date:   Fri Oct 6 12:04:10 2017 +0800
+
+    changed the risk form to what chris wanted plus changed the print form so that it mirrors the styling of the normal form plus added a review form for the supervisors
+
+commit 3b6c71456823ae64929d944aa574a8bb9bafc593
+Merge: f8c8fb3 d28143c
+Author: hamishstg <hamishstg@gmail.com>
+Date:   Fri Oct 6 09:51:44 2017 +0800
+
+    Merge branch 'master' of https://github.com/LouisWhite15/cits3200
+
+commit d28143cd23097664b0b62fe8d06862aaa3289f6d
+Author: Victorolo <21976342@student.uwa.edu.au>
+Date:   Wed Oct 4 23:14:06 2017 +0800
+
+    added form7Print ejs for admin to view
+
+commit f8c8fb3a95a956b7e3a9a81f3d475cf29030b169
+Merge: 6f7a91f 3798638
+Author: hamishstg <hamishstg@gmail.com>
+Date:   Wed Oct 4 21:31:02 2017 +0800
+
+    Merge branch 'master' of https://github.com/LouisWhite15/cits3200
+
+commit 6f7a91f5f8a3c0c70c6c99669f2e96d0122ba834
+Author: hamishstg <hamishstg@gmail.com>
+Date:   Wed Oct 4 21:30:46 2017 +0800
+
+    the print version of risk assessment form
+
+commit 37986386ba4e0ab184b047385924be3f9507e67b
+Author: Victorolo <21976342@student.uwa.edu.au>
+Date:   Wed Oct 4 20:08:46 2017 +0800
+
+    changed to be conccurent recent changes
+
+commit 7ee48ffb7bdd6d4bf4eee019e3b66ad577409040
+Author: Victorolo <21976342@student.uwa.edu.au>
+Date:   Wed Oct 4 19:55:20 2017 +0800
+
+    changed some textbox inputs to text inputs to match other fields
+
+commit 57b194f91d55ee26a23629f61e4059d9a4ee9399
+Author: Victorolo <21976342@student.uwa.edu.au>
+Date:   Wed Oct 4 19:54:39 2017 +0800
+
+    made last table abit clearer
+
+commit c435fd238edc589f84c0b312a79d80546dff4868
+Merge: b7cdbea ae9aa19
+Author: Louis White <louis.white1500@gmail.com>
+Date:   Wed Oct 4 16:50:48 2017 +0800
+
+    Merge branch 'master' of https://github.com/LouisWhite15/cits3200
+
+commit b7cdbea331b6f2b9be6d2763b6d400ddf83e2a57
+Author: Louis White <louis.white1500@gmail.com>
+Date:   Wed Oct 4 16:50:10 2017 +0800
+
+    :boom: Register and login both authenticate with database and work
+
+commit ae9aa19db33de8397a2d42b37625ed6e0a975c0d
+Author: Rob <20495129@student.uwa.edu.au>
+Date:   Wed Oct 4 16:26:16 2017 +0800
+
+    styled rickass form
+
+commit 4cdc460653113f4b0fc63d6d63b655cab189e037
+Merge: 4156ec0 6596491
+Author: hamishstg <hamishstg@gmail.com>
+Date:   Tue Oct 3 17:36:06 2017 +0800
+
+    Merge branch 'master' of https://github.com/LouisWhite15/cits3200
+
+commit 4156ec0163aa1527e8b0836a71866aa7ee46de11
+Author: hamishstg <hamishstg@gmail.com>
+Date:   Tue Oct 3 17:35:29 2017 +0800
+
+    added a form1print and riskformprint that should create a html file with the output of whatever the user put in the form but have not been able to test as there is no database also added some small changes to form1.ejs form1 and riskform
+
+commit 65964916a712ea090e8561a04454eb55a06b5b2d
+Author: Louis White <louis.white1500@gmail.com>
+Date:   Tue Oct 3 15:43:50 2017 +0800
+
+    Adding forms to schema
+
+commit b2490cd63ba0eb274241b3b2555007b84f10ce6e
+Author: Victorolo <21976342@student.uwa.edu.au>
+Date:   Tue Oct 3 01:00:34 2017 +0800
+
+    Added email format validation
+
+commit f420a949b09ac2116431198241ef8dee9056fee5
+Author: Victorolo <21976342@student.uwa.edu.au>
+Date:   Tue Oct 3 00:10:43 2017 +0800
+
+    Added min password length
+
+commit 059d884271dde1aa619f31aa891ac0f446d55bbb
+Author: Victorolo <21976342@student.uwa.edu.au>
+Date:   Tue Oct 3 00:06:57 2017 +0800
+
+    Added preliminary register form, currently verifies password and confirm password are the same
+
+commit 9fd1b4d709a78d64b2416e26e318f4dc84a604e5
+Author: hamishstg <hamishstg@gmail.com>
+Date:   Mon Oct 2 18:33:51 2017 +0800
+
+    finished all css and javascript for risk assessment form
+
+commit fde0ec4ee9d2cfe2056a7486531ae0fefdf9cd92
+Author: Louis White <louis.white1500@gmail.com>
+Date:   Sun Oct 1 15:45:47 2017 +0800
+
+    Added Form1 to account model
+
+commit c650595bb26c785c065f224d1fc4071219d96642
+Author: hamishstg <hamishstg@gmail.com>
+Date:   Sun Oct 1 14:40:26 2017 +0800
+
+    added javascript to risk assessment form that adds risks for each of the four different sections
+
+commit adc84964492fea1b273f519199e88316c324fc76
+Author: Kiirisuna <31201780+Kiirisuna@users.noreply.github.com>
+Date:   Sat Sep 30 23:26:42 2017 +0800
+
+    Update HTMLtoPDF.js
+
+commit 8a02a7644de496a2bc4deb1878b29502ee017c23
+Author: kiirisuna <21707741@student.uwa.edu.au>
+Date:   Sat Sep 30 23:23:57 2017 +0800
+
+    phantomjs
+
+commit 56f7439d1e3d19238928b2f59cef3e77e5646b5b
+Author: kiirisuna <21707741@student.uwa.edu.au>
+Date:   Sat Sep 30 23:21:35 2017 +0800
+
+    js for html to pdf
+
+commit 88dde5e7846a7ff90ef38e2a2f5db5dfc19e443a
+Author: Rob <20495129@student.uwa.edu.au>
+Date:   Sat Sep 30 13:57:45 2017 +0800
+
+    begun work on dashboard
+
+commit 822d998a299ff456b7e5a2fd8242963cb06d5bab
+Author: Rob <20495129@student.uwa.edu.au>
+Date:   Sat Sep 30 12:31:41 2017 +0800
+
+    fixed up overwritten work
+
+commit a91e47151992eec1ef070f2ec4aed5521ed3abaf
+Author: Victorolo <21976342@student.uwa.edu.au>
+Date:   Sat Sep 30 04:34:15 2017 +0800
+
+    added input validation and permission section
+
+commit a1fca1d7e97131cc9bc6265c29afc0a004fa43fc
+Author: Victorolo <21976342@student.uwa.edu.au>
+Date:   Fri Sep 29 16:52:38 2017 +0800
+
+    changed one id to a class which i forgot, changed to one big form instead of multiple
+
+commit 26b0aa0af3db53144054aaca2518a64ec963c7c8
+Author: Victorolo <21976342@student.uwa.edu.au>
+Date:   Thu Sep 28 01:37:48 2017 +0800
+
+    Changed form 1 classes and id to be consistent in CSS
+
+commit 9b30f54566370f25bb19d8aca4cfb5010c83484e
+Author: Victorolo <21976342@student.uwa.edu.au>
+Date:   Thu Sep 28 01:29:04 2017 +0800
+
+    Editted row deletionand addition for Form 7 and changed css ids to classes for input, section title and section containter, also changed font size of itin and declaration tables and gave fieldset a min width
+
+commit e6e5c225b7529c8bf9aeb488bceb092ff0f129cb
+Author: Kiirisuna <31201780+Kiirisuna@users.noreply.github.com>
+Date:   Wed Sep 27 18:34:00 2017 +0800
+
+    Delete pdfFromHTML.js
+
+commit 04447436384c00c49c2f09222646c64a90c0f0a6
+Author: Kiirisuna <31201780+Kiirisuna@users.noreply.github.com>
+Date:   Wed Sep 27 18:33:51 2017 +0800
+
+    Delete jspdf.js
+
+commit ff09f8f993ea9863d11b96e217305b0169c4be95
+Author: Kiirisuna <31201780+Kiirisuna@users.noreply.github.com>
+Date:   Wed Sep 27 18:33:49 2017 +0800
+
+    Delete jquery-2.1.3.js
+
+commit 03153d80d60c2b969bfcbc395ed8bfdc51c7918b
+Author: Kiirisuna <31201780+Kiirisuna@users.noreply.github.com>
+Date:   Wed Sep 27 18:33:34 2017 +0800
+
+    Delete Converter.html
+
+commit 6c69b1e2f1b0e1d6084174060b295e7313245f5d
+Author: Victorolo <21976342@student.uwa.edu.au>
+Date:   Wed Sep 27 18:05:12 2017 +0800
+
+    testing min width for fieldtest
+
+commit 262dff700d99a566e6e81ed823b2d74607534383
+Author: Victorolo <21976342@student.uwa.edu.au>
+Date:   Wed Sep 27 17:49:16 2017 +0800
+
+    added participant declaraiotn, certain parts of go off the page
+
+commit f4517e7e7bac78be17f3905e207aa2a622ec8aef
+Author: Victorolo <21976342@student.uwa.edu.au>
+Date:   Wed Sep 27 03:43:27 2017 +0800
+
+    added trasport and itniterary sections, functions for adding table rows and deleting. The text area plugin currently expands infinetely width wise when inside a fieldset tag. The size of each text box ina tbale row must be adjusted to the size of the largest text area, The rows also extend too far.
+
+commit 776a0e9129240386aa2f2ee1794078543df99166
+Author: Victorolo <21976342@student.uwa.edu.au>
+Date:   Tue Sep 26 01:01:00 2017 +0800
+
+    Updated Form 7 with the second section, phone number validation is not working at the momemnt
+
+commit db769139066d35968d49f59c555e606f15c5ce83
+Merge: b44ee59 9741efb
+Author: Victorolo <21976342@student.uwa.edu.au>
+Date:   Mon Sep 25 22:28:28 2017 +0800
+
+    Merge branch 'master' of https://github.com/LouisWhite15/cits3200
+
+commit b44ee590e810b3aa920ad900cf657d2a55e6f609
+Author: Victorolo <21976342@student.uwa.edu.au>
+Date:   Mon Sep 25 22:28:19 2017 +0800
+
+    initial Form7 commit
+
+commit 9a2928650268a18bc9c759030fb7a098aa71ab3b
+Author: Victorolo <21976342@student.uwa.edu.au>
+Date:   Mon Sep 25 22:27:14 2017 +0800
+
+    Plugin to have text area tags in html auto expand. Set their class to expanding to use
+
+commit 9741efb2c2e44425de7ee683c20ddaff9531c8fd
+Author: Louis White <louis.white1500@gmail.com>
+Date:   Mon Sep 25 16:00:35 2017 +0800
+
+    Removed phantomjs as it is now phantomjs-prebuilt
+
+commit e23d2d185bc0c07f329f5011c9312eb86777a058
+Author: Louis White <louis.white1500@gmail.com>
+Date:   Mon Sep 25 15:49:59 2017 +0800
+
+    :100: Added phantomjs and other relevant packages for pdf creation
+
+commit 91c5be4432738a69d1dbf939ae6a9f4570656a38
+Author: hamishstg <hamishstg@gmail.com>
+Date:   Sun Sep 24 21:48:20 2017 +0800
+
+    Finished the HTML for Risk Assesment form
+
+commit 7bbafd78788c70440386b704d8ee0c526a2ccfe8
+Author: Rob <20495129@student.uwa.edu.au>
+Date:   Sun Sep 24 11:34:18 2017 +0800
+
+    styled the registration page
+
+commit 4a8dfba2e797d45ec671ebda27aa7a2879fc699e
+Author: Rob <20495129@student.uwa.edu.au>
+Date:   Sun Sep 24 09:45:31 2017 +0800
+
+    updated css to match UWA styling as provided by client
+
+commit 2d6de17ea38a7718b3d87b9cdea5b4f648f81e9b
+Author: Louis White <louis.white1500@gmail.com>
+Date:   Thu Sep 21 16:48:23 2017 +0800
+
+    Testing mongoDB with temporary register page
+
+commit f29e51c360195cff73464ea8984f172c05c76be8
+Author: Louis White <louis.white1500@gmail.com>
+Date:   Thu Sep 21 15:41:48 2017 +0800
+
+    :boom: Added more npm packages
+
+commit ef63ad65c47a6d7fd4dba086b337e0ff4e527f8a
+Author: Rob <20495129@student.uwa.edu.au>
+Date:   Thu Sep 21 10:09:12 2017 +0800
+
+    readjusted groups work to fit with styling
+
+commit e7de30122978e5bc59541620480d6bd7ad63848e
+Merge: e624508 da9c0b5
+Author: Rob <20495129@student.uwa.edu.au>
+Date:   Thu Sep 21 09:26:41 2017 +0800
+
+    rob realigning repo
+
+commit e624508faf10e25100c2cf4bb5f88be4b6738605
+Author: Rob <20495129@student.uwa.edu.au>
+Date:   Thu Sep 21 09:05:04 2017 +0800
+
+    finalized first pass of CSS for initial risk assessment form
+
+commit da9c0b50ee1e90f71ba0a08aaaecba5f5540e12e
+Author: Victorolo <21976342@student.uwa.edu.au>
+Date:   Thu Sep 21 00:03:34 2017 +0800
+
+    Added breaks between checkboxes. Fixed validation for training and onwards sections by cleaning up checktraining call mistake. Added return trues and falses for the check functions
+
+commit e1ba2a9b4f50bd3639b0fadc402b916e109c0fbb
+Author: hamishstg <hamishstg@gmail.com>
+Date:   Tue Sep 19 23:38:11 2017 +0800
+
+    Added Risk Assesment Form
+    
+    Added the risk assessment form. Also added a jquery folder with jquery
+    and a jquery library that includes some useful things such as drop down
+    menus.
+
+commit 6bc6fe6b5cfaf29db5c98cd99893aa923a734fed
+Author: hamishstg <hamishstg@gmail.com>
+Date:   Tue Sep 19 15:23:50 2017 +0800
+
+    Form Validation form1.html
+    
+    added some basic form validation to the form1 checks phone numbers and
+    the check boxes and you must add names plus emergency contacts before
+    "submitting"
+
+commit 93c625601fa5adf1dd58d10b1dbeebf9eb68d9fa
+Author: Louis White <louis.white1500@gmail.com>
+Date:   Mon Sep 18 12:22:40 2017 +0800
+
+    Added form1 to live version
+
+commit 1650948b24aaa91badb5e3b5466848a5f3ede502
+Author: Louis White <21500209@student.uwa.edu.au>
+Date:   Sun Sep 17 16:23:26 2017 +0800
+
+    Update README.md
+
+commit eeec7ba0dd59e82735f6fd7ae7588bc0c6fc9c1e
+Author: Louis White <21500209@student.uwa.edu.au>
+Date:   Sun Sep 17 16:23:00 2017 +0800
+
+    Update README.md
+
+commit 15b8781d422e453fd26841255e3b2cd258e91b9f
+Author: Louis White <21500209@student.uwa.edu.au>
+Date:   Sun Sep 17 16:21:19 2017 +0800
+
+    Allow temporary deployment to heroku
+
+commit 5ef736ce175f0fbc2fa29d71108e682cfeebbc31
+Author: Louis White <21500209@student.uwa.edu.au>
+Date:   Sun Sep 17 16:19:10 2017 +0800
+
+    Allow temporary deployment on heroku
+
+commit 8de53e388a00d02c2f45812c2959bfef9ad95a48
+Author: Kiirisuna <31201780+Kiirisuna@users.noreply.github.com>
+Date:   Sun Sep 17 12:46:24 2017 +0800
+
+    JS scripts for making PDF
+
+commit f3b499dd4ec23ce6c37051b465ebd369f8c54ea1
+Author: Kiirisuna <31201780+Kiirisuna@users.noreply.github.com>
+Date:   Sun Sep 17 12:45:34 2017 +0800
+
+    Delete pdfFromHTML.js
+
+commit a63f4414896f3fb578ca59159c3ed6695e4a9040
+Author: Kiirisuna <31201780+Kiirisuna@users.noreply.github.com>
+Date:   Sun Sep 17 12:45:32 2017 +0800
+
+    Delete jspdf.js
+
+commit f7fc39f3ba7e33f112e6ab2da37a13151922aee0
+Author: Kiirisuna <31201780+Kiirisuna@users.noreply.github.com>
+Date:   Sun Sep 17 12:45:29 2017 +0800
+
+    Delete jquery-2.1.3.js
+
+commit 821228f938f4e5f3c75d512864743a0da32a0e97
+Author: Kiirisuna <31201780+Kiirisuna@users.noreply.github.com>
+Date:   Sun Sep 17 12:44:58 2017 +0800
+
+    Skeleton for converting HTML to PDF
+
+commit 5c4d31b0fd750a3fcc628db3690d9a95f624c385
+Author: Kiirisuna <31201780+Kiirisuna@users.noreply.github.com>
+Date:   Sun Sep 17 12:44:24 2017 +0800
+
+    Delete HTML to PDF
+
+commit 57972710e445414db97a97bee8c1e2b1df82f4de
+Author: Kiirisuna <31201780+Kiirisuna@users.noreply.github.com>
+Date:   Sun Sep 17 12:44:13 2017 +0800
+
+    Create HTML to PDF
+
+commit ce29e31a596b1719bd4e3f7c569738e750e3146b
+Author: Kiirisuna <31201780+Kiirisuna@users.noreply.github.com>
+Date:   Sun Sep 17 12:43:54 2017 +0800
+
+    Delete pdfFromHTML.js
+
+commit ea8368f405c795c5a5120c151a8924d4863a9ec0
+Author: Kiirisuna <31201780+Kiirisuna@users.noreply.github.com>
+Date:   Sun Sep 17 12:43:47 2017 +0800
+
+    Delete jspdf.js
+
+commit e7ee6a3b68b0db99defaae2663bc1099e65ec9e3
+Author: Kiirisuna <31201780+Kiirisuna@users.noreply.github.com>
+Date:   Sun Sep 17 12:43:37 2017 +0800
+
+    Delete jquery-2.1.3.js
+
+commit e900c2ef09e41e683b5c39019e6c1c57a3fcab44
+Author: Kiirisuna <31201780+Kiirisuna@users.noreply.github.com>
+Date:   Sun Sep 17 12:43:23 2017 +0800
+
+    Delete Converter.html
+
+commit 4483cb3889acd993d8f400b69e15c57fde962bb2
+Author: Kiirisuna <31201780+Kiirisuna@users.noreply.github.com>
+Date:   Sun Sep 17 12:38:22 2017 +0800
+
+    Add files via upload
+
+commit 3eb14cc34381a8eaf88142883d51d2c4e868c1d8
+Author: hamishstg <hamishstg@gmail.com>
+Date:   Sat Sep 16 22:22:33 2017 +0800
+
+    Added the basic first part of the form1
+    
+    this includes the name and the emergency contact details.
+
+commit d7743c621d4d7b3dc4cdeeac5a2f19d5ee779620
+Author: Rob <20495129@student.uwa.edu.au>
+Date:   Fri Sep 15 23:23:38 2017 +0800
+
+    added responsive css, started working on basic stylesheets, added pure css package
+
+commit 214b595586f40d1272b768a54fde3f3820d613f2
+Author: Louis White <21500209@student.uwa.edu.au>
+Date:   Fri Sep 15 18:20:07 2017 +0800
+
+    Update package.json
+
+commit b4206fae466c5c23a51ced53922945f684d349cf
+Author: Victorolo <21976342@student.uwa.edu.au>
+Date:   Fri Sep 15 17:29:47 2017 +0800
+
+    added form 1 (unfinished)
+
+commit 76f14d79017df271b87d31385dd21b3bc1c2e470
+Author: Louis White <louis.white1500@gmail.com>
+Date:   Wed Sep 13 16:05:20 2017 +0800
+
+    Some setup
+
+commit 6d0dd7dfa243b710dc716c4207b2817b3e372fc1
+Author: Louis White <21500209@student.uwa.edu.au>
+Date:   Mon Sep 11 15:10:27 2017 +0800
+
+    Initial commit

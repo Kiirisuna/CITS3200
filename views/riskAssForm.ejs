@@ -1,0 +1,1485 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+	<link rel="stylesheet" href="https://unpkg.com/purecss@1.0.0/build/pure-min.css" integrity="sha384-nn4HPE8lTHyVtfCBi5yW9d20FjT8BJwUXyWZT9InLYax14RDjBj46LmSztkmNP9w" crossorigin="anonymous">
+	<meta charset="utf-8"/>
+	<!--[if lte IE 8]>
+    <link rel="stylesheet" href="https://unpkg.com/purecss@1.0.0/build/grids-responsive-old-ie-min.css">
+	<![endif]-->
+	<!--[if gt IE 8]><!-->
+    <link rel="stylesheet" href="https://unpkg.com/purecss@1.0.0/build/grids-responsive-min.css">
+	<!--<![endif]-->
+	<link rel="stylesheet" href="styles/style.css">
+	<link rel="stylesheet" href="jquery/jquery-ui-1.12.1.custom/jquery-ui-1.12.1.custom/jquery-ui.css">
+	<script src="jquery/jquery-3.2.1.js"></script>
+	<script src="jquery/jquery-ui-1.12.1.custom/jquery-ui-1.12.1.custom/jquery-ui.js"></script>
+	<script src='expanding.jquery.js'></script>
+</head>
+
+
+<script>
+    $(function() {
+         $( "#assesdate" ).datepicker({
+            dateFormat: "dd/mm/yy"
+            });
+    });
+    $(function() {
+         $( "#expdate" ).datepicker({
+            dateFormat: "dd/mm/yy"
+            });
+    });
+</script>
+
+<script>
+    var genericcount = 1;
+    var genericrcount = 1;
+    var envirocount = 1;
+    var envirorcount = 1;
+    var othercount = 1;
+    var otherrcount = 1;
+    var floracount = 1;
+    var florarcount = 1;
+    $(document).ready(function() {
+        
+                    //event listener for Generic
+                   $('#genericrisk').change(function(e) {
+                        if ($(e.target).is('select') ) {
+                            if (!isNaN(parseInt(e.target.id.substr(e.target.id.length-2))) ) {
+                                var x = e.target.id.substr(e.target.id.length-2);
+                                var c = $('#GRRC' + x + ' :selected').val();
+                                var l = $('#GRRL' + x + ' :selected').val();
+                                var e = $('#GRRE' + x + ' :selected').val();
+                                var total = c*l*e;
+                                document.getElementById('GRR' + x).innerHTML = 'The score of this risk is ' + c + ' * ' + l + ' * ' + e + ' = ' + total ;
+                            }
+                            else {
+                            x = e.target.id.substr(e.target.id.length-1);
+                                         var c = $('#GIRC' + x + ' :selected').val();
+                                         var l = $('#GIRL' + x + ' :selected').val();
+                                         var e = $('#GIRE' + x + ' :selected').val();
+                                         var total = c*l*e;
+                                         document.getElementById('GIR' + x).innerHTML = 'The score of this risk is ' + c + ' * ' + l + ' * ' + e + ' = ' + total ;
+                        }
+                        }
+                    })
+                    $('#envirorisk').change(function(e) {
+                        if ($(e.target).is('select') ) {
+                            if (!isNaN(parseInt(e.target.id.substr(e.target.id.length-2))) ) {
+                                var x = e.target.id.substr(e.target.id.length-2);
+                                var c = $('#ERRC' + x + ' :selected').val();
+                                var l = $('#ERRL' + x + ' :selected').val();
+                                var e = $('#ERRE' + x + ' :selected').val();
+                                var total = c*l*e;
+                                document.getElementById('ERR' + x).innerHTML = 'The score of this risk is ' + c + ' * ' + l + ' * ' + e + ' = ' + total ;
+                            }
+                            else {
+                            x = e.target.id.substr(e.target.id.length-1);
+                                         var c = $('#EIRC' + x + ' :selected').val();
+                                         var l = $('#EIRL' + x + ' :selected').val();
+                                         var e = $('#EIRE' + x + ' :selected').val();
+                                         var total = c*l*e;
+                                         document.getElementById('EIR' + x).innerHTML = 'The score of this risk is ' + c + ' * ' + l + ' * ' + e + ' = ' + total ;
+                        }
+                        }
+                    })
+                    $('#florarisk').change(function(e) {
+                        if ($(e.target).is('select') ) {
+                            if (!isNaN(parseInt(e.target.id.substr(e.target.id.length-2))) ) {
+                                var x = e.target.id.substr(e.target.id.length-2);
+                                var c = $('#FRRC' + x + ' :selected').val();
+                                var l = $('#FRRL' + x + ' :selected').val();
+                                var e = $('#FRRE' + x + ' :selected').val();
+                                var total = c*l*e;
+                                document.getElementById('FRR' + x).innerHTML = 'The score of this risk is ' + c + ' * ' + l + ' * ' + e + ' = ' + total ;
+                            }
+                            else {
+                            x = e.target.id.substr(e.target.id.length-1);
+                                         var c = $('#FIRC' + x + ' :selected').val();
+                                         var l = $('#FIRL' + x + ' :selected').val();
+                                         var e = $('#FIRE' + x + ' :selected').val();
+                                         var total = c*l*e;
+                                         document.getElementById('FIR' + x).innerHTML = 'The score of this risk is ' + c + ' * ' + l + ' * ' + e + ' = ' + total ;
+                        }
+                        }
+                    })
+                    $('#otherrisk').change(function(e) {
+                        if ($(e.target).is('select') ) {
+                            if (!isNaN(parseInt(e.target.id.substr(e.target.id.length-2)) ) ) {
+                                var x = e.target.id.substr(e.target.id.length-2);
+                                var c = $('#ORRC' + x + ' :selected').val();
+                                var l = $('#ORRL' + x + ' :selected').val();
+                                var e = $('#ORRE' + x + ' :selected').val();
+                                var total = c*l*e;
+                                document.getElementById('ORR' + x).innerHTML = 'The score of this risk is ' + c + ' * ' + l + ' * ' + e + ' = ' + total ;
+                            }
+                            else {
+                            x = e.target.id.substr(e.target.id.length-1);
+                                         var c = $('#OIRC' + x + ' :selected').val();
+                                         var l = $('#OIRL' + x + ' :selected').val();
+                                         var e = $('#OIRE' + x + ' :selected').val();
+                                         var total = c*l*e;
+                                         document.getElementById('OIR' + x).innerHTML = 'The score of this risk is ' + c + ' * ' + l + ' * ' + e + ' = ' + total ;
+                        }
+                        }
+                    })
+                    $(".addgeneric").click(function() {
+                                        genericcount = genericcount + 1;
+                                        genericrcount = 1;
+                                        var row = "<tr class='lastrow'>" +
+                                                    "<td rowspan='3'>Identifiable Risk<br> <input type='text' name='Gname' required></td>" +
+                                                    "<td rowspan='3'>Comment:<br> <textarea rows='3' cols='30' name='Gcomment" + "'   placeholder='When and where the hazard is present...' required>" + "</textarea>" +
+                                                    "</td>" +
+                                                    "<td colspan='3'>Inherent Risk</td>" +
+                                                    "</tr>" +
+                                                    "<tr>" +
+                                                        "<td>C:<br> <select   name='GIRC" + "' id='GIRC" + genericcount + "'>" +
+                                                            "<option value='100'>Cata</option>" +
+                                                            "<option value='50'>Dis</option>" +
+                                                            "<option value='25'>VS</option>" +
+                                                            "<option value='15'>Ser</option>" +
+                                                            "<option value='5'>Imp</option>" +
+                                                            "<option value='1'>Not</option>" +
+                                                        "</select>" +
+                                                        "</td>" +
+                                                        "<td>L:<br> <select   name='GIRL" + "' id='GIRL" + genericcount + "'>" +
+                                                            "<option value='10'>AC</option>" +
+                                                            "<option value='6'>Lik</option>" +
+                                                            "<option value='3'>Unus</option>" +
+                                                            "<option value='1'>RP</option>" +
+                                                            "<option value='0.5'>Conc</option>" +
+                                                            "<option value='0.1'>PI</option>" +
+                                                        "</select>" +
+                                                    "</td>" +
+                                                    "<td>E:<br> <select   name='GIRE" + "' id='GIRE" + genericcount + "'>" +
+                                                            "<option value='10'>Con</option>" +
+                                                            "<option value='5'>Freq</option>" +
+                                                            "<option value='3'>Occ</option>" +
+                                                            "<option value='2'>Infreq</option>" +
+                                                            "<option value='1'>Rare</option>" +
+                                                    "<option value='0.5'>UO</option>" +
+                                                    "</select>" +
+                                                    "</td>" +
+                                                "</tr>" +
+                                                "<tr>" +
+                                                    "<td colspan='3'><p id='GIR" + genericcount + "'></p></td>" +
+                                                "</tr>" +
+                                                "<tr>" +
+                                                    "<td rowspan='3'>" +
+                                                        "<input type='hidden' name='Gcontrolnum' value='1'>" +
+                                                        "Control: <br><select   name='GCT" + "'>" +
+                                                        "<option value ='elimination'>Elimination</option>" +
+                                                        "<option value = 'substitution'>Substitution</option>" +
+                                                        "<option value='engineering'>Engineering</option>" +
+                                                        "<option value='isolation'>Isolation</option>" +
+                                                        "<option value='guarding'>Guarding</option>" +
+                                                        "<option value='adminastrative'>Administrative</option>" +
+                                                        "<option value='training'>Training</option>" +
+                                                        "<option value='inspection'>Inspection</option>" +
+                                                        "<option value='PPE'>PPE</option>" +
+                                                    "</select>" +
+                                                    "</td>" +
+                                                    "<td rowspan='3'>Control Measure <br> <textarea rows='3' cols='30' name='Gmeasure' placeholder='Describe the control measure... ' required></textarea></td>" +
+                                                    "<td colspan='3'>Residual Risk</td>" +
+                                                "</tr>" +
+                                                "<tr>" +
+                                                    "<td>C:<br> <select   name='GRRC" + "' id='GRRC" + genericcount + "" + genericrcount + "'>" +
+                                                        "<option value='100'>Cata</option>" +
+                                                        "<option value='50'>Dis</option>" +
+                                                        "<option value='25'>VS</option>" +
+                                                        "<option value='15'>Ser</option>" +
+                                                        "<option value='5'>Imp</option>" +
+                                                        "<option value='1'>Not</option>" +
+                                                    "</select>" +
+                                                    "</td>" +
+                                                    "<td>L:<br> <select   name='GRRL" + "' id='GRRL" + genericcount + "" + genericrcount + "'>" +
+                                                        "<option value='10'>AC</option>" +
+                                                        "<option value='6'>Lik</option>" +
+                                                        "<option value='3'>Unus</option>" +
+                                                        "<option value='1'>RP</option>" +
+                                                        "<option value='0.5'>Conc</option>" +
+                                                        "<option value='0.1'>PI</option>" +
+                                                    "</select>" +
+                                                    "</td>" +
+                                                    "<td>E:<br> <select   name='GRRE" + "' id='GRRE" + genericcount + "" + genericrcount + "'>" +
+                                                        "<option value='10'>Con</option>" +
+                                                        "<option value='5'>Freq</option>" +
+                                                        "<option value='3'>Occ</option>" +
+                                                        "<option value='2'>Infreq</option>" +
+                                                        "<option value='1'>Rare</option>" +
+                                                        "<option value='0.5'>UO</option>" +
+                                                    "</select>" +
+                                                    "</td>" +
+                                                "</tr>" +
+                                                "<tr>" +
+                                                    "<td colspan='3'><p id='GRR" + genericcount + genericrcount + "'></p></td>" +
+                                                "</tr>" + 
+                                                "<tr>" +
+                                                    "<td><input type='button' class='deletegeneric' value='Delete A Control'></td>" + 
+                                                    "<td><input type='button' class='addctrlG' value='Add Another Control'></td>" +
+                                                "</tr>";
+                                            $('#genericrisk').append(row);
+                        })
+                      $(".addenviro").click(function() {
+                                        envirocount = envirocount + 1;
+                                        envirorcount = 1;
+                                        var row = "<tr class='lastrow'>" +
+                                                    "<td rowspan='3'>Identifiable Risk<br> <input type='text' name='Ename' required></td>" +
+                                                    "<td rowspan='3'>Comment:<br> <textarea rows='3' cols='30' name='Ecomment" + "'   placeholder='When and where the hazard is present...' required>" + "</textarea>" +
+                                                    "</td>" +
+                                                    "<td colspan='3'>Inherent Risk</td>" +
+                                                    "</tr>" +
+                                                    "<tr>" +
+                                                        "<td>C:<br> <select   name='EIRC" + "' id='EIRC" + envirocount + "'>" +
+                                                            "<option value='100'>Cata</option>" +
+                                                            "<option value='50'>Dis</option>" +
+                                                            "<option value='25'>VS</option>" +
+                                                            "<option value='15'>Ser</option>" +
+                                                            "<option value='5'>Imp</option>" +
+                                                            "<option value='1'>Not</option>" +
+                                                        "</select>" +
+                                                        "</td>" +
+                                                        "<td>L:<br> <select   name='EIRL" + "' id='EIRL" + envirocount + "'>" +
+                                                            "<option value='10'>AC</option>" +
+                                                            "<option value='6'>Lik</option>" +
+                                                            "<option value='3'>Unus</option>" +
+                                                            "<option value='1'>RP</option>" +
+                                                            "<option value='0.5'>Conc</option>" +
+                                                            "<option value='0.1'>PI</option>" +
+                                                        "</select>" +
+                                        "</td>" +
+                                        "<td>E:<br> <select   name='EIRE" + "' id='EIRE" + envirocount + "'>" +
+                                                "<option value='10'>Con</option>" +
+                                                "<option value='5'>Freq</option>" +
+                                                "<option value='3'>Occ</option>" +
+                                                "<option value='2'>Infreq</option>" +
+                                                "<option value='1'>Rare</option>" +
+                                                "<option value='0.5'>UO</option>" +
+                                            "</select>" +
+                                        "</td>" +
+                                    "</tr>" +
+                                    "<tr>" +
+                                        "<td colspan='3'><p id='EIR" + envirocount + "'></p></td>" +
+                                    "</tr>" +
+                                    "<tr>" +
+                                        "<td rowspan='3'>" +
+                                                "<input type='hidden' name='Econtrolnum' value='1'>" +
+                                                "Control: <br><select   name='ECT" + "'>" +
+                                                "<option value ='elimination'>Elimination</option>" +
+                                                "<option value = 'substitution'>Substitution</option>" +
+                                                "<option value='engineering'>Engineering</option>" +
+                                                "<option value='isolation'>Isolation</option>" +
+                                                "<option value='guarding'>Guarding</option>" +
+                                                "<option value='adminastrative'>Administrative</option>" +
+                                                "<option value='training'>Training</option>" +
+                                                "<option value='inspection'>Inspection</option>" +
+                                                "<option value='PPE'>PPE</option>" +
+                                            "</select>" +
+                                        "</td>" +
+                                        "<td rowspan='3'>Control Measure <br> <textarea rows='3' cols='30' name='Emeasure" + "' placeholder='Describe the control measure... ' required></textarea></td>" +
+                                        "<td colspan='3'>Residual Risk</td>" +
+                                        "<tr>" +
+                                            "<td>C:<br> <select   name='ERRC' id='ERRC" + envirocount + "" +envirorcount + "'>" +
+                                                    "<option value='100'>Cata</option>" +
+                                                    "<option value='50'>Dis</option>" +
+                                                    "<option value='25'>VS</option>" +
+                                                    "<option value='15'>Ser</option>" +
+                                                    "<option value='5'>Imp</option>" +
+                                                    "<option value='1'>Not</option>" +
+                                                "</select>" +
+                                            "</td>" +
+                                            "<td>L:<br> <select   name='ERRL' id='ERRL" + envirocount + "" + envirorcount + "'>" +
+                                                    "<option value='10'>AC</option>" +
+                                                    "<option value='6'>Lik</option>" +
+                                                    "<option value='3'>Unus</option>" +
+                                                    "<option value='1'>RP</option>" +
+                                                    "<option value='0.5'>Conc</option>" +
+                                                    "<option value='0.1'>PI</option>" +
+                                                "</select>" +
+                                            "</td>" +
+                                            "<td>E:<br> <select   name='ERRE' id='ERRE" + envirocount + "" + envirorcount + "'>" +
+                                                    "<option value='10'>Con</option>" +
+                                                    "<option value='5'>Freq</option>" +
+                                                    "<option value='3'>Occ</option>" +
+                                                    "<option value='2'>Infreq</option>" +
+                                                    "<option value='1'>Rare</option>" +
+                                                    "<option value='0.5'>UO</option>" +
+                                                "</select>" +
+                                            "</td>" +
+                                        "</tr>" +
+                                        "<tr>" +
+                                            "<td colspan='3'><p id='ERR" + envirocount + envirorcount + "'></p></td>" +
+                                        "</tr>" + 
+                                        "<tr>" +
+                                            "<td class='delete'><input type='button' class='deletegeneric' value='Delete A Control'></td>" +
+                                            "<td><input type='button' class='addctrlE' value='Add Another Control'></td>" +
+                                        "</tr>";
+                                        $('#envirorisk').append(row);
+                        })
+                        $(".addflora").click(function() {
+                                        floracount = floracount + 1;
+                                        florarcount = 1;
+                                        var row = "<tr class='lastrow'>" +
+                                                    "<td rowspan='3'>Identifiable Risk<br> <input type='text' name='Fname' required></td>" +
+                                                    "<td rowspan='3'>Comment:<br> <textarea rows='3' cols='30' name='Fcomment" + "'   placeholder='When and where hazard is present...' required>" + "</textarea>" +
+                                                    "</td>" +
+                                                    "<td colspan='3'>Inherent Risk</td>" +
+                                                    "</tr>" +
+                                                    "<tr>" +
+                                                        "<td>C:<br> <select   name='FIRC" + "' id='FIRC" + floracount + "'>" +
+                                                            "<option value='100'>Cata</option>" +
+                                                            "<option value='50'>Dis</option>" +
+                                                            "<option value='25'>VS</option>" +
+                                                            "<option value='15'>Ser</option>" +
+                                                            "<option value='5'>Imp</option>" +
+                                                            "<option value='1'>Not</option>" +
+                                                        "</select>" +
+                                                        "</td>" +
+                                                        "<td>L:<br> <select   name='FIRL" + "' id='FIRL" + floracount + "'>" +
+                                                            "<option value='10'>AC</option>" +
+                                                            "<option value='6'>Lik</option>" +
+                                                            "<option value='3'>Unus</option>" +
+                                                            "<option value='1'>RP</option>" +
+                                                            "<option value='0.5'>Conc</option>" +
+                                                            "<option value='0.1'>PI</option>" +
+                                                        "</select>" +
+                                        "</td>" +
+                                        "<td>E:<br> <select   name='FIRE" + "' id='FIRE" + floracount + "'>" +
+                                                "<option value='10'>Con</option>" +
+                                                "<option value='5'>Freq</option>" +
+                                                "<option value='3'>Occ</option>" +
+                                                "<option value='2'>Infreq</option>" +
+                                                "<option value='1'>Rare</option>" +
+                                                "<option value='0.5'>UO</option>" +
+                                            "</select>" +
+                                        "</td>" +
+                                    "</tr>" +
+                                    "<tr>" +
+                                        "<td colspan='3'><p id='FIR" + floracount + "'></p></td>" +
+                                    "</tr>" +
+                                    "<tr>" +
+                                        "<td rowspan='3'>" +
+                                                "<input type='hidden' name='Fcontrolnum' value='1'>" +
+                                                "Control: <br><select   name='FCT" + "'>" +
+                                                "<option value ='elimination'>Elimination</option>" +
+                                                "<option value = 'substitution'>Substitution</option>" +
+                                                "<option value='engineering'>Engineering</option>" +
+                                                "<option value='isolation'>Isolation</option>" +
+                                                "<option value='guarding'>Guarding</option>" +
+                                                "<option value='adminastrative'>Administrative</option>" +
+                                                "<option value='training'>Training</option>" +
+                                                "<option value='inspection'>Inspection</option>" +
+                                                "<option value='PPE'>PPE</option>" +
+                                            "</select>" +
+                                        "</td>" +
+                                        "<td rowspan='3'>Control Measure <br> <textarea rows='3' cols='30' name='Fmeasure" + "' placeholder='Describe the control measure... ' required></textarea></td>" +
+                                        "<td colspan='3'>Residual Risk</td>" +
+                                        "<tr>" +
+                                            "<td>C:<br> <select   name='FRRC" + "' id='FRRC" + floracount + "" + florarcount + "'>" +
+                                                    "<option value='100'>Cata</option>" +
+                                                    "<option value='50'>Dis</option>" +
+                                                    "<option value='25'>VS</option>" +
+                                                    "<option value='15'>Ser</option>" +
+                                                    "<option value='5'>Imp</option>" +
+                                                    "<option value='1'>Not</option>" +
+                                                "</select>" +
+                                            "</td>" +
+                                            "<td>L:<br> <select   name='FRRL" + "' id='FRRL" + floracount + "" + florarcount + "'>" +
+                                                    "<option value='10'>AC</option>" +
+                                                    "<option value='6'>Lik</option>" +
+                                                    "<option value='3'>Unus</option>" +
+                                                    "<option value='1'>RP</option>" +
+                                                    "<option value='0.5'>Conc</option>" +
+                                                    "<option value='0.1'>PI</option>" +
+                                                "</select>" +
+                                            "</td>" +
+                                            "<td>E:<br> <select   name='FRRE" + "'  id='FRRE" + floracount + "" + florarcount + "'>" +
+                                                    "<option value='10'>Con</option>" +
+                                                    "<option value='5'>Freq</option>" +
+                                                    "<option value='3'>Occ</option>" +
+                                                    "<option value='2'>Infreq</option>" +
+                                                    "<option value='1'>Rare</option>" +
+                                                    "<option value='0.5'>UO</option>" +
+                                                "</select>" +
+                                            "</td>" +
+                                        "</tr>" +
+                                        "<tr>" +
+                                            "<td colspan='3'><p id='FRR" + floracount + "" + florarcount + "'></p></td>" +
+                                        "</tr>" + 
+                                        "<tr>" +
+                                            "<td class='delete'><input type='button' class='deletegeneric' value='Delete A Control'></td>" + 
+                                            "<td><input type='button' class='addctrlF' value='Add Another Control'></td>" +
+                                        "</tr>";
+                                        $('#florarisk').append(row);
+                        })
+                        $(".addother").click(function() {
+                                        othercount = othercount + 1;
+                                        otherrcount = 1;
+                                        var row = "<tr class='lastrow'>" +
+                                                    "<td rowspan='3'>Identifiable Risk<br> <input type='text' name='Oname' required></td>" +
+                                                    "<td rowspan='3'>Comment:<br> <textarea rows='3' cols='30' name='Ocomment" + "'   placeholder='When and where hazard is present...' required>" + "</textarea>" +
+                                                    "</td>" +
+                                                    "<td colspan='3'>Inherent Risk</td>" +
+                                                    "</tr>" +
+                                                    "<tr>" +
+                                                        "<td>C:<br> <select name='OIRC" + "' id='OIRC" + othercount + "'>" +
+                                                            "<option value='100'>Cata</option>" +
+                                                            "<option value='50'>Dis</option>" +
+                                                            "<option value='25'>VS</option>" +
+                                                            "<option value='15'>Ser</option>" +
+                                                            "<option value='5'>Imp</option>" +
+                                                            "<option value='1'>Not</option>" +
+                                                        "</select>" +
+                                                        "</td>" +
+                                                        "<td>L:<br> <select name='OIRL" + "' id='OIRL" + othercount + "'>" +
+                                                            "<option value='10'>AC</option>" +
+                                                            "<option value='6'>Lik</option>" +
+                                                            "<option value='3'>Unus</option>" +
+                                                            "<option value='1'>RP</option>" +
+                                                            "<option value='0.5'>Conc</option>" +
+                                                            "<option value='0.1'>PI</option>" +
+                                                        "</select>" +
+                                        "</td>" +
+                                        "<td>E:<br> <select   name='OIRE" + "' id='OIRE" + othercount + "'>" +
+                                                "<option value='10'>Con</option>" +
+                                                "<option value='5'>Freq</option>" +
+                                                "<option value='3'>Occ</option>" +
+                                                "<option value='2'>Infreq</option>" +
+                                                "<option value='1'>Rare</option>" +
+                                                "<option value='0.5'>UO</option>" +
+                                            "</select>" +
+                                        "</td>" +
+                                    "</tr>" +
+                                    "<tr>" +
+                                        "<td colspan='3'><p id='OIR" + othercount + "'></p></td>" +
+                                    "</tr>" +
+                                    "<tr>" +
+                                        "<td rowspan='3'>" +
+                                                "<input type='hidden' name='Ocontrolnum' value='1'>" +
+                                                "Control: <br><select   name='OCT" + "'>" +
+                                                "<option value ='elimination'>Elimination</option>" +
+                                                "<option value = 'substitution'>Substitution</option>" +
+                                                "<option value='engineering'>Engineering</option>" +
+                                                "<option value='isolation'>Isolation</option>" +
+                                                "<option value='guarding'>Guarding</option>" +
+                                                "<option value='adminastrative'>Administrative</option>" +
+                                                "<option value='training'>Training</option>" +
+                                                "<option value='inspection'>Inspection</option>" +
+                                                "<option value='PPE'>PPE</option>" +
+                                            "</select>" +
+                                        "</td>" +
+                                        "<td rowspan='3'>Control Measure <br> <textarea rows='3' cols='30' name='Omeasure" + "' placeholder='Describe the control measure... ' required></textarea></td>" +
+                                        "<td colspan='3'>Residual Risk</td>" +
+                                        "<tr>" +
+                                            "<td>C:<br> <select   name='ORRC" + "' id='ORRC" + othercount + "" + otherrcount + "'>" +
+                                                    "<option value='100'>Cata</option>" +
+                                                    "<option value='50'>Dis</option>" +
+                                                    "<option value='25'>VS</option>" +
+                                                    "<option value='15'>Ser</option>" +
+                                                    "<option value='5'>Imp</option>" +
+                                                    "<option value='1'>Not</option>" +
+                                                "</select>" +
+                                            "</td>" +
+                                            "<td>L:<br> <select   name='ORRL" + "' id='ORRL" + othercount + "" + otherrcount + "'>" +
+                                                    "<option value='10'>AC</option>" +
+                                                    "<option value='6'>Lik</option>" +
+                                                    "<option value='3'>Unus</option>" +
+                                                    "<option value='1'>RP</option>" +
+                                                    "<option value='0.5'>Conc</option>" +
+                                                    "<option value='0.1'>PI</option>" +
+                                                "</select>" +
+                                            "</td>" +
+                                            "<td>E:<br> <select   name='ORRE" + "' id='ORRE" + othercount + "" + otherrcount + "'>" +
+                                                    "<option value='10'>Con</option>" +
+                                                    "<option value='5'>Freq</option>" +
+                                                    "<option value='3'>Occ</option>" +
+                                                    "<option value='2'>Infreq</option>" +
+                                                    "<option value='1'>Rare</option>" +
+                                                    "<option value='0.5'>UO</option>" +
+                                                "</select>" +
+                                            "</td>" +
+                                        "</tr>" +
+                                        "<tr>" +
+                                            "<td colspan='3'><p id='ORR" + othercount + "" + otherrcount + "'></p></td>" +
+                                        "</tr>" + 
+                                        "<tr>" +
+                                            "<td><input type='button' class='deletegeneric' value='Delete A Control'></td>" +
+                                            "<td><input type='button' class='addctrlO' value='Add Another Control'></td>" +
+                                        "</tr>";
+                                        $('#otherrisk').append(row);
+                                        })
+                        $("#genericrisk").click(function(e) {
+                            
+                            if(e.target.classList.contains("addctrlG")) {
+                                genericrcount = genericrcount + 1;
+                                var x = e.target;
+                                var jx = $(x);
+                                var jx = jx.parent().parent();
+                                var row = "<tr>" +
+                                                    "<td>" +
+                                                        "<input type='hidden' name='Gcontrolnum' value='" + genericrcount + "'>" +
+                                                        "Control: <br><select name='GCT" + "'>" +
+                                                        "<option value ='elimination'>Elimination</option>" +
+                                                        "<option value = 'substitution'>Substitution</option>" +
+                                                        "<option value='engineering'>Engineering</option>" +
+                                                        "<option value='isolation'>Isolation</option>" +
+                                                        "<option value='guarding'>Guarding</option>" +
+                                                        "<option value='adminastrative'>Administrative</option>" +
+                                                        "<option value='training'>Training</option>" +
+                                                        "<option value='inspection'>Inspection</option>" +
+                                                        "<option value='PPE'>PPE</option>" +
+                                                    "</select>" +
+                                                    "</td>" +
+                                                    "<td>Control Measure <br> <textarea rows='3' cols='30' name='Gmeasure" + "' placeholder='Describe the control measure... ' required></textarea></td>" +
+                                            "</tr>";
+                                            jx.prev().prev().prev().prev().after(row);
+                            }
+                            })
+                            $("#envirorisk").click(function(e) {
+                            
+                            if(e.target.classList.contains("addctrlE")) {
+                                envirorcount = envirorcount + 1;
+                                var x = e.target;
+                                var jx = $(x);
+                                var jx = jx.parent().parent();
+                                var row = "<tr>" +
+                                                    "<td>" +
+                                                        "<input type='hidden' name='Econtrolnum' value='" + envirorcount + "'>" +
+                                                        "Control: <br><select name='ECT" + "'>" +
+                                                        "<option value ='elimination'>Elimination</option>" +
+                                                        "<option value = 'substitution'>Substitution</option>" +
+                                                        "<option value='engineering'>Engineering</option>" +
+                                                        "<option value='isolation'>Isolation</option>" +
+                                                        "<option value='guarding'>Guarding</option>" +
+                                                        "<option value='adminastrative'>Administrative</option>" +
+                                                        "<option value='training'>Training</option>" +
+                                                        "<option value='inspection'>Inspection</option>" +
+                                                        "<option value='PPE'>PPE</option>" +
+                                                    "</select>" +
+                                                    "</td>" +
+                                                    "<td>Control Measure <br> <textarea rows='3' cols='30' name='Emeasure" + "' placeholder='Describe the control measure... ' required></textarea></td>" +
+                                            "</tr>";
+                                            jx.prev().prev().prev().prev().after(row);
+                            }
+                            })
+                            $("#florarisk").click(function(e) {
+                            
+                            if(e.target.classList.contains("addctrlF")) {
+                                florarcount = florarcount + 1;
+                                var x = e.target;
+                                var jx = $(x);
+                                var jx = jx.parent().parent();
+                                var row = "<tr>" +
+                                                    "<td>" +
+                                                        "<input type='hidden' name='Fcontrolnum' value='" + florarcount + "'>" +
+                                                        "Control: <br><select name='FCT" + "'>" +
+                                                        "<option value ='elimination'>Elimination</option>" +
+                                                        "<option value = 'substitution'>Substitution</option>" +
+                                                        "<option value='engineering'>Engineering</option>" +
+                                                        "<option value='isolation'>Isolation</option>" +
+                                                        "<option value='guarding'>Guarding</option>" +
+                                                        "<option value='adminastrative'>Administrative</option>" +
+                                                        "<option value='training'>Training</option>" +
+                                                        "<option value='inspection'>Inspection</option>" +
+                                                        "<option value='PPE'>PPE</option>" +
+                                                    "</select>" +
+                                                    "</td>" +
+                                                    "<td>Control Measure <br> <textarea rows='3' cols='30' name='Fmeasure" + "' placeholder='Describe the control measure... ' required></textarea></td>" +
+                                            "</tr>";
+                                            jx.prev().prev().prev().prev().after(row);
+                            }
+                            })
+                            $("#otherrisk").click(function(e) {
+                            if(e.target.classList.contains("addctrlO")) {
+                                otherrcount = otherrcount + 1;
+                                var x = e.target;
+                                var jx = $(x);
+                                var jx = jx.parent().parent();
+                                var row = "<tr>" +
+                                                    "<td>" +
+                                                        "<input type='hidden' name='Ocontrolnum' value='" + otherrcount + "'>" +
+                                                        "Control: <br><select name='OCT" + "'>" +
+                                                        "<option value ='elimination'>Elimination</option>" +
+                                                        "<option value = 'substitution'>Substitution</option>" +
+                                                        "<option value='engineering'>Engineering</option>" +
+                                                        "<option value='isolation'>Isolation</option>" +
+                                                        "<option value='guarding'>Guarding</option>" +
+                                                        "<option value='adminastrative'>Administrative</option>" +
+                                                        "<option value='training'>Training</option>" +
+                                                        "<option value='inspection'>Inspection</option>" +
+                                                        "<option value='PPE'>PPE</option>" +
+                                                    "</select>" +
+                                                    "</td>" +
+                                                    "<td>Control Measure <br> <textarea rows='3' cols='30' name='Omeasure" + "' placeholder='Describe the control measure... ' required></textarea></td>" +
+                                            "</tr>";
+                                            jx.prev().prev().prev().prev().after(row);
+                            }
+                            })
+        
+                            $('#genericrisk').click(function(e) {
+                                            if(genericrcount > 1) {
+                                                if(e.target.classList.contains("deletegeneric")) {
+                                                    var x = e.target;
+                                                    var jx = $(x);
+                                                    jx = jx.parent().parent().prev().prev().prev().prev();
+                                                        for (var i = 0; i < 3;i++) {
+                                                            jx.remove();
+                                                            jx = jx.prev();
+                                                        }
+                                                        genericrcount--;
+                                                    
+                                                }
+                                            }        
+                            })
+        
+                            $('#envirorisk').click(function(e) {
+                                            if(envirorcount > 1) {
+                                                if(e.target.classList.contains("deletegeneric")) {
+                                                    var x = e.target;
+                                                    var jx = $(x);
+                                                    jx = jx.parent().parent().prev().prev().prev().prev();
+                                                        for (var i = 0; i < 3;i++) {
+                                                            jx.remove();
+                                                            jx = jx.prev();
+                                                        }
+                                                        envirorcount--;
+                                                    
+                                                }
+                                            }        
+                            })
+        
+                            $('#florarisk').click(function(e) {
+                                            if(florarcount > 1) {
+                                                if(e.target.classList.contains("deletegeneric")) {
+                                                    var x = e.target;
+                                                    var jx = $(x);
+                                                    jx = jx.parent().parent().prev().prev().prev().prev();
+                                                        for (var i = 0; i < 3;i++) {
+                                                            jx.remove();
+                                                            jx = jx.prev();
+                                                        }
+                                                        florarcount--;
+                                                    
+                                                }
+                                            }        
+                            })
+        
+        
+                            $('#otherrisk').click(function(e) {
+                                            if(otherrcount > 1) {
+                                                if(e.target.classList.contains("deletegeneric")) {
+                                                    var x = e.target;
+                                                    var jx = $(x);
+                                                    jx = jx.parent().parent().prev().prev().prev().prev();
+                                                        for (var i = 0; i < 3;i++) {
+                                                            jx.remove();
+                                                            jx = jx.prev();
+                                                        }
+                                                        otherrcount--;
+                                                    
+                                                }
+                                            }        
+                            })
+        
+                            $('.deleteriskG').click(function() {
+                                if (genericcount > 1) {
+                                    while(!$("#genericrisk tr:last").hasClass("lastrow")) {
+                                        var x = $('#genericrisk tr:last');
+                                        x.remove();
+                                    }
+                                var x = $('#genericrisk tr:last');
+                                x.remove();
+                                genericcount--;
+                                } 
+                                
+                            })
+        
+                            $('.deleteriskE').click(function() {
+                                if (envirocount > 1) {
+                                    while(!$("#envirorisk tr:last").hasClass("lastrow")) {
+                                        var x = $('#envirorisk tr:last');
+                                        x.remove();
+                                    }
+                                var x = $('#envirorisk tr:last');
+                                x.remove();
+                                envirocount--;
+                                } 
+                                
+                            })
+        
+                            $('.deleteriskF').click(function() {
+                                if (floracount > 1) {
+                                    while(!$("#florarisk tr:last").hasClass("lastrow")) {
+                                        var x = $('#florarisk tr:last');
+                                        x.remove();
+                                    }
+                                var x = $('#florarisk tr:last');
+                                x.remove();
+                                floracount--;
+                                } 
+                                
+                            })
+        
+                            $('.deleteriskO').click(function() {
+                                if (othercount > 1) {
+                                    while(!$("#otherrisk tr:last").hasClass("lastrow")) {
+                                        var x = $('#otherrisk tr:last');
+                                        x.remove();
+                                    }
+                                var x = $('#otherrisk tr:last');
+                                x.remove();
+                                othercount--;
+                                } 
+                                
+                            })
+    })
+     function checkdates() {
+        var x = new Date();
+        var year = x.getFullYear();
+        var month = x.getMonth();
+        var day = x.getDay();
+        var year = new Date(year + 5,month,day);
+        var exp = new Date(document.forms["riskass"]["expdate"].value);
+        if (exp > year) {
+            alert("the date of expiry must be within 5 years");
+            return false;
+        }
+         return true;
+        }
+		
+		var admins = [];
+		<% for (var i = 0; i < admins.length; i ++){ %>
+			admins.push(<%- JSON.stringify(admins[i].username) %>);
+		<% } %>
+		
+		function checkAdmin(id){
+			var em = $(id).val();
+			for (var k = 0; k < admins.length; k++){
+				if (admins[k] == em){
+					return true;
+				}
+			}
+			alert(em + " does not match any emails");
+			return false;
+		}
+
+        function validateForm() {
+            if (!checkdates()) return false;
+			if (!checkAdmin("#supemail")) return false;
+			if (!checkAdmin("#fcemail")) return false;
+            //if (!checkboxes()) return false;
+        }
+</script>
+
+
+<body>
+	<section>
+		<div class="pure-g">
+			<div class="pure-u-1" id="header">
+				<img src="images/backgroundDefault.jpg" style="top: -80px; position:relative;  z-index: -1;">
+
+			</div>
+		</div>
+
+		<div id="excludingHeader">
+			<div class="pure-g">
+				<div class="pure-u-lg-1-5" id="sidebar"> </div>
+					<%if(form1) {%>
+						<% var toContinue = 1 %>
+						<%for(var i = 0;i < form1.length;i++) {%>
+							<%if(form1[i].dateFilled.substr(form1[i].dateFilled.length - 4) == new Date().getFullYear() && toContinue == 1) {%>
+								<% toContinue = 0 %>
+								<div class="pure-u-1 pure-u-lg-3-5">
+						<div id="formArea">
+						<div id="formTitle"> Safety Risk Assessment Form </div>
+						<br>
+							<form name="riskass" class="pure-form" action="/riskAssForm/<%=user.username%>" method="post" onsubmit="return validateForm()">
+								<div class="sectionContainer">
+									<div class="sectionTitle">Part - 1 Activity/Task Description</div>
+									<div class="input">
+										<table id = "basic_part1">
+											<tr>
+												<td>Location<br><input type="text" name="location" required></td>
+												<td>Assessment Date <br><input type="text" id="assesdate" name="assesdate" required></td>
+											</tr>
+											<tr>
+												<td>Assessor<br><input type="text" name="assessor" required></td>
+												<td>Peer Checked By<br><input type="text" name="peer" required></td>
+											</tr>
+											<tr>
+												<td>Task/Activity/Project Title<br><input type="text" name="title" required></td>
+												<td>How many persons will be involved <br> <input type="number" name="people" min="0" required></td>
+											</tr>
+											<tr>
+												<td>Expiry Date<br> <input type="text" id="expdate" name="expdate" required></td>
+											</tr>
+											<tr>
+												<td colspan="3">Description:<br> <textarea rows="3" cols="90" name="activitydesc" id="activitydesc" placeholder="Write a description of the fieldwork here including where you will be and what you will be doing..." class = "expanding"></textarea>
+												<br>
+												</td>
+											</tr>
+											<tr>
+												<td colspan="3">Workplace Conditions<br> <textarea rows="3" cols="90" name="workconditions" id="workconditions" placeholder="Describe the likely conditions on the fieldtrip here including weather and information on the area..." class="expanding"></textarea></td>
+											</tr>
+										</table>
+									</div>
+								</div>
+								<br>
+								<div class="sectionContainer">
+									<div class="sectionTitle">Identify Hazards, Associated Risk Rating and Control Strategies</div>
+									<div class="input">
+										<br>
+										<div class = "howtotable">
+											<table id="howto_part2">
+												<tr>
+													<td><h3>Instructions</h3></td>
+													<td><h3>Hierarchy of Controls</h3></td>
+												</tr>
+												<tr>
+													<td>
+														<ol>
+															<li>Pick out the hazards which are relevant for this task or activity</li>
+															<li>Enter values for C,L,E based on inherent risk values</li>
+															<li>In the comment box describe when and where hazard is present and other notes</li>
+															<li>Under Control Measures give a description of the control to be implemented</li>
+															<li>Enter residual risk values for the control measures in C,L,E</li>
+														</ol>
+													</td>
+													<td><ul>
+															<li>EL - Elimination</li>
+															<li>SU - Substitution</li>
+															<li>EN - Engineering</li>
+															<li>AD - Administrative</li>
+															<li>IS - Isolation</li>
+															<li>TR - Training</li>
+															<li>GD - Guarding</li>
+															<li>IN - Inspection</li>
+															<li>PPE - Personal Protective Equipment</li>
+														</ul>
+													</td>
+												</tr>
+											</table>
+										</div>
+										<br>
+										<div class = "riskdefheader"><h3>Risk Calculator</h3></div>
+											<i>When Completing Risk Assessment Table please refer to the definitions below</i><br><br>
+											<div class="consequences + likelihood table">
+												<table  border="1" >
+													<tr>
+														<td colspan="2" class="cHeader"><b>Consequences</b><br>The most probable outcome of exposure to the hazard</td>
+														<td class="cHeader"><b>C</b></td>
+														<td colspan = "2" class="cHeader"><b>Likelihood</b><br>That an individual, being exposed to the hazard will result in the identified consequence</td>
+														<td class="cHeader"><b>L</b></td>
+													</tr>
+													<tr>
+														<td><b>Cat</b> - Catastrophe</td>
+														<td>Multiple fatalities</td>
+														<td>100</td>
+														<td><b>AC</b> - Almost Certain</td>
+														<td>The most likely outcome if the event occurs</td>
+														<td>10</td>
+													</tr>
+													<tr>
+														<td><b>Dis</b> - Disaster</td>
+														<td>A fatality</td>
+														<td>50</td>
+														<td><b>Lik</b> - Likely</td>
+														<td>Not unusual and quite possible to occur</td>
+														<td>6</td>
+													</tr>
+													<tr>
+														<td><b>VS</b> - Very Serious</td>
+														<td>Permanent disability or ill health</td>
+														<td>25</td>
+														<td><b>Unus</b> - Unusual</td>
+														<td>Possible but doubtful</td>
+														<td>3</td>
+													</tr>
+													<tr>
+														<td><b>Ser</b> - Serious</td>
+														<td>Non-permanent injury or ill health</td>
+														<td>15</td>
+														<td><b>RP</b> - Remote Possibility</td>
+														<td>A possible coincidence</td>
+														<td>1</td>
+													</tr>
+													<tr>
+														<td><b>Imp</b> - Important</td>
+														<td>Medical attention needed</td>
+														<td>5</td>
+														<td><b>Con</b> - Conceivable</td>
+														<td>Has never happened in years of exposure, but possible</td>
+														<td>0.5</td>
+													</tr>
+													<tr>
+														<td><b>Not</b> - Noticeable</td>
+														<td>Minor cuts, bruises, sickness</td>
+														<td>1</td>
+														<td><b>PI</b> - Practically Impossible</td>
+														<td>Not known to ever happened but possible</td>
+														<td>1</td>
+													</tr>
+												</table>
+											</div>
+										<br>
+											<div class="Exposure Table">
+												<table class="Exposure" border="1">
+													<tr>
+														<td colspan="2" class="cHeader"><b>Exposure</b><br>The regularity of the activity</td>
+														<td class="cHeader"><b>E</b></td>
+													</tr>
+													<tr>
+														<td><b>Con</b> - Continuous</td>
+														<td>Many times daily</td>
+														<td>10</td>
+													</tr>
+													<tr>
+														<td><b>Freq</b> - Frequent</td>
+														<td>Approximately once daily</td>
+														<td>5</td>
+													</tr>
+													<tr>
+														<td><b>Occ</b> - Occasional</td>
+														<td>Once a week to once a month</td>
+														<td>3</td>
+													</tr>
+													<tr>
+														<td><b>Infreq</b> - Infrequent</td>
+														<td>Once a month to once a year</td>
+														<td>1</td>
+													</tr>
+													<tr>
+														<td><b>Rare</b></td>
+														<td>Once a month to once a year</td>
+														<td>0.5</td>
+													</tr>
+													<tr>
+														<td><b>UO</b> - Unheard of</td>
+														<td>Not known to have occurred</td>
+														<td>0.1</td>
+													</tr>
+												</table>
+											</div>
+										<br>
+										<br>
+										<div class="score">
+											<table border="1">
+												<thead>
+													<th class="cHeader">Risk Score<br> C * L * E</th>
+													<th class="cHeader">Risk Rating</th>
+													<th class="cHeader">Control Strategies</th>
+												</thead>
+												<tbody>
+													<tr>
+														<td>>600</td>
+														<td>Very High</td>
+														<td><ul>
+																<li>Immediate action required</li>
+																<li>Do not proceed with task/activity until control measures have been implemented.</li>
+																<li>Notify supervisor, safety & health representative and head of school.</li>
+																<li>Arrange continuous review and monitoring.</li>
+															</ul></td>
+													</tr>
+													<tr>
+														<td>>300 to 600</td>
+														<td>High</td>
+														<td><ul>
+															<li>Consider not carrying out task/activity until control measures have been implemented as soon as practicable.</li>
+															<li>Notify supervisor and safety & health representatives.</li>
+															<li>Action plan to reduce risk.</li>
+															<li>Monitor every subsequent exposure in addition to any other regular monitoring regime.</li>
+															</ul>
+														</td>
+													</tr>
+													<tr>
+														<td>>90 to 300</td>
+														<td>Medium</td>
+														<td><ul>
+															<li>Implement immediate action to minimise potential for injuries.</li>
+															<li>Notify supervisor to organise remedial action before commencing activity.</li>
+															</ul>
+														</td>
+													</tr>
+													<tr>
+														<td>90 or Less</td>
+														<td>Low</td>
+														<td><ul>
+																<li>Required action to be agreed with supervisor.</li>
+																<li>Remedial action to be taken as soon as practicable and within a month.</li>
+															</ul>
+														</td>
+													</tr>
+												</tbody>
+											</table>
+										</div>
+									</div>
+								</div>
+								<br>
+								<div class="sectionContainer">
+									<div class="sectionTitle"> Risk Assessment Table </div>
+									<div class="input">
+										<br>
+										<i>Please fill out the table below: a list of common risk is provided <a href="Field-work-hazard-identification-checklist-v1-1.pdf">here</a></i>
+										<div class="riskasstable">
+											<table id="genericrisk" width="100%">
+												<tr class="lastrow">
+													<td colspan="5" class="cHeader"> <b>Generic Risks</b> </td>
+												</tr>
+												<tr>
+													<td rowspan="3">Identifiable Risk<br> <input type="text" name="Gname" ></td>
+													<td rowspan="3">Comment:<br> <textarea rows="3" cols="30" name="Gcomment"  placeholder="When and where is the hazard present..." class=" expanding"></textarea></td>
+													<td colspan="3">Inherent Risk</td>
+												</tr>
+												<tr>
+													<td>C:<br> <select name="GIRC" id="GIRC1">
+															<option value="100">Cata</option>
+															<option value="50">Dis</option>
+															<option value="25">VS</option>
+															<option value="15">Ser</option>
+															<option value="5">Imp</option>
+															<option value="1">Not</option>
+														</select>
+													</td>
+													<td>L:<br> <select name="GIRL" id="GIRL1">
+															<option value="10">AC</option>
+															<option value="6">Lik</option>
+															<option value="3">Unus</option>
+															<option value="1">RP</option>
+															<option value="0.5">Conc</option>
+															<option value="0.1">PI</option>
+														</select>
+													</td>
+													<td>E:<br> <select name="GIRE" id="GIRE1">
+															<option value="10">Con</option>
+															<option value="5">Freq</option>
+															<option value="3">Occ</option>
+															<option value="2">Infreq</option>
+															<option value="1">Rare</option>
+															<option value="0.5">UO</option>
+														</select>
+													</td>
+												</tr>
+												<tr>
+													<td colspan="3"><p id="GIR1"></p></td>
+												</tr>
+												<tr>
+													<td rowspan="3">
+                                                        <input type="hidden" name="Gcontrolnum" value="1">
+                                                        Control: <br><select name="GCT">
+															<option value ="elimination">Elimination</option>
+															<option value = "substitution">Substitution</option>
+															<option value="engineering">Engineering</option>
+															<option value="isolation">Isolation</option>
+															<option value="guarding">Guarding</option>
+															<option value="adminastrative">Administrative</option>
+															<option value="training">Training</option>
+															<option value="inspection">Inspection</option>
+															<option value="PPE">PPE</option>
+														</select>
+													</td>
+													<td rowspan="3">Control Measure <br> <textarea rows="3" cols="30" name="Gmeasure" placeholder="Describe the control measure... " ></textarea></td>
+													<td colspan="3">Residual Risk</td>
+													<tr>
+														<td>C:<br> <select name="GRRC" id="GRRC11">
+																<option value="100">Cata</option>
+																<option value="50">Dis</option>
+																<option value="25">VS</option>
+																<option value="15">Ser</option>
+																<option value="5">Imp</option>
+																<option value="1">Not</option>
+															</select>
+														</td>
+														<td>L:<br> <select name="GRRL" id="GRRL11">
+																<option value="10">AC</option>
+																<option value="6">Lik</option>
+																<option value="3">Unus</option>
+																<option value="1">RP</option>
+																<option value="0.5">Conc</option>
+																<option value="0.1">PI</option>
+															</select>
+														</td>
+														<td>E:<br> <select name="GRRE"  id="GRRE11">
+																<option value="10">Con</option>
+																<option value="5">Freq</option>
+																<option value="3">Occ</option>
+																<option value="2">Infreq</option>
+																<option value="1">Rare</option>
+																<option value="0.5">UO</option>
+															</select>
+														</td>
+													</tr>
+													<tr>
+														<td colspan="3"><p id="GRR11"></p> </td>
+													</tr>
+                                                <tr>
+                                                    <td class="delete"><input type="button" class="deletegeneric" value="Delete a Control"></td>
+                                                    <td><input type="button" class="addctrlG" value="Add Another Control"></td>
+                                                </tr>
+											</table>
+											<br>
+                                            
+											<input type="button" class="addgeneric" value="Add Generic Risk">
+                                            <input type="button" class="deleteriskG" value="Delete A Risk">
+										</div>
+										<br>
+										<div class="riskasstable">
+											<table id = "envirorisk" width="100%">
+												<tr class="lastrow">
+													<td colspan="5" class="cHeader"><b>Environmental Factors</b></td>
+												</tr>
+												<tr>
+													<td rowspan="3">Identifiable Risk<br> <input type="text" name="Ename" ></td>
+													<td rowspan="3">Comment:<br> <textarea rows="3" cols="30" name="Ecomment"  placeholder="When and where is the hazard present..." ></textarea></td>
+													<td colspan="3">Inherent Risk</td>
+												</tr>
+												<tr>
+													<td>C:<br> <select name="EIRC" id="EIRC1">
+															<option value="100">Cata</option>
+															<option value="50">Dis</option>
+															<option value="25">VS</option>
+															<option value="15">Ser</option>
+															<option value="5">Imp</option>
+															<option value="1">Not</option>
+														</select>
+													</td>
+													<td>L:<br> <select name="EIRL"  id="EIRL1">
+															<option value="10">AC</option>
+															<option value="6">Lik</option>
+															<option value="3">Unus</option>
+															<option value="1">RP</option>
+															<option value="0.5">Conc</option>
+															<option value="0.1">PI</option>
+														</select>
+													</td>
+													<td>E:<br> <select name="EIRE" id="EIRE1">
+															<option value="10">Con</option>
+															<option value="5">Freq</option>
+															<option value="3">Occ</option>
+															<option value="2">Infreq</option>
+															<option value="1">Rare</option>
+															<option value="0.5">UO</option>
+														</select>
+													</td>
+												</tr>
+													<tr>
+														<td colspan="3"><p id="EIR1"></p></td>
+													</tr>
+												<tr>
+													<td rowspan="3">
+                                                        <input type="hidden" name="Econtrolnum" value="1">
+                                                        Control: <br><select name="ECT">
+															<option value ="elimination">Elimination</option>
+															<option value = "substitution">Substitution</option>
+															<option value="engineering">Engineering</option>
+															<option value="isolation">Isolation</option>
+															<option value="guarding">Guarding</option>
+															<option value="adminastrative">Administrative</option>
+															<option value="training">Training</option>
+															<option value="inspection">Inspection</option>
+															<option value="PPE">PPE</option>
+														</select>
+													</td>
+													<td rowspan="3">Control Measure <br> <textarea rows="3" cols="30" name="Emeasure" placeholder="Describe the control measure... " ></textarea></td>
+													<td colspan="3">Residual Risk</td>
+													<tr>
+														<td>C:<br> <select name="ERRC" id="ERRC11">
+																<option value="100">Cata</option>
+																<option value="50">Dis</option>
+																<option value="25">VS</option>
+																<option value="15">Ser</option>
+																<option value="5">Imp</option>
+																<option value="1">Not</option>
+															</select>
+														</td>
+														<td>L:<br> <select name="ERRL"  id="ERRL11">
+																<option value="10">AC</option>
+																<option value="6">Lik</option>
+																<option value="3">Unus</option>
+																<option value="1">RP</option>
+																<option value="0.5">Conc</option>
+																<option value="0.1">PI</option>
+															</select>
+														</td>
+														<td>E:<br> <select name="ERRE"  id="ERRE11">
+																<option value="10">Con</option>
+																<option value="5">Freq</option>
+																<option value="3">Occ</option>
+																<option value="2">Infreq</option>
+																<option value="1">Rare</option>
+																<option value="0.5">UO</option>
+															</select>
+														</td>
+													</tr>
+													<tr>
+														<td colspan="3"><p id="ERR11"></p></td>
+													</tr>
+                                                <tr>
+                                                    <td><input type="button" class="deletegeneric" value="Delete A Control"></td>
+                                                    <td><input type="button" class="addctrlE" value="Add Another Control"></td>
+                                                </tr>
+											</table>
+											<br>
+											<input type="button" class="addenviro" value="Add Environmental Risk">
+                                            <input type="button" class="deleteriskE" value="Delete A Risk">
+										</div>
+										<br>
+										<div class="riskasstable">
+											<table id = "florarisk" width="100%">
+												<tr class='lastrow'>
+													<td colspan="5" class="cHeader"><b>Flora and Fauna</b></td>
+												</tr>
+												<tr>
+													<td rowspan="3">Identifiable Risk<br> <input type="text" name="Fname" ></td>
+													<td rowspan="3">Comment:<br> <textarea rows="3" cols="30" name="Fcomment" placeholder="When and where is the hazard present..." ></textarea></td>
+													<td colspan="3">Inherent Risk</td>
+												</tr>
+												<tr>
+													<td>C:<br><select name="FIRC"  id="FIRC1">
+															<option value="100">Cata</option>
+															<option value="50">Dis</option>
+															<option value="25">VS</option>
+															<option value="15">Ser</option>
+															<option value="5">Imp</option>
+															<option value="1">Not</option>
+														</select>
+													</td>
+													<td>L:<br> <select name="FIRL"  id="FIRL1">
+															<option value="10">AC</option>
+															<option value="6">Lik</option>
+															<option value="3">Unus</option>
+															<option value="1">RP</option>
+															<option value="0.5">Conc</option>
+															<option value="0.1">PI</option>
+														</select>
+													</td>
+													<td>E:<br> <select name="FIRE"  id="FIRE1">
+															<option value="10">Con</option>
+															<option value="5">Freq</option>
+															<option value="3">Occ</option>
+															<option value="2">Infreq</option>
+															<option value="1">Rare</option>
+															<option value="0.5">UO</option>
+														</select>
+													</td>
+												</tr>
+												<tr>
+													<td colspan="3"><p id="FIR1"></p></td>
+												</tr>
+												<tr>
+													<td rowspan="3">
+                                                        <input type="hidden" name="Fcontrolnum" value="1">
+                                                        Control: <br><select name="FCT">
+															<option value ="elimination">Elimination</option>
+															<option value = "substitution">Substitution</option>
+															<option value="engineering">Engineering</option>
+															<option value="isolation">Isolation</option>
+															<option value="guarding">Guarding</option>
+															<option value="adminastrative">Administrative</option>
+															<option value="training">Training</option>
+															<option value="inspection">Inspection</option>
+															<option value="PPE">PPE</option>
+														</select>
+													</td>
+													<td rowspan="3">Control Measure <br> <textarea rows="3" cols="30" name="Fmeasure" placeholder="Describe the control measure... " ></textarea></td>
+													<td colspan="3">Residual Risk</td>
+													<tr>
+														<td>C:<br> <select name="FRRC"  id="FRRC11">
+																<option value="100">Cata</option>
+																<option value="50">Dis</option>
+																<option value="25">VS</option>
+																<option value="15">Ser</option>
+																<option value="5">Imp</option>
+																<option value="1">Not</option>
+															</select>
+														</td>
+														<td>L:<br> <select name="FRRL"  id="FRRL11">
+																<option value="10">AC</option>
+																<option value="6">Lik</option>
+																<option value="3">Unus</option>
+																<option value="1">RP</option>
+																<option value="0.5">Conc</option>
+																<option value="0.1">PI</option>
+															</select>
+														</td>
+														<td>E:<br> <select name="FRRE" id="FRRE11">
+																<option value="10">Con</option>
+																<option value="5">Freq</option>
+																<option value="3">Occ</option>
+																<option value="2">Infreq</option>
+																<option value="1">Rare</option>
+																<option value="0.5">UO</option>
+															</select>
+														</td>
+													</tr>
+													<tr>
+														<td colspan="3"><p id="FRR11"></p></td>
+													</tr>
+                                                    <tr>
+                                                        <td class="delete"><input type="button" class="deletegeneric" value="Delete A Control"></td>
+                                                        <td><input type="button" class="addctrlF" value="Add Another Control"></td>
+                                                    </tr>
+											</table>
+											<br>
+											<input type="button" class="addflora" value="Add Flora & Fauna Risk">
+                                            <input type="button" class="deleteriskF" value="Delete A Risk">
+										</div>
+										<br>
+										<div class="riskasstable">
+											<table id= "otherrisk" width="100%">
+												<tr>
+													<td colspan="5" class="cHeader"><b>Other</b></td>
+												</tr>
+												<tr class='lastrow'>
+													<td rowspan="3">Identifiable Risk<br> <input type="text" name="Oname" ></td>
+													<td rowspan="3">Comment:<br> <textarea rows="3" cols="30" name="Ocomment" placeholder="When and where is the hazard present..." ></textarea></td>
+													<td colspan="3">Inherent Risk</td>
+												</tr>
+												<tr>
+													<td>C:<br> <select name="OIRC" id="OIRC1">
+															<option value="100">Cata</option>
+															<option value="50">Dis</option>
+															<option value="25">VS</option>
+															<option value="15">Ser</option>
+															<option value="5">Imp</option>
+															<option value="1">Not</option>
+														</select>
+													</td>
+													<td>L:<br> <select name="OIRL" id="OIRL1">
+															<option value="10">AC</option>
+															<option value="6">Lik</option>
+															<option value="3">Unus</option>
+															<option value="1">RP</option>
+															<option value="0.5">Conc</option>
+															<option value="0.1">PI</option>
+														</select>
+													</td>
+													<td>E:<br> <select name="OIRE" id="OIRE1">
+															<option value="10">Con</option>
+															<option value="5">Freq</option>
+															<option value="3">Occ</option>
+															<option value="2">Infreq</option>
+															<option value="1">Rare</option>
+															<option value="0.5">UO</option>
+														</select>
+													</td>
+												</tr>
+												<tr>
+													<td colspan="3"><p id="OIR1"></p></td>
+												</tr>
+												<tr>
+													<td rowspan="3">
+                                                        <input type="hidden" name="Ocontrolnum" value="1">
+                                                        Control: <br><select name="OCT">
+															<option value ="elimination">Elimination</option>
+															<option value = "substitution">Substitution</option>
+															<option value="engineering">Engineering</option>
+															<option value="isolation">Isolation</option>
+															<option value="guarding">Guarding</option>
+															<option value="adminastrative">Administrative</option>
+															<option value="training">Training</option>
+															<option value="inspection">Inspection</option>
+															<option value="PPE">PPE</option>
+														</select>
+													</td>
+													<td rowspan="3">Control Measure <br> <textarea rows="3" cols="30" name="Omeasure" placeholder="Describe the control measure... " ></textarea></td>
+													<td colspan="3">Residual Risk</td>
+													<tr>
+														<td>C:<br> <select name="ORRC"  id="ORRC11">
+																<option value="100">Cata</option>
+																<option value="50">Dis</option>
+																<option value="25">VS</option>
+																<option value="15">Ser</option>
+																<option value="5">Imp</option>
+																<option value="1">Not</option>
+															</select>
+														</td>
+														<td>L:<br> <select name="ORRL" id="ORRL11">
+																<option value="10">AC</option>
+																<option value="6">Lik</option>
+																<option value="3">Unus</option>
+																<option value="1">RP</option>
+																<option value="0.5">Conc</option>
+																<option value="0.1">PI</option>
+															</select>
+														</td>
+														<td>E:<br> <select name="ORRE"  id="ORRE11">
+																<option value="10">Con</option>
+																<option value="5">Freq</option>
+																<option value="3">Occ</option>
+																<option value="2">Infreq</option>
+																<option value="1">Rare</option>
+																<option value="0.5">UO</option>
+															</select>
+														</td>
+													</tr>
+													<tr>
+														<td colspan="3"><p id="ORR11"></p></td>
+													</tr>
+                                                    <tr>
+                                                        <td class="delete"><input type="button" class="deletegeneric" value="Delete A Control"></td>
+                                                        <td><input type="button" class="addctrlO" value="Add Another Control"></td>
+                                                    </tr>
+											</table>
+											<br>
+                                            
+											<input type="button" class="addother" value="Add Other Risk">
+                                            <input type="button" class="deleteriskO" value="Delete A Risk">
+										</div>
+										<br>
+									</div>
+								</div>
+								<br>
+								<div class="sectionContainer">
+									<div class="sectionTitle"> Part 3 - Implementation and Escalation Plan </div>
+									<div class="input">
+									<p>I have reviewed this Risk Assessment and agree that the control measures will be implemented as described above</p>
+									<p>If other than a one-off activity, monitoring and review of their effectiveness will be carried out and recorded every <input type="text" name="montime" ></p><br>
+                                    <i>please fill out the name and email of your fieldwork supervisor</i>
+									<table width="%100">
+										<thead>
+											<th></th>
+											<th>Name</th>
+											<th>Email</th>
+											<th>Date</th>
+										</thead>
+										<tbody>
+                                            <tr>
+                                                <td>Fieldwork Coordinator:</td>
+												<td><input type="text" name="fcname" required></td>
+                                                <td><input type="text" name="fcemail" id="fcemail" required></td>
+												<td><input type="text" name="fcdate" id="fcdate" readonly></td>
+                                            </tr>
+											<tr>
+												<td>Supervisor:</td>
+												<td><input type="text" name="supname"></td>
+                                                <td><input type="text" name="supemail" id="supemail" required></td>
+												<td><input type="text" name="supdate" id="supdate" readonly></td>
+											</tr>
+											<tr>
+												<td>Head of School or equivalent:</td>
+												<td><input type="text" name="headname" readonly></td>
+                                                <td><input type="text" name="heademail" id="heademail" readonly></td>
+												<td><input type="text" name="headdate" id="headdate" readonly></td>
+											</tr>
+										</tbody>
+									</table>
+									<br>
+									<br>
+									<br>
+									</div>
+									<input type ="submit" value="Submit Risk Assesment Form">
+                                </div>
+                            </form>
+						</div>
+                    </div>
+								
+							<% } %>
+						<% } %>
+					<% } %>
+					
+                <div class="pure-u-lg-1-5" id="sidebar"> </div>
+            </div>
+        </div>
+
+    </section>
+</body>

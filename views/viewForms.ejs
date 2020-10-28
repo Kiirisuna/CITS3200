@@ -1,0 +1,182 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+		<link rel="stylesheet" href="https://unpkg.com/purecss@1.0.0/build/pure-min.css" integrity="sha384-nn4HPE8lTHyVtfCBi5yW9d20FjT8BJwUXyWZT9InLYax14RDjBj46LmSztkmNP9w" crossorigin="anonymous">
+		<meta charset="utf-8"/>
+		<!--[if lte IE 8]>
+		<link rel="stylesheet" href="https://unpkg.com/purecss@1.0.0/build/grids-responsive-old-ie-min.css">
+	<![endif]-->
+	<!--[if gt IE 8]><!-->
+		<link rel="stylesheet" href="https://unpkg.com/purecss@1.0.0/build/grids-responsive-min.css">
+	<!--<![endif]-->
+		<link rel="stylesheet" href="../styles/style.css">
+		<link rel="stylesheet" href="../jquery/jquery-ui-1.12.1.custom/jquery-ui-1.12.1.custom/jquery-ui.css">
+		<link href="https://fonts.googleapis.com/css?family=Source+Sans+Pro" rel="stylesheet">
+		<script src="../jquery/jquery-ui-1.12.1.custom/jquery-ui-1.12.1.custom/jquery-ui.js"></script>
+		<script src='../upload.js'></script>
+<script>
+$(document).ready(function(){
+	<%if (account.firstAid != null){ %>
+    $('#showFirstAid').click(function(){
+    var contentType = 'application/pdf';
+    var b64Data = "<%= account.firstAid.toString('base64') %>";
+
+    var blob = b64toBlob(b64Data, contentType);
+
+    var blobUrl = URL.createObjectURL(blob);
+	window.open(blobUrl);
+    //window.location = blobUrl;
+	});
+
+	<% } else { %>
+	<% } %>
+
+	<%if (account.off != null){ %>
+    $('#showOffRoad').click(function(){
+    var contentType = 'application/pdf';
+    var b64Data = "<%= account.off.toString('base64') %>";
+
+    var blob = b64toBlob(b64Data, contentType);
+
+    var blobUrl = URL.createObjectURL(blob);
+	window.open(blobUrl);
+    //window.location = blobUrl;
+	});
+	<% } else { %>
+	<%}%>
+
+	<%if (account.licence != null){ %>
+    $('#showLicence').click(function(){
+    var contentType = 'application/pdf';
+    var b64Data = "<%= account.licence.toString('base64') %>";
+
+    var blob = b64toBlob(b64Data, contentType);
+
+    var blobUrl = URL.createObjectURL(blob);
+	window.open(blobUrl);
+    //window.location = blobUrl;
+	});
+
+	<% } else { %>
+	<% } %>
+	});
+</script>
+	</head>
+	<body>
+	<%if(!user.admin) {%>
+	  <p>Not authorized to view this page!</p>
+	<% } %>
+	<%if(user.admin) { %>
+		<div class="pure-g">
+			<div class="pure-u-1" id="header">
+				<img src="../images/backgroundDefault.jpg" style="top: -80px; position:relative;  z-index: -1;">
+			</div>
+		</div>
+		<div class="pure-g">
+			<div class="pure-u-lg-1-5" id="sidebar"> </div>
+				<div class="pure-u-1 pure-u-lg-3-5">
+					<div id="formArea" style="height:500px;">
+					<div id="formTitle"> Admin Dashboard </div>
+					<br><br>
+					<div class="sectionContainer">
+						<div class="sectionTitle"> Account Information </div>
+						<div class="input">
+								<table>
+								<thead>
+								<th>
+								First Aid
+								</th>
+								<th>
+								OffRoad/4WD
+								</th>
+								<th>
+								Licence
+								</th>
+								</thead>
+								<tbody>
+								<td>
+								<input type="button" value="View First Aid" id="showFirstAid" >
+								</td>
+								<td>
+								<input type="button" value="View OffRoad/4WD" id="showOffRoad" >
+								</td>
+								<td>
+								<input type="button" value="View Licence" id="showLicence" >
+								</td>
+								</table>
+						</div>
+					</div>
+					<br><br>
+
+						<div class="sectionContainer">
+							<%if(form1.length > 0) {%>
+								<div class="sectionTitle"> Forms submitted by <%=form1[0].name%> </div>
+							<% } %>
+							<%if(form1.length == 0) {%>
+								<div class="sectionTitle"> Forms submitted by user </div>
+							<% } %>
+							<div class="input">
+								<div class="score">
+									<table>
+										<thead>
+											<th class="dHeader" style="min-width:350px;">Report Type</th>
+											<th class="dHeaderMid" style="min-width:350px;">Date Submitted</th>
+											<th class="dHeader" style="min-width:350px;">Report Status</th>
+										</thead>
+										<%if(form1) {%>
+															<%for(var i = 0;i < form1.length;i++) {%>
+															  <tr>
+																<td><a href="/form1Print/<%=form1[i]._id%>"> Form 1 - Fieldwork Participant Declaration</a></td>
+																<td class="middleCol"> <%=form1[i].dateFilled%></td>
+																<td> <%=form1[i].state %></td>
+															</tr>
+															<% } %>
+	                          <% } %>
+	                          <%if(form7) {%>
+	                            <%for(var i = 0; i < form7.length; i++) {%>
+																<%if(form7[i].state == "Reviewed by Admin") {%>
+	                              	<tr>
+	                              	<td><a href="/form7StudentReview/<%=form7[i]._id%>"> Form 7 - Planning</a></td>
+	                              	<td class="middleCol"> <%=form7[i].dateFilled%></td>
+	                              	<td> <%=form7[i].state %></td>
+	                              	</tr>
+																<% } %>
+																<%if(form7[i].state == "Pending" || form7[i].state == "Reviewed by User" || form7[i].state == "Complete") {%>
+																	<tr>
+	                              	<td><a href="/form7Print/<%=form7[i]._id%>"> Form 7 - Planning </a></td>
+	                              	<td class="middleCol"> <%=form7[i].dateFilled%></td>
+	                              	<td> <%=form7[i].state %></td>
+	                              	</tr>
+																<% } %>
+	                            <% } %>
+	                        <% } %>
+													<%if(riskform) {%>
+														<%for(var i = 0; i < riskform.length; i++) {%>
+															<%if(riskform[i].state == "Reviewed by Admin") {%>
+																<tr>
+																<td><a href="/riskAssFormStudentReview/<%=riskform[i]._id%>"> Risk Assessment Form</a></td>
+																<td class="middleCol"> <%=riskform[i].dateFilled%></td>
+																<td> <%=riskform[i].state %></td>
+																</tr>
+															<% } %>
+															<%if(riskform[i].state == "Pending" || riskform[i].state == "Reviewed by User" || riskform[i].state == "Complete") {%>
+																<tr>
+																<td><a href="/riskAssFormPrint/<%=riskform[i]._id%>"> Risk Assessment Form</a></td>
+																<td class="middleCol"> <%=riskform[i].dateFilled%></td>
+																<td> <%=riskform[i].state %></td>
+																</tr>
+															<% } %>
+														<% } %>
+													<% } %>
+													<% } %>
+									</table>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			<div class="pure-u-lg-1-5" id="sidebar"> </div>
+		</div>
+	</body>
+</html>

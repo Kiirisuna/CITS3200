@@ -1,0 +1,337 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+	<link rel="stylesheet" href="https://unpkg.com/purecss@1.0.0/build/pure-min.css" integrity="sha384-nn4HPE8lTHyVtfCBi5yW9d20FjT8BJwUXyWZT9InLYax14RDjBj46LmSztkmNP9w" crossorigin="anonymous">
+	<meta charset="utf-8"/>
+	<!--[if lte IE 8]>
+    <link rel="stylesheet" href="https://unpkg.com/purecss@1.0.0/build/grids-responsive-old-ie-min.css">
+<![endif]-->
+<!--[if gt IE 8]><!-->
+    <link rel="stylesheet" href="https://unpkg.com/purecss@1.0.0/build/grids-responsive-min.css">
+<!--<![endif]-->
+	<link rel="stylesheet" href="./styles/style.css">
+	<link href="https://fonts.googleapis.com/css?family=Source+Sans+Pro" rel="stylesheet">
+</head>
+<script src='upload.js'></script>
+<!--<script src="https://unpkg.com/b64-to-blob"></script>-->
+<script>
+$(document).ready(function(){
+	<%if (user.firstAid != null){ %>
+	$('#noFile1').append('<i>First aid file found </i><br>').show();
+    $('#showFirstAid').click(function(){
+    var contentType = 'application/pdf';
+    var b64Data = "<%= user.firstAid.toString('base64') %>";
+
+    var blob = b64toBlob(b64Data, contentType);
+
+    var blobUrl = URL.createObjectURL(blob);
+	window.open(blobUrl);
+    //window.location = blobUrl;
+	});
+
+	<% } else { %>
+	$('#noFile1').append('<i>No first aid file found </i><br>').show();
+	<% } %>
+
+	<%if (user.licence != null){ %>
+	$('#noFile2').append('<i>Licence file found </i><br>').show();
+    $('#showLicence').click(function(){
+    var contentType = 'application/pdf';
+    var b64Data = "<%= user.licence.toString('base64') %>";
+
+    var blob = b64toBlob(b64Data, contentType);
+
+    var blobUrl = URL.createObjectURL(blob);
+	window.open(blobUrl);
+    //window.location = blobUrl;
+	});
+	<% } else { %>
+	$('#noFile2').append('<i>No licence file found </i><br>').show();
+	<%}%>
+
+	<%if (user.off != null){ %>
+	$('#noFile3').append('<i>Offroad/4WD file found </i><br>').show();
+    $('#showOffRoad').click(function(){
+    var contentType = 'application/pdf';
+    var b64Data = "<%= user.off.toString('base64') %>";
+
+    var blob = b64toBlob(b64Data, contentType);
+
+    var blobUrl = URL.createObjectURL(blob);
+	window.open(blobUrl);
+    //window.location = blobUrl;
+	});
+
+	<% } else { %>
+	$('#noFile3').append('<i>No offroad/4WD file found </i><br>').show();
+	<% } %>
+	});
+</script>
+<body>
+	<section>
+		<div class="pure-g">
+			<div class="pure-u-1" id="header">
+				<img src="./images/backgroundDefault.jpg" style="top: -80px; position:relative;  z-index: -1;">
+
+			</div>
+		</div>
+			<div id="excludingHeader">
+				<div class="pure-g">
+						<div class="pure-u-lg-1-6" id="sidebar"> </div>
+						<div class="pure-u-1 pure-u-lg-2-3">
+							<div id="formArea">
+								<div id="formTitle"> School of Earth Sciences Fieldwork and Planning Dashboard </div>
+							</div>
+						</div>
+						<div class="pure-u-lg-1-6" id="sidebar"> </div>
+						<div class="pure-u-lg-1-6" id="sidebar"> </div>
+						<div class="pure-u-1 pure-u-lg-2-3">
+							<div id="formArea" style="padding-top:0px; padding-bottom: 0px">
+								<div class="sectionContainer">
+									<div class="sectionTitle"> Welcome <%=user.firstName%> </div>
+									<div class="dashboardContainer">
+										<h4><a href="/changePass"> Change Password </a></h4>
+										<h4><a href="/logout"> Logout </a></h4>
+									</div>
+								</div>
+							</div>
+						</div>
+						<div class="pure-u-lg-1-6" id="sidebar"> </div>
+						<%if(user.admin == true) {%>
+							<div class="pure-u-lg-1-6" id="sidebar"> </div>
+							<div class="pure-u-1 pure-u-lg-2-3">
+								<div id="formArea">
+								<br>
+								<div class="sectionContainer">
+									<div class="sectionTitle"> Admin Controls </div>
+										<div class="dashboardContainer" style="height:80px;">
+											<a href="/admin"> Access Admin Dashboard </a>
+										</div>
+									</div>
+								</div>
+							</div>
+							<div class="pure-u-lg-1-6" id="sidebar"> </div>
+						<% } %>
+
+						<div class="pure-u-lg-1-6" id="sidebar"> </div>
+						<div class="pure-u-1 pure-u-lg-1-3">
+							<div id="formArea">
+
+							<br>
+							<div class="sectionContainer">
+								<div class="sectionTitle"> Create/Submit Forms </div>
+								<div class="dashboardContainer" style="height:400px;">
+									<div class="scrollContainer" style="height:400px;">
+										<fieldset>
+											<a href="/form1"> Form 1 - Fieldwork Partipant Declaration </a> <br>
+											<%if(form1) {%>
+												<% var toContinue = 1 %>
+												<%for(var i = 0;i < form1.length;i++) {%>
+													<%if(form1[i].dateFilled.substr(form1[i].dateFilled.length - 4) == new Date().getFullYear() && toContinue == 1) {%>
+														<a href="/form7"> Form 7 - Planning </a> <br>
+														<a href="/riskAssForm"> Risk Assessment Form </a> <br>
+														<% toContinue = 0 %>
+													<% } %>
+												<% } %>
+												<% if(toContinue == 1) {%>
+													<br><i> Please fill out Form 1 before filling out Form 7 or the Risk Assessment Form </i>
+												<% } %>
+											<% } %>
+											<br><i> Please refer to <a href="http://www.safety.uwa.edu.au/topics/off-campus/boating-diving">this link</a> for information on boating and diving </i>
+										</fieldset>
+									</div>
+								</div>
+								</div>
+							</div>
+						</div>
+						<div class="pure-u-1 pure-u-lg-1-3">
+							<div id="formArea">
+							<br>
+							<div class="sectionContainer">
+								<div class="sectionTitle"> Your Licence Information </div>
+									<div class="dashboardContainer" style="height:400px;">
+										<div class="scrollContainer" style="height:400px;">
+											<fieldset>
+											<p style="margin:0px"> <i> (To view files turn off adblockers to allow a new tab, and keep this page open. The dashboard must be refreshed
+												after a new submission to view it) <br> <br> MAX FILE SIZE 10MB </i><p>
+												<h3 style="margin:0px">First Aid Certificate:</h3>
+												<div style="padding: 3px">
+												<input type="button" value="View First Aid" id="showFirstAid" >
+												</div>
+												<form action="fileupload1" method="post" enctype="multipart/form-data">
+													<div style="padding: 5px">
+													<input type="file" name="filetoupload" accept="application/pdf"><br>
+													</div>
+													<div style="padding: 5px">
+													<input type="submit">
+													<br>
+													<div id ="noFile1"> </div>
+													</div>
+												</form>
+												<br>
+
+												<h3  style="margin:0px">Drivers Licence:</h3> <br>
+												<div style="padding: 3px">
+												<input type="button" value="View Licence" id="showLicence" >
+												</div>
+												<form action="fileupload2" method="post" enctype="multipart/form-data">
+												<div style="padding: 5px">
+												<input type="file" name="filetoupload" accept="application/pdf"><br>
+												</div>
+												<div style="padding: 5px">
+												<input type="submit">
+												<br>
+												<div id ="noFile2"> </div>
+												</div>
+												</form>
+												<br>
+
+												<h3  style="margin:0px">Offroad Training/4WD Training:</h3> <br>
+												<div style="padding: 3px">
+												<input type="button" value="View Offroad" id="showOffRoad" >
+												</div>
+												<form action="fileupload3" method="post" enctype="multipart/form-data">
+												<div style="padding: 5px">
+												<input type="file" name="filetoupload" accept="application/pdf"><br>
+												</div>
+												<div style="padding: 5px">
+												<input type="submit">
+												<br>
+												<div id ="noFile3"> </div>
+												</div>
+												</form>
+												<br>
+											</fieldset>
+										</div>
+									</div>
+								</div>
+							</div>
+						</div>
+					<div class="pure-u-lg-1-6" id="sidebar"> </div>
+					<div class="pure-u-lg-1-6" id="sidebar"> </div>
+					<div class="pure-u-1 pure-u-lg-2-3">
+							<div id="formArea">
+							<br>
+							<div class="sectionContainer">
+								<div class="sectionTitle"> Your Forms </div>
+									<div class="dashboardContainer" style="height:400px;">
+										<div class="scrollContainer" style="height:400px; overflow-x:scroll;">
+											<fieldset>
+												<table id= "otherrisk" width="100%" style="overflow:visible;">
+													<thead>
+														<th class="dHeader" style="min-width:350px;">Report Type</th>
+														<th class="dHeaderMid" style="min-width:350px;">Date Submitted</th>
+														<th class="dHeader" style="min-width:350px;">Report Status</th>
+													</thead>
+													<tbody>
+													<%if(user.admin == false) {%>
+	                          <%if(form1) {%>
+															<%for(var i = 0;i < form1.length;i++) {%>
+															  <tr>
+																<td><a href="/form1Print/<%=form1[i]._id%>"> <%=form1[i].formName%></a></td>
+																<td class="middleCol"> <%=form1[i].dateFilled%></td>
+																<td> <%=form1[i].state %></td>
+															</tr>
+															<% } %>
+	                          <% } %>
+	                          <%if(form7) {%>
+	                            <%for(var i = 0; i < form7.length; i++) {%>
+																<%if(form7[i].state == "Reviewed by Admin") {%>
+	                              	<tr>
+	                              	<td><a href="/form7StudentReview/<%=form7[i]._id%>"> <%=form7[i].formName%></a></td>
+	                              	<td class="middleCol"> <%=form7[i].dateFilled%></td>
+	                              	<td> <%=form7[i].state %></td>
+	                              	</tr>
+																<% } %>
+																<%if(form7[i].state == "Pending" || form7[i].state == "Reviewed by User" || form7[i].state == "Completed") {%>
+																	<tr>
+	                              	<td><a href="/form7Print/<%=form7[i]._id%>"> <%=form7[i].formName%></a></td>
+	                              	<td class="middleCol"> <%=form7[i].dateFilled%></td>
+	                              	<td> <%=form7[i].state %></td>
+	                              	</tr>
+																<% } %>
+	                            <% } %>
+	                        <% } %>
+													<%if(riskform) {%>
+														<%for(var i = 0; i < riskform.length; i++) {%>
+															<%if(riskform[i].state == "Reviewed by Admin") {%>
+																<tr>
+																<td><a href="/riskAssFormStudentReview/<%=riskform[i]._id%>"> <%=riskform[i].formName%></a></td>
+																<td class="middleCol"> <%=riskform[i].dateFilled%></td>
+																<td> <%=riskform[i].state %></td>
+																</tr>
+															<% } %>
+															<%if(riskform[i].state == "Pending" || riskform[i].state == "Reviewed by User" || riskform[i].state == "Completed") {%>
+																<tr>
+																<td><a href="/riskAssFormPrint/<%=riskform[i]._id%>"> <%=riskform[i].formName%></a></td>
+																<td class="middleCol"> <%=riskform[i].dateFilled%></td>
+																<td> <%=riskform[i].state %></td>
+																</tr>
+															<% } %>
+														<% } %>
+													<% } %>
+													<% } %>
+													<%if(user.admin == true) {%>
+														<%if(form1admin) {%>
+															<%for(var i = 0;i < form1admin.length;i++) {%>
+																<tr>
+																<td><a href="/form1Print/<%=form1admin[i]._id%>"> <%=form1admin[i].formName%></a></td>
+																<td class="middleCol"> <%=form1admin[i].dateFilled%></td>
+																<td> <%=form1admin[i].state %></td>
+															</tr>
+															<% } %>
+														<% } %>
+														<%if(form7admin) {%>
+															<%for(var i = 0; i < form7admin.length; i++) {%>
+																<%if(form7admin[i].state == "Pending" || form7admin[i].state == "Reviewed by User" || form7admin[i].state == "Forwarded by Admin") {%>
+																	<tr>
+																	<td><a href="/form7Review/<%=form7admin[i]._id%>"> <%=form7admin[i].formName%></a></td>
+																	<td class="middleCol"> <%=form7admin[i].dateFilled%></td>
+																	<td> <%=form7admin[i].state %></td>
+																	</tr>
+																<% } %>
+																<%if(form7admin[i].state == "Completed") {%>
+																	<tr>
+																	<td><a href="/form7Print/<%=form7admin[i]._id%>"> <%=form7admin[i].formName%></a></td>
+																	<td class="middleCol"> <%=form7admin[i].dateFilled%></td>
+																	<td> <%=form7admin[i].state %></td>
+																	</tr>
+																<% } %>
+															<% } %>
+														<% } %>
+														<%if(riskformadmin) {%>
+														<%for(var i = 0; i < riskformadmin.length; i++) {%>
+															<%if(riskformadmin[i].state == "Pending" || riskformadmin[i].state == "Reviewed by User" || riskformadmin[i].state == "Forwarded by Admin") {%>
+																<tr>
+																<td><a href="/riskAssFormReview/<%=riskformadmin[i]._id%>"> <%=riskformadmin[i].formName%></a></td>
+																<td class="middleCol"> <%=riskformadmin[i].dateFilled%></td>
+																<td> <%=riskformadmin[i].state %></td>
+																</tr>
+															<% } %>
+															<%if(riskformadmin[i].state == "Completed") {%>
+																<tr>
+																<td><a href="/riskAssFormPrint/<%=riskformadmin[i]._id%>"> <%=riskformadmin[i].formName%></a></td>
+																<td class="middleCol"> <%=riskformadmin[i].dateFilled%></td>
+																<td> <%=riskformadmin[i].state %></td>
+																</tr>
+															<% } %>
+														<% } %>
+														<% } %>
+													<% } %>
+													</tbody>
+												</table>
+											</fieldset>
+										</div>
+									</div>
+								</div>
+							</div>
+						</div>
+					<div class="pure-u-lg-1-6" id="sidebar"> </div>
+				</div>
+			</div>
+			<br>
+
+	</section>
+</body>
+</html>

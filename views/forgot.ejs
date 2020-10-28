@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+		<link rel="stylesheet" href="https://unpkg.com/purecss@1.0.0/build/pure-min.css" integrity="sha384-nn4HPE8lTHyVtfCBi5yW9d20FjT8BJwUXyWZT9InLYax14RDjBj46LmSztkmNP9w" crossorigin="anonymous">
+		<meta charset="utf-8"/>
+		<!--[if lte IE 8]>
+		<link rel="stylesheet" href="https://unpkg.com/purecss@1.0.0/build/grids-responsive-old-ie-min.css">
+	<![endif]-->
+	<!--[if gt IE 8]><!-->
+		<link rel="stylesheet" href="https://unpkg.com/purecss@1.0.0/build/grids-responsive-min.css">
+	<!--<![endif]-->
+		<link rel="stylesheet" href="./styles/style.css">
+		<link rel="stylesheet" href="jquery/jquery-ui-1.12.1.custom/jquery-ui-1.12.1.custom/jquery-ui.css">
+		<link href="https://fonts.googleapis.com/css?family=Source+Sans+Pro" rel="stylesheet">
+		<script src="jquery/jquery-ui-1.12.1.custom/jquery-ui-1.12.1.custom/jquery-ui.js"></script>
+
+	</head>
+	<body>
+		<div class="pure-g">
+			<div class="pure-u-1" id="header">
+				<img src="./images/backgroundDefault.jpg" style="top: -80px; position:relative;  z-index: -1;">
+			</div>
+		</div>
+		<div class="pure-g">
+			<div class="pure-u-lg-1-5" id="sidebar"> </div>
+				<div class="pure-u-1 pure-u-lg-3-5">
+					<div id="formArea">
+						<div class="sectionContainer">
+							<div class="sectionTitle"> Forgot Password? </div>
+							<div class="input">
+								<p>An email will be sent to your email address with instructions on resetting your password. You will be redirected to the login page upon a successful entry. If unsuccessful you will be redirected back to this page</p>
+								<form role="form" action="/forgot" method = "post">
+                  <input type="text" name="email" id="email" placeholder="Email (username)">
+                  <br><br>
+                  <input type="Submit" value="Submit">
+                </form>
+							</div>
+						</div>
+					</div>
+				</div>
+			<div class="pure-u-lg-1-5" id="sidebar"> </div>
+		</div>
+	</body>
+</html>
